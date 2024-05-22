@@ -614,7 +614,7 @@
     "format-packages": "tsx scripts/format-packages.ts --all",
     "lint-all": "tsx scripts/nx-run-many.ts --lint --test --build",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky",
+    "prepare": "python pre-commit-3.7.0.pyz install --hook-type pre-commit --hook-type pre-push --hook-type commit-msg",
     "version-all": "nx affected --target version"
   }
 }
