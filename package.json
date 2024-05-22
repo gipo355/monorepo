@@ -2,6 +2,11 @@
   "name": "@gipo355/monorepo",
   "description": "@gipo355 monorepo",
   "version": "0.0.1",
+  "browserslist": [
+    "> 0.2%",
+    "not dead",
+    "last 2 versions"
+  ],
   "author": {
     "name": "gipo355",
     "url": "https://github.com/gipo355",
