@@ -7,9 +7,12 @@ const args = process.argv.slice(2);
  * map of arguments to commands
  */
 const execsMappings = {
-  '--fix': 'syncpack fix-mismatches',
+  '--mismatch': 'syncpack fix-mismatches',
   '--semver': 'syncpack set-semver-ranges',
   '--format': 'syncpack format',
+  '--install': 'pnpm install',
 };
 
-execCommands(execsMappings, args, true);
+execsMappings['--all'] = Object.values(execsMappings).join(' && ');
+
+execCommands(execsMappings, args);
