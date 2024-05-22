@@ -209,8 +209,6 @@
     "@neoconfetti/svelte": "2.2.1",
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.2",
-    "@nx-dotnet/core": "2.2.0",
-    "@nx-go/nx-go": "2.8.0",
     "@nx-golang/gin": "0.7.0",
     "@nx-plus/docusaurus": "15.0.0-rc.0",
     "@nx/angular": "19.0.5",
