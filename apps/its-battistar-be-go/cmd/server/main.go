@@ -1,7 +1,11 @@
 package main
 
-import "log"
+import (
+	"log"
+
+	"github.com/gipo355/monorepo/apps/its-battistar-be-go/internal/hello"
+)
 
 func main() {
-	log.Println("Starting server...")
+	log.Println(hello.SayHello())
 }
