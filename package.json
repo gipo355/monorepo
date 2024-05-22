@@ -21,12 +21,15 @@
     "email": "91525512+gipo355@users.noreply.github.com"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky",
     "commit": "git-cz",
+    "format-packages": "syncpack set-semver-ranges && syncpack fix-mismatches && syncpack format && pnpm install -r",
+    "preinstall": "npx only-allow pnpm",
     "serve-all": "nx run-many -t serve its-battistar-express its-battistar-angular",
     "lint-test-build": "nx run-many -t lint test build",
-    "prepare": "husky",
-    "version": "nx affected --target version"
+    "clear-all-cache": "find . -type d \\( -name .eslintcache -o -name .cache -o -name .stylelintcache \\) -exec rm -rf {} +",
+    "version-all": "nx affected --target version",
+    "clear-all-useless-folders": "find . -type d \\( -name node_modules -o -name tsconfig.tsbuildinfo -o -name dist -o -name coverage -o -name .eslintcache -o -name .cache -o -name .stylelintcache -o -name test-dist \\) -exec rm -rf {} +"
   },
   "private": true,
   "engines": {
