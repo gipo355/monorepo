@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable no-magic-numbers */
 import { spawn } from 'child_process';
-import { isExecutableAvailable } from './isExecAvailable';
+import { isExecutableAvailable } from './is-exec-available';
 
 const execCmd = (cmd: string) => {
   console.log('executing command:', cmd);

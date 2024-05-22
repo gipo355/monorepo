@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import { execCommands } from './execCommands.js';
+import { execCommands } from './exec-commands.js';
 
 const args = process.argv.slice(2);
 
