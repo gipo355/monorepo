@@ -14,7 +14,7 @@ const execCmd = (cmd) => {
   });
 };
 
-export function execCommands(
+function execCommands(
   /**
    * map of commands
    */
@@ -57,3 +57,5 @@ export function execCommands(
     execCmd(execsMappings[arg]);
   }
 }
+
+module.exports = { execCommands };

@@ -3,7 +3,7 @@ const { execSync } = require('child_process');
 
 const shell = (cmd) => execSync(cmd, { encoding: 'utf8' });
 
-export function isExecutableAvailable(name) {
+function isExecutableAvailable(name) {
   try {
     shell(`which ${name}`);
     return true;
@@ -12,3 +12,5 @@ export function isExecutableAvailable(name) {
     return false;
   }
 }
+
+module.exports = { isExecutableAvailable };
