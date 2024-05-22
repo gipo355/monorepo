@@ -417,7 +417,7 @@
     "clear-all-useless-folders": "tsx scripts/clear.ts --folders",
     "commit": "git-cz",
     "format-packages": "tsx scripts/format-packages.ts --all",
-    "lint-test-build": "tsx scripts/nx-run-many.ts --lint --test --build",
+    "lint-all": "tsx scripts/nx-run-many.ts --lint --test --build",
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "version-all": "nx affected --target version"
