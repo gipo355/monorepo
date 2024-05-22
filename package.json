@@ -611,6 +611,7 @@
     "clear-all-cache": "tsx scripts/clear.ts --cache",
     "clear-all-useless-folders": "tsx scripts/clear.ts --folders",
     "commit": "git-cz",
+    "commitlint": "commitlint --edit",
     "format-packages": "tsx scripts/format-packages.ts --all",
     "lint-all": "tsx scripts/nx-run-many.ts --lint --test --build",
     "preinstall": "npx only-allow pnpm",
