@@ -1,0 +1,111 @@
+name: Setup CI
+runs:
+  using: composite
+  steps:
+    # get git lfs objects
+    # - name: Checkout LFS objects
+    #   shell: bash
+    #   run: git lfs checkout
+    # - name: Pull LFS objects
+    #   shell: bash
+    #   run: git lfs pull
+    # setup go
+    - uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # v5
+      name: Setup Go
+      with: # Set the Go version to use
+        go-version: 1.22.2
+    # cache go binaries under /home/runner/go/bin
+    # https://stackoverflow.com/questions/61980794/can-we-cache-yarn-globals-in-github-actions
+    - name: Setup Go cache
+      uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+      env:
+        cache-version: v1
+      id: go-cache
+      with:
+        path: /home/runner/go/bin
+        key: ${{ runner.os }}-go-bin-${{ env.cache-version }}
+        restore-keys: |
+          ${{ runner.os }}-go-bin-${{ env.cache-version }}
+          ${{ runner.os }}-go-bin-
+          ${{ runner.os }}-
+    # install example go package
+    - name: Install go tools if not cached
+      shell: bash
+      if: steps.go-cache.outputs.cache-hit != 'true'
+      run: |
+        go install go.uber.org/nilaway/cmd/nilaway@latest
+        go install github.com/swaggo/swag/cmd/swag@latest
+        go install github.com/dkorunic/betteralign/cmd/betteralign@latest
+        go install github.com/goreleaser/goreleaser@latest
+        go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+        go install github.com/a-h/templ/cmd/templ@latest
+        go install github.com/vektra/mockery/v2@latest
+        go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.58.1
+        go install github.com/segmentio/golines@latest
+        go install golang.org/x/tools/cmd/goimports@latest
+        go install github.com/securego/gosec/v2/cmd/gosec@latest
+        go install mvdan.cc/gofumpt@latest
+    # setup task
+    - name: Install Task
+      uses: arduino/setup-task@v2
+    # setup dotnet
+    - uses: actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3 # v4
+      name: Setup .NET
+    # setup python
+    - uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5
+      name: Setup Python
+      with:
+        python-version: 3.12
+    # install pre-commit
+    # https://github.com/pypa/pipx/discussions/1051 when many installs cache them
+    - name: Install pre-commit
+      shell: bash
+      run: pipx install pre-commit
+    # setup node.js
+    - name: Setup Node.js 22
+      uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
+      with:
+        node-version: 22.1.0
+    # setup pnpm
+    - uses: pnpm/action-setup@v3
+      name: Install pnpm
+      # respects package.json packageManager if present when no version is specified
+      with:
+        run_install: false
+    # enabling corepack prevents the need to install it
+    # and makes sure it respects package.json packageManager
+    # - name: enable corepack
+    #   shell: bash
+    #   run: corepack enable
+    # get cache
+    - name: Get pnpm store directory
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+    - uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+      name: Setup pnpm cache
+      with:
+        path: ${{ env.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+    # NX cache
+    - name: Cache Nx
+      uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+      id: cache-nx
+      with:
+        path: .cache/nx
+        key: ${{ runner.os }}-nx-${{ hashFiles('pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-nx-${{ hashFiles('pnpm-lock.yaml') }}
+          ${{ runner.os }}-nx-
+    # install nx cli
+    - name: Install Nx CLI
+      shell: bash
+      run: npm install -g nx@latest
+    # install dependencies
+    - name: Install dependencies
+      shell: bash
+      run: pnpm install --frozen-lockfile
+  # - name: Init tasks
+  #   run: nx run-many -t init

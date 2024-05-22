@@ -1,0 +1,39 @@
+# this action checks prs with new dependencies
+#
+# https://github.com/actions/dependency-review-action
+# https://github.com/gradle/actions/blob/main/docs/dependency-submission.md#integrating-the-dependency-review-action
+# Please keep in mind that you need a GitHub Advanced Security license if you're running this action on private repositories.
+#
+# Usage with pull requests from public forked repositories
+# contents: write permission is not available for any workflow that is triggered by a pull request submitted from a public forked repository.
+#
+# https://github.com/gradle/actions/blob/main/docs/dependency-submission.md#usage-with-pull-requests-from-public-forked-repositories
+#
+name: Dependency Submission on PR Workflow
+on:
+  pull_request:
+    branches: ["dev"]
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        default: "warning"
+      tags:
+        description: "Test scenario tags"
+permissions:
+  contents: read
+jobs:
+  dependency-submission-on-pr:
+    name: Dependency Submission on PR job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+      - uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
+        with:
+          distribution: temurin
+          java-version: 17
+      # generates the dependency graph for forked repos to check
+      - name: Generate and save dependency graph step
+        uses: gradle/actions/dependency-submission@db19848a5fa7950289d3668fb053140cf3028d43 # v3
+        with:
+          dependency-graph: generate-and-upload

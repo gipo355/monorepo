@@ -1,0 +1,57 @@
+# https://github.com/gradle/actions/blob/main/docs/setup-gradle.md
+# we are separating the pr and push for the dependency graph
+# https://github.com/gradle/actions/blob/main/docs/setup-gradle.md#github-dependency-graph-support
+name: GH Pages Workflow
+on:
+  push:
+    branches: ["dev"]
+  # allow manual execution of the workflow while testing
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        default: "warning"
+      tags:
+        description: "Test scenario tags"
+jobs:
+  pitest-linux:
+    permissions:
+      contents: write
+    name: Pitest Report and Deploy to GH Pages Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources Step
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+      #
+      # setup java
+      - uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
+        name: Setup Java Step
+        with:
+          distribution: temurin
+          java-version: 17.0.2
+      #
+      # setup gradle automatically caches dependencies
+      - name: Setup Gradle Step
+        uses: gradle/actions/setup-gradle@db19848a5fa7950289d3668fb053140cf3028d43 # v3
+        with:
+          # https://stackoverflow.com/questions/30054911/how-to-determine-the-version-of-gradle
+          # this should be updated automatically from dependabot
+          # https://github.com/gradle/actions/blob/main/docs/setup-gradle.md#github-dependency-graph-support
+          gradle-version: 8.1.1
+      - name: Build Pitest Report Step
+        run: ./gradlew pitest
+      - name: Build javadoc Step
+        run: ./gradlew javadoc
+      - name: Move Pitest step
+        run: mv ./build/reports/pitest ./docs/gh-pages/pit
+      - name: Move javadoc step
+        run: mv ./build/docs/javadoc ./docs/gh-pages/docs
+      - name: Deploy Pitest to GitHub Pages Step
+        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
+        # If you're changing the branch from main,
+        # also change the `main` in `refs/heads/main`
+        # below accordingly.
+        if: github.ref == 'refs/heads/dev'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/gh-pages

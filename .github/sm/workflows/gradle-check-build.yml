@@ -1,0 +1,72 @@
+# https://github.com/gradle/actions/blob/main/docs/setup-gradle.md
+# we are separating the pr and push for the dependency graph
+# https://github.com/gradle/actions/blob/main/docs/setup-gradle.md#github-dependency-graph-support
+name: Gradle Check and Build Workflow
+on:
+  push:
+    branches: ["dev"]
+  pull_request:
+    branches: ["dev"]
+  # allow manual execution of the workflow while testing
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        default: "warning"
+      tags:
+        description: "Test scenario tags"
+jobs:
+  build-linux:
+    name: Lint and Build on Linux Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources Step
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+      #
+      # setup java
+      - uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
+        name: Setup Java Step
+        with:
+          distribution: temurin
+          java-version: 17.0.2
+      #
+      # setup gradle automatically caches dependencies
+      - name: Setup Gradle Step
+        uses: gradle/actions/setup-gradle@db19848a5fa7950289d3668fb053140cf3028d43 # v3
+        with:
+          # https://stackoverflow.com/questions/30054911/how-to-determine-the-version-of-gradle
+          # this should be updated automatically from dependabot
+          # https://github.com/gradle/actions/blob/main/docs/setup-gradle.md#github-dependency-graph-support
+          gradle-version: 8.1.1
+      # check not needed, included in build
+      # - name: Check with Gradle Wrapper Step
+      #   run: ./gradlew check
+      - name: Build with Gradle Wrapper Step
+        run: ./gradlew build
+  build-windows:
+    name: Lint and Build on Windows Job
+    runs-on: windows-latest
+    steps:
+      - name: Checkout sources Step
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+      #
+      # setup java
+      - uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
+        name: Setup Java Step
+        with:
+          distribution: temurin
+          java-version: 17.0.2
+      #
+      # setup gradle automatically caches dependencies
+      - name: Setup Gradle Step
+        uses: gradle/actions/setup-gradle@db19848a5fa7950289d3668fb053140cf3028d43 # v3
+        with:
+          # https://stackoverflow.com/questions/30054911/how-to-determine-the-version-of-gradle
+          # this should be updated automatically from dependabot
+          # https://github.com/gradle/actions/blob/main/docs/setup-gradle.md#github-dependency-graph-support
+          gradle-version: 8.1.1
+      # check not needed, included in build
+      # - name: Check with Gradle Wrapper Step
+      #   run: ./gradlew check
+      - name: Build with Gradle Wrapper Step
+        run: ./gradlew build

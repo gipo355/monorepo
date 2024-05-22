@@ -1,0 +1,26 @@
+{
+  "dependencyTypes": ["prod"],
+  "filter": ".",
+  "indent": "  ",
+  "semverGroups": [
+    {
+      "label": "use exact version numbers in production",
+      "packages": ["**"],
+      "dependencyTypes": ["prod"],
+      "dependencies": ["**"],
+      "range": ""
+    }
+  ],
+  "sortAz": [
+    "contributors",
+    "dependencies",
+    "devDependencies",
+    "keywords",
+    "peerDependencies",
+    "resolutions",
+    "scripts"
+  ],
+  "sortFirst": ["name", "description", "version", "author"],
+  "source": [],
+  "versionGroups": []
+}

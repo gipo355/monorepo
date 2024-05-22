@@ -1,0 +1,29 @@
+# https://github.com/clemenscodes/nx-plugins/blob/main/codecov.yml
+# https://github.com/rxjs-ninja/rxjs-ninja
+# https://emmer.dev/blog/reporting-lerna-monorepo-test-coverage-to-codecov/
+#
+codecov:
+  notify:
+    require_ci_to_pass: yes
+comment:
+  layout: 'header, diff, flags, components'
+coverage:
+  precision: 2
+  round: down
+  status:
+    project: yes
+component_management:
+  default_rules:
+    statuses:
+      - type: patch
+        target: auto
+  individual_components:
+    - component_id: example-express-app
+      paths:
+        - 'apps/example-express-app/coverage.json'
+    - component_id: example-angular-app
+      paths:
+        - 'apps/example-angular-app/coverage.json'
+    - component_id: example-node-lib
+      paths:
+        - 'packages/example-node-lib/coverage.json'

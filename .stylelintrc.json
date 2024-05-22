@@ -1,0 +1,32 @@
+{
+  "ignoreFiles": "**/*",
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
+    "stylelint-config-idiomatic-order"
+  ],
+  "rules": {
+    "no-empty-source": null,
+    "selector-class-pattern": null
+  },
+  "overrides": [
+    {
+      "files": ["**/*.html"],
+      "extends": ["stylelint-config-html"],
+      "rules": {}
+    },
+    {
+      "files": [
+        "*.ts",
+        "*.tsx",
+        "*.js",
+        "*.jsx",
+        "*.cjs",
+        "*.mjs",
+        "*.cts",
+        "*.mts"
+      ],
+      "customSyntax": "postcss-lit"
+    }
+  ]
+}

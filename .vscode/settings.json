@@ -1,0 +1,41 @@
+{
+  "deno.importMap": "./import_map.json",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "stylelint.validate": ["css", "less", "postcss", "scss", "html", "svelte"],
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": ["source.formatDocument"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "html",
+    "svelte"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.fixAll.eslint",
+      "source.fixAll.stylelint"
+    ]
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  }
+}

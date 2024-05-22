@@ -1,0 +1,16 @@
+{
+  "name": "@gipo355/example-node-lib",
+  "version": "0.4.0",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "url": "https://github.com/gipo355/monorepo"
+  },
+  "homepage": "https://github.com/gipo355/monorepo/libs/example-node-lib",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

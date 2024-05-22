@@ -1,0 +1,86 @@
+# https://docs.github.com/en/actions/publishing-packages/publishing-java-packages-with-gradle
+# https://gonzalohirsch.com/blog/semantic-release-and-branch-protection-rules/
+# IMPORTANT: actions won't be triggered by a GITHUB_TOKEN event (another workflow)
+# https://stackoverflow.com/questions/59319281/github-action-different-between-release-created-and-published
+# https://github.com/semantic-release/semantic-release/discussions/1906
+# https://github.com/marketplace/actions/action-github-app-token
+#
+# GitHub actions do not trigger other GitHub actions to avoid infinite loops.
+#
+# either use the `workflow_dispatch` event or use a PAT (Personal Access Token) or a github app
+# or put them in the same workflow file
+#
+# for now i put this in the releaser.yml file too,
+# this can be used for manual releases
+name: Publish package to GitHub Packages Workflow
+on:
+  release:
+    # types: [created]
+    types: [published]
+  workflow_dispatch: {}
+jobs:
+  # publish:
+  #   runs-on: ubuntu-latest
+  #   name: Publish package Job
+  # permissions:
+  #   contents: read
+  #   packages: write
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: actions/setup-java@v4
+  #       with:
+  #         java-version: "17.0.2"
+  #         distribution: "temurin"
+  #     - name: Setup Gradle Step
+  #       uses: gradle/actions/setup-gradle@v3
+  #       with:
+  #         gradle-version: 8.1.1
+  #     - name: Publish package
+  #       run: ./gradlew publish
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # https://medium.com/@shanemyrick/publishing-to-github-packages-with-gradle-and-github-actions-4ad842634c4e
+  publish-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    name: Publish release Job
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+      - name: Set up JDK Step
+        uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
+        with:
+          java-version: "17.0.2"
+          distribution: "temurin"
+      - name: Setup Gradle Step
+        uses: gradle/actions/setup-gradle@db19848a5fa7950289d3668fb053140cf3028d43 # v3
+        with:
+          gradle-version: 8.1.1
+      - name: Publish artifact Step
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # The GITHUB_REF tag comes in the format 'refs/tags/xxx'. In our project v0.1.0
+        # If we split on '/' and take the 3rd value,
+        # we can get the release name.
+        # We can also remove the 'v' from the version
+        # and append SNAPSHOT to the version
+        run: |
+          # NEW_VERSION=$(echo "${GITHUB_REF}" | cut -d "/" -f3) # v0.1.0
+          # NEW_VERSION=$(echo "${GITHUB_REF}" | cut -d "/" -f3 | cut -d "v" -f2)-SNAPSHOT # 0.1.0-SNAPSHOT
+          # NEW_VERSION=$(echo "${GITHUB_REF}" | cut -d "/" -f3 | cut -d "v" -f2) # 0.1.0
+          # the above code cuts v1.0.0-dev.1 to 1.0.0-de
+          # fix: we want everything after the v: v1.0.0-dev.1
+          # NEW_VERSION=$(echo "${GITHUB_REF}" | cut -d "/" -f3 | cut -d "v" -f2-) # 1.0.0-dev.1
+          NEW_VERSION=$(echo "${GITHUB_REF}" | cut -d "/" -f3) # 0.1.0
+          echo "New version: ${NEW_VERSION}"
+          echo "Github username: ${GITHUB_ACTOR}"
+          # overrides the version in the gradle.properties or build.gradle file
+          # we don't write to the file because we don't want to commit the change
+          # and cause conflicts on release
+          ./gradlew -Pversion=${NEW_VERSION} publish
+    # - name: Publish package Step
+    #   run: ./gradlew publish --stacktrace
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

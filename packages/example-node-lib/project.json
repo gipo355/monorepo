@@ -1,0 +1,54 @@
+{
+  "name": "example-node-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/example-node-lib/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/example-node-lib",
+        "main": "packages/example-node-lib/src/index.ts",
+        "tsConfig": "packages/example-node-lib/tsconfig.lib.json",
+        "assets": [
+          {
+            "input": "packages/example-node-lib",
+            "glob": "*.md",
+            "output": "./"
+          },
+          {
+            "input": ".",
+            "glob": "LICENSE",
+            "output": "./"
+          }
+        ],
+        "project": "packages/example-node-lib/package.json",
+        "compiler": "swc",
+        "format": ["cjs", "esm"]
+      }
+    },
+    "nx-release-publish": {
+      "dependsOn": ["build"],
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "reportsDirectory": "../../coverage/packages/example-node-lib"
+      }
+    }
+  }
+}

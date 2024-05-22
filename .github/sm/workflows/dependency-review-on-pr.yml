@@ -1,0 +1,27 @@
+name: Dependency Review Vulnerability Check On PR Workflow
+on:
+  pull_request:
+    branches: [dev]
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        default: "warning"
+      tags:
+        description: "Test scenario tags"
+permissions:
+  contents: read
+jobs:
+  dependency-review:
+    name: Dependency Review on PR Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository Job
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+      # dependency review after dependency submission (dep graph is generated)
+      # requires a timeout to make sure the dep graph is generated and submitted
+      - name: Dependency Review on PR Step
+        uses: actions/dependency-review-action@0c155c5e8556a497adf53f2c18edabf945ed8e70 # v4
+        with:
+          retry-on-snapshot-warnings: true
+          retry-on-snapshot-warnings-timeout: 600 # change this timer

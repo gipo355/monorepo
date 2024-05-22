@@ -1,0 +1,29 @@
+# https://github.com/gradle/actions/blob/main/docs/dependency-submission.md#usage-with-pull-requests-from-public-forked-repositories
+# waits for dependency-submission-on-pr action to finish
+#
+# requires to separate this from the dependency submission on pr action as PRs won't have write permissions to submit the dep graph
+#
+# The dependency review will be run after x minutes
+name: Download and submit dependency graph on PR workflow
+on:
+  workflow_run:
+    workflows: ["Dependency Submission on PR Workflow"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        default: "warning"
+      tags:
+        description: "Test scenario tags"
+permissions:
+  contents: write
+jobs:
+  submit-dependency-graph:
+    name: Submit Dependency Graph job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and submit dependency graph on PR step
+        uses: gradle/actions/dependency-submission@db19848a5fa7950289d3668fb053140cf3028d43 # v3
+        with:
+          dependency-graph: download-and-submit # Download saved dependency-graph and submit

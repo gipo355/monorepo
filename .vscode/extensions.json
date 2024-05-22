@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "denoland.vscode-deno",
+    "html-validate.vscode-html-validate"
+  ]
+}

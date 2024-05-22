@@ -1,0 +1,47 @@
+name: GH-pages spotify-clone
+on:
+  push:
+    branches: [main]
+    paths: ['course_svelte/spotify/**']
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Pnpm setup
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.0
+
+      - name: Install packages and build
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.5'
+          cache: 'pnpm'
+      - run: pnpm install -r
+      - run: nx run spotify:build
+
+      # - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+      #   run: |
+      #     npm ci
+      #     npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build # The folder the action should deploy.
+          branch: web
+          # target-folder:
+          # clean: on default !! delete destination files!
+          # clean-exlude: avoid deleting
+
+          # ! requires PAToken
+          # You'll need to use a PAT in the token input for this configuration option to work properly.
+          # repository-name: JamesIves/github-pages-deploy-action
+          # ! or ssh-key ( generate on target, add to repo secrets )
+          # ssh-key: ${{ secrets.DEPLOY_KEY }}

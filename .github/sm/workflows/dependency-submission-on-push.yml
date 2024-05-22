@@ -1,0 +1,37 @@
+# https://github.com/gradle/actions/blob/main/docs/dependency-submission.md#usage-with-pull-requests-from-public-forked-repositories
+# This dependency submission is triggered
+# by a push to the dev branch to update the dependency graph
+# It will generate a build scan to help determine the source of any dependency vulnerabilities in your project
+# Will be needed for the vulnerability check in the dependency review action
+name: Dependency Submission On Push Workflow
+on:
+  push:
+    branches: ["dev"]
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        default: "warning"
+      tags:
+        description: "Test scenario tags"
+permissions:
+  contents: write
+jobs:
+  dependency-submission:
+    name: Dependency Submission On Push Job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+      - uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - name: Generate and submit dependency graph Step
+        uses: gradle/actions/dependency-submission@db19848a5fa7950289d3668fb053140cf3028d43 # v3
+        # can generate a develocity build scan https://scans.gradle.com/
+        # https://github.com/gradle/actions/blob/main/docs/dependency-submission.md#usage-with-pull-requests-from-public-forked-repositories
+        # A Build Scan makes it easy to determine the source of any dependency vulnerabilities in your project.
+        with:
+          build-scan-publish: true
+          build-scan-terms-of-use-url: "https://gradle.com/help/legal-terms-of-use"
+          build-scan-terms-of-use-agree: "yes"
