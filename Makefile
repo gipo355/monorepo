@@ -5,7 +5,7 @@ app:
 lib:
 	@nx generate library
 
-dotnet:
+package:
 	@nx g @nx-dotnet/core:application
 
 go:
