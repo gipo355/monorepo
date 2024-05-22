@@ -88,7 +88,7 @@
     "@nx/angular": "19.0.5",
     "@prisma/client": "5.14.0",
     "@sentry/angular-ivy": "7.114.0",
-    "@sentry/node": "8.2.1",
+    "@sentry/node": "7.112.0",
     "@sinclair/typebox": "0.32.30",
     "@stripe/stripe-js": "3.4.1",
     "@trpc/client": "10.45.2",
