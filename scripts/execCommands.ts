@@ -60,11 +60,13 @@ export function execCommands(
         console.error(`Invalid argument: ${arg}`);
         continue;
       }
+      console.log('executing command: ', execsMappings[arg]);
       execCmd(execsMappings[arg]);
     }
   } else {
-    for (const exec of Object.values(execsMappings)) {
-      execCmd(exec);
+    for (const cmd of Object.values(execsMappings)) {
+      console.log('executing command: ', cmd);
+      execCmd(cmd);
     }
   }
 }
