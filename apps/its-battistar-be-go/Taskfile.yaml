@@ -20,6 +20,7 @@ tasks:
       - go install github.com/securego/gosec/v2/cmd/gosec@latest
       - go install mvdan.cc/gofumpt@latest
       # - go get
+      - go mod tidy
   assets:
     desc: Build the assets
     cmds:
