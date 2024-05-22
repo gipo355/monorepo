@@ -33,12 +33,11 @@ const definedScopes = [
   ...libs.map((lib) => `lib-${lib}`),
   ...pkgs.map((pkg) => `pkg-${pkg}`),
   // "app",
-  'gradle',
   'npm',
+  'tools',
   'git-hooks',
   'actions',
   'github',
-  'db',
   'docs',
 ];
 
