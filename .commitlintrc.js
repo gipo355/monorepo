@@ -6,7 +6,9 @@ const path = require('node:path');
 const { execSync } = require('child_process');
 
 // can propose scope for commit using folder names
-const apps = fs.readdirSync(path.resolve(__dirname, 'src'));
+const apps = fs.readdirSync(path.resolve(__dirname, 'apps'));
+const libs = fs.readdirSync(path.resolve(__dirname, 'libs'));
+const pkgs = fs.readdirSync(path.resolve(__dirname, 'packages'));
 
 // can find issues from branch name if standardized
 // @tip: git branch name = feature/33-issuename   =>    auto get defaultIssues = #33
@@ -28,6 +30,8 @@ const definedScopes = [
   'global',
   // spread result of folder names found
   ...apps.map((app) => `app-${app}`),
+  ...libs.map((lib) => `lib-${lib}`),
+  ...pkgs.map((pkg) => `pkg-${pkg}`),
   // "app",
   'gradle',
   'npm',
