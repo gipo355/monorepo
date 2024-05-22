@@ -138,8 +138,8 @@ importers:
         specifier: 4.1.1
         version: 4.1.1(fastify@4.26.2)(toad-scheduler@3.0.1)
       '@fastify/secure-session':
-        specifier: 7.1.0
-        version: 7.1.0
+        specifier: 7.3.0
+        version: 7.3.0
       '@fastify/sensible':
         specifier: 5.5.0
         version: 5.5.0
@@ -7782,8 +7782,8 @@ packages:
       toad-scheduler: 3.0.1
     dev: false
 
-  /@fastify/secure-session@7.1.0:
-    resolution: {integrity: sha512-x0ZW57+sf6fQaL05B3n64m7DRe81NAtFAKpCKKuqdX9FDqzOH5uQbfDDfVQy2/qhDn3N343RMlNtY1iQyvvA9A==}
+  /@fastify/secure-session@7.3.0:
+    resolution: {integrity: sha512-9d7CMZ2OrOVsrWtkCf60weyfhQcscrnboUdnETMAAhEyUXrZtO66Zu99DH/g/VfGW1mUU5tKHq7jCkm+itvDWA==}
     hasBin: true
     dependencies:
       '@fastify/cookie': 9.3.1
@@ -24890,6 +24890,7 @@ packages:
   /mimic-response@3.1.0:
     resolution: {integrity: sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==}
     engines: {node: '>=10'}
+    requiresBuild: true
 
   /min-indent@1.0.1:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
