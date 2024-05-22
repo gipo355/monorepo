@@ -1,9 +1,7 @@
 /* eslint-disable no-magic-numbers */
-const { execCommands } = require('./execCommands.cjs');
+import { execCommands } from './execCommands.js';
 
 const args = process.argv.slice(2);
-
-const executableRequired = ['find'];
 
 /**
  * map to commands
@@ -23,4 +21,4 @@ const execsMappings = {
   '--folders': cmds.folders,
 };
 
-execCommands(executableRequired, execsMappings, args);
+execCommands(execsMappings, args);

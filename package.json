@@ -23,13 +23,12 @@
   "scripts": {
     "prepare": "husky",
     "commit": "git-cz",
-    "format-packages": "syncpack set-semver-ranges && syncpack fix-mismatches && syncpack format && pnpm install -r",
+    "format-packages": "node scripts/format-packages.cjs",
     "preinstall": "npx only-allow pnpm",
-    "serve-all": "nx run-many -t serve its-battistar-express its-battistar-angular",
-    "lint-test-build": "nx run-many -t lint test build",
+    "lint-test-build": "tsx scripts/nx-run-many.ts --lint --test --build",
     "version-all": "nx affected --target version",
-    "clear-all-cache": "node scripts/clear.cjs --cache",
-    "clear-all-useless-folders": "node scripts/clear.cjs --folders"
+    "clear-all-cache": "tsx scripts/clear.ts --cache",
+    "clear-all-useless-folders": "tsx scripts/clear.ts --folders"
   },
   "private": true,
   "engines": {
