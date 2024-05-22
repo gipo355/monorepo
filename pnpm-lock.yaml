@@ -144,8 +144,8 @@ importers:
         specifier: 5.5.0
         version: 5.5.0
       '@fastify/session':
-        specifier: 10.7.0
-        version: 10.7.0
+        specifier: 10.9.0
+        version: 10.9.0
       '@fastify/static':
         specifier: 7.0.1
         version: 7.0.1
@@ -7813,8 +7813,8 @@ packages:
       vary: 1.1.2
     dev: false
 
-  /@fastify/session@10.7.0:
-    resolution: {integrity: sha512-ECA75gnyaxcyIukgyO2NGT3XdbLReNl/pTKrrkRfDc6pVqNtdptwwfx9KXrIMOfsO4B3m84eF3wZ9GgnebiZ4w==}
+  /@fastify/session@10.9.0:
+    resolution: {integrity: sha512-u/c42RuAaxCeEuRCAwK2+/SfGqKOd0NSyRzEvDwFBWySQoKUZQyb9OmmJSWJBbOP1OfaU2OsDrjbPbghE1l/YQ==}
     dependencies:
       fastify-plugin: 4.5.1
       safe-stable-stringify: 2.4.3
