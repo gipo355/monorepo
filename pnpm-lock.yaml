@@ -297,8 +297,8 @@ importers:
         specifier: 5.0.2
         version: 5.0.2
       ejs:
-        specifier: 3.1.9
-        version: 3.1.9
+        specifier: 3.1.10
+        version: 3.1.10
       express:
         specifier: 4.19.2
         version: 4.19.2
@@ -9385,7 +9385,7 @@ packages:
     peerDependencies:
       nx: '>= 14.1 <= 16'
     dependencies:
-      ejs: 3.1.9
+      ejs: 3.1.10
       ignore: 5.3.1
       nx: 15.9.7(@swc-node/register@1.9.0)(@swc/core@1.4.17)
       semver: 7.5.4
@@ -9398,7 +9398,7 @@ packages:
     peerDependencies:
       nx: '>= 14.1 <= 16'
     dependencies:
-      ejs: 3.1.9
+      ejs: 3.1.10
       ignore: 5.3.1
       nx: 19.0.5(@swc-node/register@1.9.0)(@swc/core@1.4.17)
       semver: 7.5.4
@@ -10035,7 +10035,7 @@ packages:
       nx: '>= 16 <= 19'
     dependencies:
       '@nrwl/devkit': 18.3.4(nx@18.3.4)
-      ejs: 3.1.9
+      ejs: 3.1.10
       enquirer: 2.3.6
       ignore: 5.3.1
       nx: 18.3.4(@swc-node/register@1.9.0)(@swc/core@1.4.17)
@@ -10051,7 +10051,7 @@ packages:
       nx: '>= 16 <= 19'
     dependencies:
       '@nrwl/devkit': 18.3.4(nx@19.0.5)
-      ejs: 3.1.9
+      ejs: 3.1.10
       enquirer: 2.3.6
       ignore: 5.3.1
       nx: 19.0.5(@swc-node/register@1.9.0)(@swc/core@1.4.17)
@@ -10067,7 +10067,7 @@ packages:
       nx: '>= 17 <= 20'
     dependencies:
       '@nrwl/devkit': 19.0.5(nx@19.0.5)
-      ejs: 3.1.9
+      ejs: 3.1.10
       enquirer: 2.3.6
       ignore: 5.3.1
       minimatch: 9.0.3
@@ -13035,7 +13035,7 @@ packages:
       '@types/ejs': 3.1.5
       '@yarnpkg/esbuild-plugin-pnp': 3.0.0-rc.15(esbuild@0.20.2)
       browser-assert: 1.2.1
-      ejs: 3.1.9
+      ejs: 3.1.10
       esbuild: 0.20.2
       esbuild-plugin-alias: 0.2.1
       express: 4.19.2
@@ -13431,7 +13431,7 @@ packages:
   /@surma/rollup-plugin-off-main-thread@2.2.3:
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
     dependencies:
-      ejs: 3.1.9
+      ejs: 3.1.10
       json5: 2.2.3
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
@@ -17868,6 +17868,7 @@ packages:
   /cosmiconfig-typescript-loader@5.0.0(@types/node@20.12.7)(cosmiconfig@9.0.0)(typescript@5.4.5):
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==}
     engines: {node: '>=v16'}
+    requiresBuild: true
     peerDependencies:
       '@types/node': '*'
       cosmiconfig: '>=8.2'
@@ -18977,8 +18978,8 @@ packages:
     resolution: {integrity: sha512-fJhLzf5oouL4WZP314ZJgZz5Bel7OHTY+YFxO06sW1mSvqJz0s28y7jDHr5zhtTNM1YRvzbeLYUYfNaJYKqx1A==}
     dev: true
 
-  /ejs@3.1.9:
-    resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}
+  /ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
