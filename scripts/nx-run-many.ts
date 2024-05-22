@@ -16,6 +16,7 @@ allowedArgs.forEach((arg) => {
 });
 
 const cmd = `nx run-many --maxParallel ${cpus().length - 1} -t ${targets.join(' ')}`;
+console.log(`Running: ${cmd}`);
 
 /**
  * map of arguments to commands
@@ -24,4 +25,4 @@ const execsMappings = {
   base: cmd,
 };
 
-execCommands(execsMappings, args);
+execCommands(execsMappings, args, true);

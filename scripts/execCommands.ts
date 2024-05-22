@@ -1,16 +1,34 @@
 /* eslint-disable no-console */
 /* eslint-disable no-magic-numbers */
-import { execSync } from 'child_process';
+import { spawn } from 'child_process';
 import { isExecutableAvailable } from './isExecAvailable';
 
 const execCmd = (cmd: string) => {
-  execSync(cmd, function (error, stdout, stderr) {
-    if (error) {
-      console.error(error);
-      process.exit(1);
-    }
-    console.log(stdout);
-    console.error(stderr);
+  console.log('executing command:', cmd);
+
+  // takes 'exec arg1 arg2'
+  const [exec, ...args] = cmd.split(' ');
+
+  const currentCmd = spawn(exec, args);
+
+  currentCmd.stdout.on('data', (data) => {
+    console.log(data.toString());
+  });
+
+  currentCmd.stderr.on('data', (data) => {
+    console.error(data.toString());
+  });
+
+  currentCmd.on('error', (error) => {
+    console.error(error.message);
+  });
+
+  currentCmd.on('close', (code) => {
+    console.log(`child process exited with code ${code}`);
+  });
+
+  currentCmd.on('exit', (code) => {
+    console.log(`child process exited with code ${code}`);
   });
 };
 
@@ -24,9 +42,9 @@ export function execCommands(
    */
   args: string[],
   /**
-   *
+   * ignore args, run all execsMappings passed
    */
-  allowEmpty = false
+  ignoreArgs = false
 ) {
   const executablesRequired = Object.entries(execsMappings).map(
     ([, exec]) => exec.split(' ')[0]
@@ -42,7 +60,7 @@ export function execCommands(
   /**
    * guard clause to check if arguments are provided
    */
-  if (!allowEmpty && args.length === 0) {
+  if (!ignoreArgs && args.length === 0) {
     console.log(
       `No arguments provided. Please provide one of the following arguments: ${Object.keys(
         execsMappings
@@ -51,7 +69,7 @@ export function execCommands(
     process.exit(1);
   }
 
-  if (!allowEmpty) {
+  if (!ignoreArgs) {
     /**
      * execute the command
      */
@@ -60,12 +78,10 @@ export function execCommands(
         console.error(`Invalid argument: ${arg}`);
         continue;
       }
-      console.log('executing command: ', execsMappings[arg]);
       execCmd(execsMappings[arg]);
     }
   } else {
     for (const cmd of Object.values(execsMappings)) {
-      console.log('executing command: ', cmd);
       execCmd(cmd);
     }
   }
