@@ -4,7 +4,7 @@ services:
   ########## mongo
   mongo:
     env_file: ./.env
-    image: mongo
+    image: mongo@sha256:97aac78a80553735b3d9b9b7212803468781b4859645f892a3d04e6b621a7b77
     user: mongodb
     container_name: mongo-battistar
     network_mode: host
@@ -17,7 +17,7 @@ services:
   mongo-express:
     env_file: ./.env
     # profiles: [full]
-    image: mongo-express
+    image: mongo-express@sha256:1b23d7976f0210dbec74045c209e52fbb26d29b2e873d6c6fa3d3f0ae32c2a64
     container_name: mongo-battistar-redis-express
     network_mode: host
     ports:
@@ -31,7 +31,7 @@ services:
   ########## redis
   redisdev:
     env_file: ./.env
-    image: redis/redis-stack:latest
+    image: redis/redis-stack:latest@sha256:e19025010760acb0b3d07183fd71e8eac47f835878b0afa91e2355766dc94211
     # user: redis
     network_mode: host
     ports:

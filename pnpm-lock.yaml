@@ -577,34 +577,34 @@ importers:
         version: 0.14.6
     devDependencies:
       '@angular-devkit/build-angular':
-        specifier: ^17.3.7
+        specifier: 17.3.7
         version: 17.3.7(@angular/compiler-cli@17.3.9)(@angular/localize@17.3.9)(@swc/core@1.5.7)(@types/express@4.17.21)(@types/node@20.12.12)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.0)(stylus@0.59.0)(tailwindcss@3.4.3)(typescript@5.4.5)(uglify-js@3.17.4)(webpack-cli@5.1.4)
       '@angular-devkit/core':
-        specifier: ~17.3.0
+        specifier: 17.3.7
         version: 17.3.7
       '@angular-devkit/schematics':
-        specifier: ~17.3.0
+        specifier: 17.3.7
         version: 17.3.7
       '@angular-eslint/eslint-plugin':
-        specifier: ~17.5.0
+        specifier: 17.5.0
         version: 17.5.0(eslint@9.3.0)(typescript@5.4.5)
       '@angular-eslint/eslint-plugin-template':
-        specifier: ~17.5.0
+        specifier: 17.5.0
         version: 17.5.0(eslint@9.3.0)(typescript@5.4.5)
       '@angular-eslint/template-parser':
-        specifier: ~17.5.0
+        specifier: 17.5.0
         version: 17.5.0(eslint@9.3.0)(typescript@5.4.5)
       '@angular/cli':
-        specifier: ~17.3.0
+        specifier: 17.3.7
         version: 17.3.7
       '@angular/compiler-cli':
-        specifier: ~17.3.0
+        specifier: 17.3.9
         version: 17.3.9(@angular/compiler@17.3.10)(typescript@5.4.5)
       '@angular/language-service':
-        specifier: ~17.3.0
+        specifier: 17.3.9
         version: 17.3.9
       '@angular/localize':
-        specifier: ~17.3.0
+        specifier: 17.3.9
         version: 17.3.9(@angular/compiler-cli@17.3.9)(@angular/compiler@17.3.10)
       '@astrojs/node':
         specifier: 8.2.5
@@ -652,22 +652,22 @@ importers:
         specifier: 0.10.2
         version: 0.10.2
       '@changesets/cli':
-        specifier: ^2.27.3
+        specifier: 2.27.3
         version: 2.27.3
       '@commitlint/cli':
-        specifier: ^19.3.0
+        specifier: 19.3.0
         version: 19.3.0(@types/node@20.12.12)(typescript@5.4.5)
       '@commitlint/config-conventional':
-        specifier: ^19.2.2
+        specifier: 19.2.2
         version: 19.2.2
       '@eslint/eslintrc':
-        specifier: ^3.1.0
+        specifier: 3.1.0
         version: 3.1.0
       '@eslint/js':
-        specifier: ^9.3.0
+        specifier: 9.3.0
         version: 9.3.0
       '@faker-js/faker':
-        specifier: ^8.4.1
+        specifier: 8.4.1
         version: 8.4.1
       '@fastify/type-provider-json-schema-to-ts':
         specifier: 3.0.0
@@ -688,7 +688,7 @@ importers:
         specifier: 0.24.1
         version: 0.24.1
       '@jscutlery/semver':
-        specifier: ^5.2.2
+        specifier: 5.2.2
         version: 5.2.2(@nx/devkit@19.0.6)
       '@microsoft/tsdoc-config':
         specifier: 0.16.2
@@ -697,10 +697,10 @@ importers:
         specifier: 2.2.1
         version: 2.2.1
       '@nestjs/schematics':
-        specifier: ^10.1.1
+        specifier: 10.1.1
         version: 10.1.1(typescript@5.4.5)
       '@nestjs/testing':
-        specifier: ^10.3.8
+        specifier: 10.3.8
         version: 10.3.8(@nestjs/common@10.3.8)(@nestjs/core@10.3.8)(@nestjs/microservices@10.3.8)(@nestjs/platform-express@10.3.8)
       '@nx-plus/docusaurus':
         specifier: 15.0.0-rc.0
@@ -769,7 +769,7 @@ importers:
         specifier: 1.44.0
         version: 1.44.0
       '@pmmmwh/react-refresh-webpack-plugin':
-        specifier: ^0.5.13
+        specifier: 0.5.13
         version: 0.5.13(react-refresh@0.14.2)(webpack-dev-server@5.0.4)(webpack@5.91.0)
       '@popperjs/core':
         specifier: 2.11.8
@@ -778,16 +778,16 @@ importers:
         specifier: 3.0.0
         version: 3.0.0(prettier@3.2.5)
       '@schematics/angular':
-        specifier: ~17.3.0
+        specifier: 17.3.7
         version: 17.3.7
       '@sentry/types':
-        specifier: ^8.3.0
+        specifier: 8.3.0
         version: 8.3.0
       '@storybook/addon-a11y':
         specifier: 8.1.2
         version: 8.1.2
       '@storybook/addon-essentials':
-        specifier: ^8.1.2
+        specifier: 8.1.2
         version: 8.1.2(@types/react-dom@18.3.0)(@types/react@18.3.2)(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)
       '@storybook/addon-interactions':
         specifier: 8.1.2
@@ -796,7 +796,7 @@ importers:
         specifier: 8.1.2
         version: 8.1.2(react@18.3.1)
       '@storybook/angular':
-        specifier: ^8.1.2
+        specifier: 8.1.2
         version: 8.1.2(@angular-devkit/architect@0.1703.7)(@angular-devkit/build-angular@17.3.7)(@angular-devkit/core@17.3.7)(@angular/cli@17.3.7)(@angular/common@17.3.10)(@angular/compiler-cli@17.3.9)(@angular/compiler@17.3.10)(@angular/core@17.3.10)(@angular/forms@17.3.10)(@angular/platform-browser-dynamic@17.3.10)(@angular/platform-browser@17.3.10)(@swc/core@1.5.7)(esbuild@0.21.3)(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.17.4)(webpack-cli@5.1.4)(zone.js@0.14.6)
       '@storybook/blocks':
         specifier: 8.1.2
@@ -805,7 +805,7 @@ importers:
         specifier: 8.1.2
         version: 8.1.2(prettier@3.2.5)(typescript@5.4.5)(vite@5.2.11)
       '@storybook/core-server':
-        specifier: ^8.1.2
+        specifier: 8.1.2
         version: 8.1.2(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)
       '@storybook/svelte':
         specifier: 8.1.2
@@ -838,19 +838,19 @@ importers:
         specifier: 3.1.0
         version: 3.1.0(svelte@4.2.17)(vite@5.2.11)
       '@svgr/webpack':
-        specifier: ^8.1.0
+        specifier: 8.1.0
         version: 8.1.0(typescript@5.4.5)
       '@swc-node/register':
-        specifier: ~1.9.1
+        specifier: 1.9.1
         version: 1.9.1(@swc/core@1.5.7)(@swc/types@0.1.7)(typescript@5.4.5)
       '@swc/cli':
         specifier: 0.3.12
         version: 0.3.12(@swc/core@1.5.7)
       '@swc/core':
-        specifier: ~1.5.7
+        specifier: 1.5.7
         version: 1.5.7(@swc/helpers@0.5.11)
       '@swc/helpers':
-        specifier: ~0.5.11
+        specifier: 0.5.11
         version: 0.5.11
       '@tailwindcss/forms':
         specifier: 0.5.7
@@ -865,7 +865,7 @@ importers:
         specifier: 5.1.0
         version: 5.1.0(svelte@4.2.17)(vite@5.2.11)(vitest@1.6.0)
       '@total-typescript/ts-reset':
-        specifier: ^0.5.1
+        specifier: 0.5.1
         version: 0.5.1
       '@tsconfig/svelte':
         specifier: 5.0.4
@@ -880,10 +880,10 @@ importers:
         specifier: 7.9.6
         version: 7.9.6
       '@types/bcrypt':
-        specifier: ^5.0.2
+        specifier: 5.0.2
         version: 5.0.2
       '@types/body-parser':
-        specifier: ^1.19.5
+        specifier: 1.19.5
         version: 1.19.5
       '@types/caniuse-lite':
         specifier: 1.0.5
@@ -898,13 +898,13 @@ importers:
         specifier: 0.6.0
         version: 0.6.0
       '@types/cookie-parser':
-        specifier: ^1.4.7
+        specifier: 1.4.7
         version: 1.4.7
       '@types/core-js':
         specifier: 2.5.8
         version: 2.5.8
       '@types/cors':
-        specifier: ^2.8.17
+        specifier: 2.8.17
         version: 2.8.17
       '@types/dom-view-transitions':
         specifier: 1.0.4
@@ -928,16 +928,16 @@ importers:
         specifier: 6.11.3
         version: 6.11.3
       '@types/express':
-        specifier: ^4.17.21
+        specifier: 4.17.21
         version: 4.17.21
       '@types/express-status-monitor':
         specifier: 1.3.3
         version: 1.3.3
       '@types/hpp':
-        specifier: ^0.2.6
+        specifier: 0.2.6
         version: 0.2.6
       '@types/html-to-text':
-        specifier: ^9.0.4
+        specifier: 9.0.4
         version: 9.0.4
       '@types/imagemin':
         specifier: 8.0.5
@@ -955,22 +955,22 @@ importers:
         specifier: 10.0.5
         version: 10.0.5
       '@types/jasmine':
-        specifier: ~5.1.4
+        specifier: 5.1.4
         version: 5.1.4
       '@types/jest':
-        specifier: ^29.5.12
+        specifier: 29.5.12
         version: 29.5.12
       '@types/json-server':
         specifier: 0.14.7
         version: 0.14.7
       '@types/jsonwebtoken':
-        specifier: ^9.0.6
+        specifier: 9.0.6
         version: 9.0.6
       '@types/lint-staged':
         specifier: 13.3.0
         version: 13.3.0
       '@types/lodash':
-        specifier: ^4.17.4
+        specifier: 4.17.4
         version: 4.17.4
       '@types/madge':
         specifier: 5.0.3
@@ -1000,13 +1000,13 @@ importers:
         specifier: 1.11.9
         version: 1.11.9
       '@types/passport':
-        specifier: ^1.0.16
+        specifier: 1.0.16
         version: 1.0.16
       '@types/passport-jwt':
-        specifier: ^4.0.1
+        specifier: 4.0.1
         version: 4.0.1
       '@types/passport-local':
-        specifier: ^1.0.38
+        specifier: 1.0.38
         version: 1.0.38
       '@types/pg':
         specifier: 8.11.6
@@ -1018,7 +1018,7 @@ importers:
         specifier: 14.0.3
         version: 14.0.3
       '@types/pug':
-        specifier: ^2.0.10
+        specifier: 2.0.10
         version: 2.0.10
       '@types/react':
         specifier: 18.3.2
@@ -1036,16 +1036,16 @@ importers:
         specifier: 8.0.8
         version: 8.0.8
       '@types/simple-oauth2':
-        specifier: ^5.0.7
+        specifier: 5.0.7
         version: 5.0.7
       '@types/supertest':
-        specifier: ^6.0.2
+        specifier: 6.0.2
         version: 6.0.2
       '@types/swagger-jsdoc':
-        specifier: ^6.0.4
+        specifier: 6.0.4
         version: 6.0.4
       '@types/swagger-ui-express':
-        specifier: ^4.1.6
+        specifier: 4.1.6
         version: 4.1.6
       '@types/tap':
         specifier: 15.0.11
@@ -1057,7 +1057,7 @@ importers:
         specifier: 9.0.8
         version: 9.0.8
       '@types/validator':
-        specifier: ^13.11.10
+        specifier: 13.11.10
         version: 13.11.10
       '@types/webpack-bundle-analyzer':
         specifier: 4.7.0
@@ -1069,10 +1069,10 @@ importers:
         specifier: 8.5.10
         version: 8.5.10
       '@typescript-eslint/eslint-plugin':
-        specifier: ^7.10.0
+        specifier: 7.10.0
         version: 7.10.0(@typescript-eslint/parser@7.10.0)(eslint@9.3.0)(typescript@5.4.5)
       '@typescript-eslint/parser':
-        specifier: ^7.10.0
+        specifier: 7.10.0
         version: 7.10.0(eslint@9.3.0)(typescript@5.4.5)
       '@vitejs/plugin-react':
         specifier: 4.2.1
@@ -1084,16 +1084,16 @@ importers:
         specifier: 3.1.0
         version: 3.1.0(vite@5.2.11)(vue@3.4.27)
       '@vitest/coverage-v8':
-        specifier: ^1.6.0
+        specifier: 1.6.0
         version: 1.6.0(vitest@1.6.0)
       '@vitest/ui':
-        specifier: ^1.6.0
+        specifier: 1.6.0
         version: 1.6.0(vitest@1.6.0)
       a17t:
         specifier: 0.10.1
         version: 0.10.1(ts-node@10.9.2)
       autoprefixer:
-        specifier: ^10.4.19
+        specifier: 10.4.19
         version: 10.4.19(postcss@8.4.38)
       babel-jest:
         specifier: 29.7.0
@@ -1105,7 +1105,7 @@ importers:
         specifier: 2.8.1
         version: 2.8.1
       bootstrap:
-        specifier: ^5.3.3
+        specifier: 5.3.3
         version: 5.3.3(@popperjs/core@2.11.8)
       bun-types:
         specifier: 1.1.9
@@ -1120,7 +1120,7 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(webpack@5.91.0)
       commitizen:
-        specifier: ^4.3.0
+        specifier: 4.3.0
         version: 4.3.0(@types/node@20.12.12)(typescript@5.4.5)
       copy-webpack-plugin:
         specifier: 12.0.2
@@ -1138,19 +1138,19 @@ importers:
         specifier: 7.0.1
         version: 7.0.1(postcss@8.4.38)
       cypress:
-        specifier: ^13.10.0
+        specifier: 13.10.0
         version: 13.10.0
       cz-conventional-changelog:
-        specifier: ^3.3.0
+        specifier: 3.3.0
         version: 3.3.0(@types/node@20.12.12)(typescript@5.4.5)
       cz-git:
-        specifier: ^1.9.1
+        specifier: 1.9.1
         version: 1.9.1
       dependency-cruiser:
         specifier: 16.3.2
         version: 16.3.2
       docker-compose:
-        specifier: ^0.24.8
+        specifier: 0.24.8
         version: 0.24.8
       dotenv-webpack:
         specifier: 8.1.0
@@ -1165,22 +1165,22 @@ importers:
         specifier: 4.1.0
         version: 4.1.0(webpack@5.91.0)
       eslint:
-        specifier: ~9.3.0
+        specifier: 9.3.0
         version: 9.3.0
       eslint-config-airbnb-typescript:
         specifier: 18.0.0
         version: 18.0.0(@typescript-eslint/eslint-plugin@7.10.0)(@typescript-eslint/parser@7.10.0)(eslint-plugin-import@2.29.1)(eslint@9.3.0)
       eslint-config-prettier:
-        specifier: ^9.1.0
+        specifier: 9.1.0
         version: 9.1.0(eslint@9.3.0)
       eslint-import-resolver-custom-alias:
-        specifier: ^1.3.2
+        specifier: 1.3.2
         version: 1.3.2(eslint-plugin-import@2.29.1)
       eslint-import-resolver-typescript:
         specifier: 3.6.1
         version: 3.6.1(@typescript-eslint/parser@7.10.0)(eslint-plugin-import@2.29.1)(eslint@9.3.0)
       eslint-plugin-angular:
-        specifier: ^4.1.0
+        specifier: 4.1.0
         version: 4.1.0
       eslint-plugin-astro:
         specifier: 1.2.0
@@ -1195,7 +1195,7 @@ importers:
         specifier: 8.1.1
         version: 8.1.1
       eslint-plugin-import:
-        specifier: ~2.29.1
+        specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@7.10.0)(eslint-import-resolver-typescript@3.6.1)(eslint@9.3.0)
       eslint-plugin-jest:
         specifier: 28.5.0
@@ -1213,7 +1213,7 @@ importers:
         specifier: 1.13.0
         version: 1.13.0(eslint@9.3.0)
       eslint-plugin-n:
-        specifier: ^17.7.0
+        specifier: 17.7.0
         version: 17.7.0(eslint@9.3.0)
       eslint-plugin-node:
         specifier: 11.1.0
@@ -1222,7 +1222,7 @@ importers:
         specifier: 5.1.3
         version: 5.1.3(@types/eslint@8.56.10)(eslint-config-prettier@9.1.0)(eslint@9.3.0)(prettier@3.2.5)
       eslint-plugin-promise:
-        specifier: ^6.1.1
+        specifier: 6.1.1
         version: 6.1.1(eslint@9.3.0)
       eslint-plugin-react:
         specifier: 7.34.1
@@ -1231,16 +1231,16 @@ importers:
         specifier: 4.6.2
         version: 4.6.2(eslint@9.3.0)
       eslint-plugin-security:
-        specifier: ^3.0.0
+        specifier: 3.0.0
         version: 3.0.0
       eslint-plugin-security-node:
         specifier: 1.1.4
         version: 1.1.4
       eslint-plugin-simple-import-sort:
-        specifier: ^12.1.0
+        specifier: 12.1.0
         version: 12.1.0(eslint@9.3.0)
       eslint-plugin-sonarjs:
-        specifier: ^1.0.3
+        specifier: 1.0.3
         version: 1.0.3(eslint@9.3.0)
       eslint-plugin-spellcheck:
         specifier: 0.0.20
@@ -1261,10 +1261,10 @@ importers:
         specifier: 0.2.17
         version: 0.2.17
       eslint-plugin-typescript-sort-keys:
-        specifier: ^3.2.0
+        specifier: 3.2.0
         version: 3.2.0(@typescript-eslint/parser@7.10.0)(eslint@9.3.0)(typescript@5.4.5)
       eslint-plugin-unicorn:
-        specifier: ^53.0.0
+        specifier: 53.0.0
         version: 53.0.0(eslint@9.3.0)
       eslint-plugin-vitest:
         specifier: 0.5.4
@@ -1294,7 +1294,7 @@ importers:
         specifier: 9.0.2
         version: 9.0.2(typescript@5.4.5)(webpack@5.91.0)
       globals:
-        specifier: ^15.3.0
+        specifier: 15.3.0
         version: 15.3.0
       html-loader:
         specifier: 5.0.0
@@ -1306,10 +1306,10 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(webpack@5.91.0)
       html-validate:
-        specifier: ^8.19.0
+        specifier: 8.19.0
         version: 8.19.0(jest@29.7.0)(vitest@1.6.0)
       html-validate-angular:
-        specifier: ^5.0.0
+        specifier: 5.0.0
         version: 5.0.0(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.0)
       html-webpack-plugin:
         specifier: 5.6.0
@@ -1318,10 +1318,10 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(html-webpack-plugin@5.6.0)(webpack@5.91.0)
       htmlhint:
-        specifier: ^1.1.4
+        specifier: 1.1.4
         version: 1.1.4
       husky:
-        specifier: ^9.0.11
+        specifier: 9.0.11
         version: 9.0.11
       image-minimizer-webpack-plugin:
         specifier: 4.0.0
@@ -1342,19 +1342,19 @@ importers:
         specifier: 11.0.0
         version: 11.0.0
       jasmine-core:
-        specifier: ~5.1.2
+        specifier: 5.1.2
         version: 5.1.2
       jest:
-        specifier: ^29.7.0
+        specifier: 29.7.0
         version: 29.7.0(@types/node@20.12.12)(ts-node@10.9.2)
       jest-environment-jsdom:
-        specifier: ^29.7.0
+        specifier: 29.7.0
         version: 29.7.0
       jest-environment-node:
-        specifier: ^29.7.0
+        specifier: 29.7.0
         version: 29.7.0
       jest-preset-angular:
-        specifier: ~14.1.0
+        specifier: 14.1.0
         version: 14.1.0(@angular-devkit/build-angular@17.3.7)(@angular/compiler-cli@17.3.9)(@angular/core@17.3.10)(@angular/platform-browser-dynamic@17.3.10)(@babel/core@7.24.5)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.4.5)
       jsdom:
         specifier: 24.0.0
@@ -1372,25 +1372,25 @@ importers:
         specifier: 2.4.0
         version: 2.4.0
       karma:
-        specifier: ~6.4.3
+        specifier: 6.4.3
         version: 6.4.3
       karma-chrome-launcher:
-        specifier: ~3.2.0
+        specifier: 3.2.0
         version: 3.2.0
       karma-coverage:
-        specifier: ~2.2.1
+        specifier: 2.2.1
         version: 2.2.1
       karma-jasmine:
-        specifier: ~5.1.0
+        specifier: 5.1.0
         version: 5.1.0(karma@6.4.3)
       karma-jasmine-html-reporter:
-        specifier: ~2.1.0
+        specifier: 2.1.0
         version: 2.1.0(jasmine-core@5.1.2)(karma-jasmine@5.1.0)(karma@6.4.3)
       lightningcss:
         specifier: 1.25.0
         version: 1.25.0
       lint-staged:
-        specifier: ^15.2.4
+        specifier: 15.2.4
         version: 15.2.4
       lit-html:
         specifier: 3.1.3
@@ -1411,7 +1411,7 @@ importers:
         specifier: 1.1.13
         version: 1.1.13(tailwindcss@3.4.3)
       nodemon:
-        specifier: ^3.1.0
+        specifier: 3.1.0
         version: 3.1.0
       npm-run-all:
         specifier: 4.1.5
@@ -1426,7 +1426,7 @@ importers:
         specifier: 0.9.4
         version: 0.9.4
       postcss:
-        specifier: ^8.4.38
+        specifier: 8.4.38
         version: 8.4.38
       postcss-html:
         specifier: 1.7.0
@@ -1450,10 +1450,10 @@ importers:
         specifier: 9.5.13
         version: 9.5.13(postcss@8.4.38)
       postcss-scss:
-        specifier: ^4.0.9
+        specifier: 4.0.9
         version: 4.0.9(postcss@8.4.38)
       prettier:
-        specifier: ^3.2.5
+        specifier: 3.2.5
         version: 3.2.5
       prettier-plugin-astro:
         specifier: 0.13.0
@@ -1462,13 +1462,13 @@ importers:
         specifier: 3.2.3
         version: 3.2.3(prettier@3.2.5)(svelte@4.2.17)
       prettier-plugin-tailwindcss:
-        specifier: ^0.5.14
+        specifier: 0.5.14
         version: 0.5.14(@prettier/plugin-pug@3.0.0)(prettier-plugin-astro@0.13.0)(prettier-plugin-svelte@3.2.3)(prettier@3.2.5)
       pug-loader:
         specifier: 2.4.0
         version: 2.4.0(pug@3.0.2)
       react-refresh:
-        specifier: ^0.14.2
+        specifier: 0.14.2
         version: 0.14.2
       sass:
         specifier: 1.77.2
@@ -1480,7 +1480,7 @@ importers:
         specifier: 1.1.1
         version: 1.1.1
       sonarqube-scanner:
-        specifier: ^3.5.0
+        specifier: 3.5.0
         version: 3.5.0
       storybook:
         specifier: 8.1.2
@@ -1489,13 +1489,13 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(webpack@5.91.0)
       stylelint:
-        specifier: ^16.5.0
+        specifier: 16.5.0
         version: 16.5.0(typescript@5.4.5)
       stylelint-config-html:
         specifier: 1.1.0
         version: 1.1.0(postcss-html@1.7.0)(stylelint@16.5.0)
       stylelint-config-idiomatic-order:
-        specifier: ^10.0.0
+        specifier: 10.0.0
         version: 10.0.0(stylelint@16.5.0)
       stylelint-config-prettier:
         specifier: 9.0.5
@@ -1510,13 +1510,13 @@ importers:
         specifier: 1.5.0
         version: 1.5.0(postcss-html@1.7.0)(stylelint@16.5.0)
       stylelint-config-standard:
-        specifier: ^36.0.0
+        specifier: 36.0.0
         version: 36.0.0(stylelint@16.5.0)
       stylelint-config-standard-scss:
-        specifier: ^13.1.0
+        specifier: 13.1.0
         version: 13.1.0(postcss@8.4.38)(stylelint@16.5.0)
       stylelint-prettier:
-        specifier: ^5.0.0
+        specifier: 5.0.0
         version: 5.0.0(prettier@3.2.5)(stylelint@16.5.0)
       stylelint-scss:
         specifier: 6.3.0
@@ -1525,7 +1525,7 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(stylelint@16.5.0)(webpack@5.91.0)
       supertest:
-        specifier: ^7.0.0
+        specifier: 7.0.0
         version: 7.0.0
       svelte-check:
         specifier: 3.7.1
@@ -1561,7 +1561,7 @@ importers:
         specifier: 12.3.2
         version: 12.3.2(typescript@5.4.5)
       tailwindcss:
-        specifier: ^3.4.3
+        specifier: 3.4.3
         version: 3.4.3(ts-node@10.9.2)
       tailwindcss-fluid-type:
         specifier: 2.0.6
@@ -1576,7 +1576,7 @@ importers:
         specifier: 10.9.0
         version: 10.9.0
       ts-jest:
-        specifier: ^29.1.3
+        specifier: 29.1.3
         version: 29.1.3(@babel/core@7.24.5)(babel-jest@29.7.0)(esbuild@0.21.3)(jest@29.7.0)(typescript@5.4.5)
       ts-lit-plugin:
         specifier: 2.0.2
@@ -1597,16 +1597,16 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       tsx:
-        specifier: ^4.10.5
+        specifier: 4.10.5
         version: 4.10.5
       typedoc:
         specifier: 0.25.13
         version: 0.25.13(typescript@5.4.5)
       typescript:
-        specifier: ~5.4.5
+        specifier: 5.4.5
         version: 5.4.5
       typescript-eslint:
-        specifier: ^7.10.0
+        specifier: 7.10.0
         version: 7.10.0(eslint@9.3.0)(typescript@5.4.5)
       typescript-lit-html-plugin:
         specifier: 0.9.0
@@ -1624,7 +1624,7 @@ importers:
         specifier: 5.31.0
         version: 5.31.0(typanion@3.14.0)
       vite:
-        specifier: ~5.2.11
+        specifier: 5.2.11
         version: 5.2.11(@types/node@20.12.12)(less@4.1.3)(lightningcss@1.25.0)(sass@1.77.2)(stylus@0.59.0)
       vite-imagetools:
         specifier: 7.0.2
@@ -1657,7 +1657,7 @@ importers:
         specifier: 4.3.2
         version: 4.3.2(typescript@5.4.5)(vite@5.2.11)
       vitest:
-        specifier: ^1.6.0
+        specifier: 1.6.0
         version: 1.6.0(@types/node@20.12.12)(@vitest/ui@1.6.0)(jsdom@24.0.0)(less@4.1.3)(lightningcss@1.25.0)(sass@1.77.2)(stylus@0.59.0)
       web-vitals:
         specifier: 4.0.1
@@ -1669,7 +1669,7 @@ importers:
         specifier: 4.10.2
         version: 4.10.2
       webpack-cli:
-        specifier: ^5.1.4
+        specifier: 5.1.4
         version: 5.1.4(webpack-bundle-analyzer@4.10.2)(webpack-dev-server@5.0.4)(webpack@5.91.0)
       webpack-dev-server:
         specifier: 5.0.4
@@ -4019,6 +4019,23 @@ packages:
       '@babel/helper-split-export-declaration': 7.24.5
       semver: 6.3.1
 
+  /@babel/helper-create-class-features-plugin@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-uRc4Cv8UQWnE4NXlYTIIdM7wfFkOqlFztcC/gVXDKohKoVB3OyonfelUBaJzSwpBntZ2KYGF/9S7asCHsXwW6g==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-annotate-as-pure': 7.22.5
+      '@babel/helper-environment-visitor': 7.22.20
+      '@babel/helper-function-name': 7.23.0
+      '@babel/helper-member-expression-to-functions': 7.24.5
+      '@babel/helper-optimise-call-expression': 7.22.5
+      '@babel/helper-replace-supers': 7.24.1(@babel/core@7.24.0)
+      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
+      '@babel/helper-split-export-declaration': 7.24.5
+      semver: 6.3.1
+
   /@babel/helper-create-class-features-plugin@7.24.5(@babel/core@7.24.5):
     resolution: {integrity: sha512-uRc4Cv8UQWnE4NXlYTIIdM7wfFkOqlFztcC/gVXDKohKoVB3OyonfelUBaJzSwpBntZ2KYGF/9S7asCHsXwW6g==}
     engines: {node: '>=6.9.0'}
@@ -4312,14 +4329,6 @@ packages:
       node-environment-flags: 1.0.6
       regenerator-runtime: 0.14.1
       v8flags: 3.2.0
-    dev: true
-
-  /@babel/parser@7.24.4:
-    resolution: {integrity: sha512-zTvEBcghmeBma9QIGunWevvBAp4/Qu9Bdq+2k0Ot4fVMD6v3dsC9WOcRSKk7tRRyBM/53yKMJko9xOatGQAwSg==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.24.5
     dev: true
 
   /@babel/parser@7.24.5:
@@ -4878,8 +4887,8 @@ packages:
       '@babel/core': 7.24.5
       '@babel/helper-plugin-utils': 7.24.5
 
-  /@babel/plugin-transform-block-scoping@7.24.4(@babel/core@7.24.0):
-    resolution: {integrity: sha512-nIFUZIpGKDf9O9ttyRXpHFpKC+X3Y5mtshZONuEUYBomAKoM4y029Jr+uB1bHGPhNmK8YXHevDtKDOLmtRrp6g==}
+  /@babel/plugin-transform-block-scoping@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-sMfBc3OxghjC95BkYrYocHL3NaOplrcaunblzwXhGmlPwpmfsxr4vK+mBBt49r+S240vahmv+kUxkeKgs+haCw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -4938,8 +4947,8 @@ packages:
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.24.5)
 
-  /@babel/plugin-transform-classes@7.24.1(@babel/core@7.24.0):
-    resolution: {integrity: sha512-ZTIe3W7UejJd3/3R4p7ScyyOoafetUShSf4kCqV0O7F/RiHxVj/wRaRnQlrGwflvcehNA8M42HkAiEDYZu2F1Q==}
+  /@babel/plugin-transform-classes@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-gWkLP25DFj2dwe9Ck8uwMOpko4YsqyfZJrOmqqcegeDYEbp7rmn4U6UQZNj08UF6MaX39XenSpKRCvpDRBtZ7Q==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -4990,8 +4999,8 @@ packages:
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/template': 7.24.0
 
-  /@babel/plugin-transform-destructuring@7.24.1(@babel/core@7.24.0):
-    resolution: {integrity: sha512-ow8jciWqNxR3RYbSNVuF4U2Jx130nwnBnhRw6N6h1bOejNkABmcI5X5oz29K4alWX7vf1C+o6gtKXikzRKkVdw==}
+  /@babel/plugin-transform-destructuring@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-SZuuLyfxvsm+Ah57I/i1HVjveBENYK9ue8MJ7qkc7ndoNjqquJiElzA7f5yaAXjyW2hKojosOTAQQRX50bPSVg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -5399,8 +5408,8 @@ packages:
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.24.5)
 
-  /@babel/plugin-transform-object-rest-spread@7.24.1(@babel/core@7.24.0):
-    resolution: {integrity: sha512-XjD5f0YqOtebto4HGISLNfiNMTTs6tbkFf2TOqJlYKYmbo+mN9Dnpl4SRoofiziuOWMIyq3sZEUqLo3hLITFEA==}
+  /@babel/plugin-transform-object-rest-spread@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-7EauQHszLGM3ay7a161tTQH7fj+3vVM/gThlz5HpFtnygTxjrlvoeq7MPVA1Vy9Q555OB8SnAOsMkLShNkkrHA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -5409,7 +5418,7 @@ packages:
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-parameters': 7.24.1(@babel/core@7.24.0)
+      '@babel/plugin-transform-parameters': 7.24.5(@babel/core@7.24.0)
 
   /@babel/plugin-transform-object-rest-spread@7.24.5(@babel/core@7.24.5):
     resolution: {integrity: sha512-7EauQHszLGM3ay7a161tTQH7fj+3vVM/gThlz5HpFtnygTxjrlvoeq7MPVA1Vy9Q555OB8SnAOsMkLShNkkrHA==}
@@ -5463,29 +5472,6 @@ packages:
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.24.5)
 
-  /@babel/plugin-transform-optional-chaining@7.24.1(@babel/core@7.24.0):
-    resolution: {integrity: sha512-n03wmDt+987qXwAgcBlnUUivrZBPZ8z1plL0YvgQalLm+ZE5BMhGm94jhxXtA1wzv1Cu2aaOv1BM9vbVttrzSg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.24.0
-      '@babel/helper-plugin-utils': 7.24.5
-      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
-      '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.24.0)
-
-  /@babel/plugin-transform-optional-chaining@7.24.1(@babel/core@7.24.5):
-    resolution: {integrity: sha512-n03wmDt+987qXwAgcBlnUUivrZBPZ8z1plL0YvgQalLm+ZE5BMhGm94jhxXtA1wzv1Cu2aaOv1BM9vbVttrzSg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.24.5
-      '@babel/helper-plugin-utils': 7.24.5
-      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
-      '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.24.5)
-    dev: true
-
   /@babel/plugin-transform-optional-chaining@7.24.5(@babel/core@7.24.0):
     resolution: {integrity: sha512-xWCkmwKT+ihmA6l7SSTpk8e4qQl/274iNbSKRRS8mpqFR32ksy36+a+LWY8OXCCEefF8WFlnOHVsaDI2231wBg==}
     engines: {node: '>=6.9.0'}
@@ -5508,8 +5494,8 @@ packages:
       '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
       '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.24.5)
 
-  /@babel/plugin-transform-parameters@7.24.1(@babel/core@7.24.0):
-    resolution: {integrity: sha512-8Jl6V24g+Uw5OGPeWNKrKqXPDw2YDjLc53ojwfMcKwlEoETKU9rU0mHUtcg9JntWI/QYzGAXNWEcVHZ+fR+XXg==}
+  /@babel/plugin-transform-parameters@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-9Co00MqZ2aoky+4j2jhofErthm6QVLKbpQrvz20c3CH9KQCLHyNB+t2ya4/UrRpQGR+Wrwjg9foopoeSdnHOkA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -5546,15 +5532,15 @@ packages:
       '@babel/helper-create-class-features-plugin': 7.24.4(@babel/core@7.24.5)
       '@babel/helper-plugin-utils': 7.24.5
 
-  /@babel/plugin-transform-private-property-in-object@7.24.1(@babel/core@7.24.0):
-    resolution: {integrity: sha512-pTHxDVa0BpUbvAgX3Gat+7cSciXqUcY9j2VZKTbSB6+VQGpNgNO9ailxTGHSXlqOnX1Hcx1Enme2+yv7VqP9bg==}
+  /@babel/plugin-transform-private-property-in-object@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-JM4MHZqnWR04jPMujQDTBVRnqxpLLpx2tkn7iPn+Hmsc0Gnb79yvRWOkvqFOx3Z7P7VxiRIR22c4eGSNj87OBQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.0
       '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.24.4(@babel/core@7.24.0)
+      '@babel/helper-create-class-features-plugin': 7.24.5(@babel/core@7.24.0)
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.24.0)
 
@@ -5816,8 +5802,8 @@ packages:
       '@babel/core': 7.24.5
       '@babel/helper-plugin-utils': 7.24.5
 
-  /@babel/plugin-transform-typeof-symbol@7.24.1(@babel/core@7.24.0):
-    resolution: {integrity: sha512-CBfU4l/A+KruSUoW+vTQthwcAdwuqbpRNB8HQKlZABwHRhsdHZ9fezp4Sn18PeAlYxTNiLMlx4xUBV3AWfg1BA==}
+  /@babel/plugin-transform-typeof-symbol@7.24.5(@babel/core@7.24.0):
+    resolution: {integrity: sha512-UTGnhYVZtTAjdwOTzT+sCyXmTn8AhaxOS/MjG9REclZ6ULHWF9KoCZur0HSGU7hk8PdBFKKbYe6+gqdXWz84Jg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -5961,12 +5947,12 @@ packages:
       '@babel/plugin-transform-async-generator-functions': 7.24.3(@babel/core@7.24.0)
       '@babel/plugin-transform-async-to-generator': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-block-scoped-functions': 7.24.1(@babel/core@7.24.0)
-      '@babel/plugin-transform-block-scoping': 7.24.4(@babel/core@7.24.0)
+      '@babel/plugin-transform-block-scoping': 7.24.5(@babel/core@7.24.0)
       '@babel/plugin-transform-class-properties': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-class-static-block': 7.24.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-classes': 7.24.1(@babel/core@7.24.0)
+      '@babel/plugin-transform-classes': 7.24.5(@babel/core@7.24.0)
       '@babel/plugin-transform-computed-properties': 7.24.1(@babel/core@7.24.0)
-      '@babel/plugin-transform-destructuring': 7.24.1(@babel/core@7.24.0)
+      '@babel/plugin-transform-destructuring': 7.24.5(@babel/core@7.24.0)
       '@babel/plugin-transform-dotall-regex': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-duplicate-keys': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-dynamic-import': 7.24.1(@babel/core@7.24.0)
@@ -5986,13 +5972,13 @@ packages:
       '@babel/plugin-transform-new-target': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-nullish-coalescing-operator': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-numeric-separator': 7.24.1(@babel/core@7.24.0)
-      '@babel/plugin-transform-object-rest-spread': 7.24.1(@babel/core@7.24.0)
+      '@babel/plugin-transform-object-rest-spread': 7.24.5(@babel/core@7.24.0)
       '@babel/plugin-transform-object-super': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-optional-catch-binding': 7.24.1(@babel/core@7.24.0)
-      '@babel/plugin-transform-optional-chaining': 7.24.1(@babel/core@7.24.0)
-      '@babel/plugin-transform-parameters': 7.24.1(@babel/core@7.24.0)
+      '@babel/plugin-transform-optional-chaining': 7.24.5(@babel/core@7.24.0)
+      '@babel/plugin-transform-parameters': 7.24.5(@babel/core@7.24.0)
       '@babel/plugin-transform-private-methods': 7.24.1(@babel/core@7.24.0)
-      '@babel/plugin-transform-private-property-in-object': 7.24.1(@babel/core@7.24.0)
+      '@babel/plugin-transform-private-property-in-object': 7.24.5(@babel/core@7.24.0)
       '@babel/plugin-transform-property-literals': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-regenerator': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-reserved-words': 7.24.1(@babel/core@7.24.0)
@@ -6000,7 +5986,7 @@ packages:
       '@babel/plugin-transform-spread': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-sticky-regex': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-template-literals': 7.24.1(@babel/core@7.24.0)
-      '@babel/plugin-transform-typeof-symbol': 7.24.1(@babel/core@7.24.0)
+      '@babel/plugin-transform-typeof-symbol': 7.24.5(@babel/core@7.24.0)
       '@babel/plugin-transform-unicode-escapes': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-unicode-property-regex': 7.24.1(@babel/core@7.24.0)
       '@babel/plugin-transform-unicode-regex': 7.24.1(@babel/core@7.24.0)
@@ -6577,7 +6563,7 @@ packages:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/types': 19.0.3
       global-directory: 4.0.1
-      import-meta-resolve: 4.0.0
+      import-meta-resolve: 4.1.0
       lodash.mergewith: 4.6.2
       resolve-from: 5.0.0
     dev: true
@@ -14099,7 +14085,7 @@ packages:
       find-up: 5.0.0
       read-pkg-up: 7.0.1
       rxjs: 7.8.1
-      semver: 7.6.0
+      semver: 7.6.2
       telejson: 7.2.0
       ts-dedent: 2.2.0
       tsconfig-paths-webpack-plugin: 4.1.0
@@ -14450,7 +14436,7 @@ packages:
     dependencies:
       '@aw-web-design/x-default-browser': 1.4.126
       '@babel/core': 7.24.5
-      '@babel/parser': 7.24.4
+      '@babel/parser': 7.24.5
       '@discoveryjs/json-ext': 0.5.7
       '@storybook/builder-manager': 8.1.2(prettier@3.2.5)
       '@storybook/channels': 8.1.2
@@ -14486,7 +14472,7 @@ packages:
       pretty-hrtime: 1.0.3
       prompts: 2.4.2
       read-pkg-up: 7.0.1
-      semver: 7.6.0
+      semver: 7.6.2
       telejson: 7.2.0
       tiny-invariant: 1.3.3
       ts-dedent: 2.2.0
@@ -21488,7 +21474,7 @@ packages:
       process: 0.11.10
       proxy-from-env: 1.0.0
       request-progress: 3.0.0
-      semver: 7.6.0
+      semver: 7.6.2
       supports-color: 8.1.1
       tmp: 0.2.3
       untildify: 4.0.0
@@ -22278,7 +22264,7 @@ packages:
     resolution: {integrity: sha512-plizRs/Vf15H+GCVxq2EUvyPK7ei9b/cVesHvjnX4xaXjM9spHe2Ytq0BitndFgvTJ3E3NljPNUEl7BAN43iZw==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      yaml: 2.3.4
+      yaml: 2.4.2
     dev: true
 
   /docker-modem@3.0.8:
@@ -22866,11 +22852,6 @@ packages:
       dotenv: 16.3.2
       dotenv-expand: 10.0.0
     dev: false
-
-  /envinfo@7.12.0:
-    resolution: {integrity: sha512-Iw9rQJBGpJRd3rwXm9ft/JiGoAZmLxxJZELYDQoPRZ4USVhkKtIcNBPw6U+/K2mBpaqM25JSV6Yl4Az9vO2wJg==}
-    engines: {node: '>=4'}
-    hasBin: true
 
   /envinfo@7.13.0:
     resolution: {integrity: sha512-cvcaMr7KqXVh4nyzGTVqTum+gAiL265x5jUWQIDLq//zOGbW+gSW/C+OWLleY/rs9Qole6AZLMXPbtIFQbqu+Q==}
@@ -23697,14 +23678,14 @@ packages:
       eslint: '>=8.23.0'
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.3.0)
-      enhanced-resolve: 5.16.0
+      enhanced-resolve: 5.16.1
       eslint: 9.3.0
       eslint-plugin-es-x: 7.6.0(eslint@9.3.0)
-      get-tsconfig: 4.7.3
+      get-tsconfig: 4.7.5
       globals: 15.3.0
       ignore: 5.3.1
       minimatch: 9.0.4
-      semver: 7.6.0
+      semver: 7.6.2
     dev: true
 
   /eslint-plugin-node@11.1.0(eslint@9.3.0):
@@ -25096,7 +25077,7 @@ packages:
     dependencies:
       app-module-path: 2.2.0
       commander: 10.0.1
-      enhanced-resolve: 5.16.0
+      enhanced-resolve: 5.16.1
       is-relative-path: 1.0.2
       module-definition: 5.0.1
       module-lookup-amd: 8.0.5
@@ -25744,12 +25725,6 @@ packages:
       call-bind: 1.0.7
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
-
-  /get-tsconfig@4.7.3:
-    resolution: {integrity: sha512-ZvkrzoUA0PQZM6fy6+/Hce561s+faD1rsNwhnO5FelNjyy7EMGJ3Rz1AQ8GYDWjhRs/7dBLOEJvhK8MiEJOAFg==}
-    dependencies:
-      resolve-pkg-maps: 1.0.0
-    dev: true
 
   /get-tsconfig@4.7.5:
     resolution: {integrity: sha512-ZCuZCnlqNzjb4QprAzXKdpp/gh6KTxSJuw3IBsPnV/7fV4NxC9ckB+vPTt8w7fJA0TaSD7c55BR47JD6MEDyDw==}
@@ -26640,7 +26615,7 @@ packages:
       kleur: 4.1.5
       minimist: 1.2.8
       prompts: 2.4.2
-      semver: 7.6.0
+      semver: 7.6.2
       vitest: 1.6.0(@types/node@20.12.12)(@vitest/ui@1.6.0)(jsdom@24.0.0)(less@4.1.3)(lightningcss@1.25.0)(sass@1.77.2)(stylus@0.59.0)
     dev: true
 
@@ -28640,7 +28615,7 @@ packages:
       '@babel/plugin-transform-class-properties': 7.24.1(@babel/core@7.24.5)
       '@babel/plugin-transform-modules-commonjs': 7.24.1(@babel/core@7.24.5)
       '@babel/plugin-transform-nullish-coalescing-operator': 7.24.1(@babel/core@7.24.5)
-      '@babel/plugin-transform-optional-chaining': 7.24.1(@babel/core@7.24.5)
+      '@babel/plugin-transform-optional-chaining': 7.24.5(@babel/core@7.24.5)
       '@babel/plugin-transform-private-methods': 7.24.1(@babel/core@7.24.5)
       '@babel/preset-env': 7.24.5(@babel/core@7.24.5)
       '@babel/preset-flow': 7.24.1(@babel/core@7.24.5)
@@ -31549,7 +31524,7 @@ packages:
       ignore-by-default: 1.0.1
       minimatch: 3.1.2
       pstree.remy: 1.1.8
-      semver: 7.6.0
+      semver: 7.6.2
       simple-update-notifier: 2.0.0
       supports-color: 5.5.0
       touch: 3.1.0
@@ -38016,7 +37991,7 @@ packages:
       known-css-properties: 0.30.0
       mathml-tag-names: 2.1.3
       meow: 13.2.0
-      micromatch: 4.0.5
+      micromatch: 4.0.6
       normalize-path: 3.0.0
       picocolors: 1.0.0
       postcss: 8.4.38
@@ -39366,7 +39341,7 @@ packages:
       json5: 2.2.3
       lodash.memoize: 4.1.2
       make-error: 1.3.6
-      semver: 7.6.0
+      semver: 7.6.2
       typescript: 5.4.5
       yargs-parser: 21.1.1
     dev: true
@@ -41160,7 +41135,7 @@ packages:
       colorette: 2.0.20
       commander: 10.0.1
       cross-spawn: 7.0.3
-      envinfo: 7.12.0
+      envinfo: 7.13.0
       fastest-levenshtein: 1.0.16
       import-local: 3.1.0
       interpret: 3.1.1
@@ -41494,7 +41469,7 @@ packages:
       acorn-import-assertions: 1.9.0(acorn@8.11.3)
       browserslist: 4.23.0
       chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.16.0
+      enhanced-resolve: 5.16.1
       es-module-lexer: 1.5.3
       eslint-scope: 5.1.1
       events: 3.3.0

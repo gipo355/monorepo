@@ -4,7 +4,7 @@
 # Tip: Modify "docker-build" options in project.json to change docker build args.
 #
 # Run the container with `docker run -p 3000:3000 -t its-battistar-angular`.
-FROM docker.io/node:lts-alpine
+FROM docker.io/node:lts-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24
 
 # TODO: move to caddy
 # docker run -d -p 80:80 \
