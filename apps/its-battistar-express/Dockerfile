@@ -4,7 +4,7 @@
 # Tip: Modify "docker-build" options in project.json to change docker build args.
 #
 # Run the container with `docker run -p 3000:3000 -t its-battistar-express`.
-FROM docker.io/node:lts-alpine as builder
+FROM docker.io/node:lts-alpine@sha256:a7b980c958bfe4d84ee9263badd95a40c8bb50ad5afdb87902c187fefaef0e24 as builder
 
 LABEL org.opencontainers.image.source=https://github.com/gipo355/its-battistar-express
 

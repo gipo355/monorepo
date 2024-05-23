@@ -2,14 +2,14 @@
 version: '3.9'
 services:
   loki:
-    image: grafana/loki:3.0.0
+    image: grafana/loki:3.0.0@sha256:757b5fadf816a1396f1fea598152947421fa49cb8b2db1ddd2a6e30fae003253
     # profiles: [full]
     ports:
       - '3100:3100'
     command: -config.file=/etc/loki/local-config.yaml
   promtail:
     # profiles: [full]
-    image: grafana/promtail:3.0.0
+    image: grafana/promtail:3.0.0@sha256:d3de3da9431cfbe74a6a94555050df5257f357e827be8e63f8998d509c37af8b
     volumes:
       - /tmp/loki/promtail/var/log:/var/log
     command: -config.file=/etc/promtail/config.yml
@@ -38,6 +38,6 @@ services:
           editable: false
         EOF
         /run.sh
-    image: grafana/grafana:latest
+    image: grafana/grafana:latest@sha256:b7fcb534f7b3512801bb3f4e658238846435804deb479d105b5cdc680847c272
     ports:
       - '127.0.0.1:3200:3000'
