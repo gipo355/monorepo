@@ -2,7 +2,7 @@
 # Tip: Modify "docker-build" options in project.json to change docker build args.
 #
 # Run the container with `docker run -p 3000:3000 -t its-battistar-express`.
-FROM docker.io/golang:alpine@sha256:769c0a3571477715d919360cd58b4300c47b1d9a868c072a6e16bd45cd1e49e6 as builder
+FROM docker.io/golang:alpine@sha256:b8ded51bad03238f67994d0a6b88680609b392db04312f60c23358cc878d4902 as builder
 
 LABEL org.opencontainers.image.source=https://github.com/gipo355/its-battistar-be-go
 
