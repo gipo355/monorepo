@@ -1450,8 +1450,8 @@ importers:
         specifier: 12.1.5
         version: 12.1.5(postcss@8.4.38)
       postcss-preset-env:
-        specifier: 9.5.13
-        version: 9.5.13(postcss@8.4.38)
+        specifier: 9.5.14
+        version: 9.5.14(postcss@8.4.38)
       postcss-scss:
         specifier: 4.0.9
         version: 4.0.9(postcss@8.4.38)
@@ -35104,8 +35104,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-preset-env@9.5.13(postcss@8.4.38):
-    resolution: {integrity: sha512-YQMwWu6MAc4Envrjf/mW2BTrb5J8WkrJ4dV2VostZVDhrmEPpYREOyhmvtlFLDxK1/AmTDY8aXjZViMC1qKu/w==}
+  /postcss-preset-env@9.5.14(postcss@8.4.38):
+    resolution: {integrity: sha512-gTMi+3kENN/mN+K59aR+vEOjlkujTmmXJcM9rnAqGh9Y/euQ/ypdp9rd8mO1eoIjAD8vNS15+xbkBxoi+65BqQ==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4

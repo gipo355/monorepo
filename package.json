@@ -509,7 +509,7 @@
     "postcss-load-config": "5.1.0",
     "postcss-loader": "8.1.1",
     "postcss-nesting": "12.1.5",
-    "postcss-preset-env": "9.5.13",
+    "postcss-preset-env": "9.5.14",
     "postcss-scss": "4.0.9",
     "prettier": "3.2.5",
     "prettier-plugin-astro": "0.13.0",
