@@ -35,7 +35,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       # install dependencies
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --ignore-scripts
       # create release pull request
       - name: Create Release Pull Request
         uses: changesets/action@v1
