@@ -1,0 +1,10 @@
+# https://taskfile.dev
+version: '3'
+tasks:
+  example:
+    desc: Example task
+    # deps:
+    #   - assets
+    #   - generate
+    cmds:
+      - echo "Hello, World!"
