@@ -19,6 +19,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@gipo355/say-hello": ["packages/say-hello/src/index.ts"],
       "@its-battistar/error-page": ["libs/error-page/src/index.ts"],
       "@its-battistar/nest-auth": ["libs/nest-auth/src/index.ts"],
       "@its-battistar/nest-todos": ["libs/nest-todos/src/index.ts"],

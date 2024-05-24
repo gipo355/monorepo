@@ -58,6 +58,11 @@
         "{projectRoot}/.storybook/**/*",
         "{projectRoot}/tsconfig.storybook.json"
       ]
+    },
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "generators": {
@@ -91,5 +96,10 @@
       }
     }
   ],
-  "nxCloudAccessToken": "NTFkNDM4YjgtZGZjMC00NjZiLTg2YzQtZGE4MzZmOGNmNjkwfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NTFkNDM4YjgtZGZjMC00NjZiLTg2YzQtZGE4MzZmOGNmNjkwfHJlYWQtd3JpdGU=",
+  "release": {
+    "version": {
+      "preVersionCommand": "pnpm dlx nx run-many -t build"
+    }
+  }
 }
