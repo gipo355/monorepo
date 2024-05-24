@@ -85,7 +85,7 @@
     "@ngrx/signals": "17.2.0",
     "@ngrx/store": "17.2.0",
     "@node-rs/argon2": "1.8.3",
-    "@nx/angular": "19.0.6",
+    "@nx/angular": "19.0.7",
     "@prisma/client": "5.14.0",
     "@sentry/angular-ivy": "7.114.0",
     "@sentry/node": "7.116.0",
