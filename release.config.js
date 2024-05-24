@@ -1,3 +1,4 @@
+// this file configures the semantic-release bot
 const BREAKING_KEYWORDS = ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'];
 module.exports = {
   // choose the branch to release from
