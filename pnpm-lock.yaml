@@ -1306,11 +1306,11 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(webpack@5.91.0)
       html-validate:
-        specifier: 8.19.0
-        version: 8.19.0(jest@29.7.0)(vitest@1.6.0)
+        specifier: 8.19.1
+        version: 8.19.1(jest@29.7.0)(vitest@1.6.0)
       html-validate-angular:
         specifier: 5.0.0
-        version: 5.0.0(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.0)
+        version: 5.0.0(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.1)
       html-webpack-plugin:
         specifier: 5.6.0
         version: 5.6.0(webpack@5.91.0)
@@ -8966,7 +8966,7 @@ packages:
       es-html-parser: 0.0.9
     dev: true
 
-  /@html-validate/plugin-utils@1.0.2(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.0):
+  /@html-validate/plugin-utils@1.0.2(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.1):
     resolution: {integrity: sha512-VqxNnNr3D/LgaU5/JWJaRIunlT9S+okVhHWOCHCu+/nfDDNHgR7z/mFkx2QNIs5jSVcWkYJPOltjtyWGzuoY1Q==}
     engines: {node: '>= 16.0'}
     peerDependencies:
@@ -8976,7 +8976,7 @@ packages:
     dependencies:
       acorn-walk: 8.3.2
       espree: 9.6.1
-      html-validate: 8.19.0(jest@29.7.0)(vitest@1.6.0)
+      html-validate: 8.19.1(jest@29.7.0)(vitest@1.6.0)
     dev: true
 
   /@html-validate/stylish@4.2.0:
@@ -26557,21 +26557,21 @@ packages:
       selderee: 0.11.0
     dev: false
 
-  /html-validate-angular@5.0.0(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.0):
+  /html-validate-angular@5.0.0(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.1):
     resolution: {integrity: sha512-H3kkJZKH6RIbjfxsjW3lPEo0Hnl84d1RBdteNkWIGskFMG+mIIh2ixvVvbD3M6wIh1c/25LMRjK3J5M5yJb45Q==}
     engines: {node: '>= 16.0'}
     peerDependencies:
       html-validate: ^5.3 || ^6 || ^7 || ^8
     dependencies:
-      '@html-validate/plugin-utils': 1.0.2(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.0)
-      html-validate: 8.19.0(jest@29.7.0)(vitest@1.6.0)
+      '@html-validate/plugin-utils': 1.0.2(acorn-walk@8.3.2)(espree@9.6.1)(html-validate@8.19.1)
+      html-validate: 8.19.1(jest@29.7.0)(vitest@1.6.0)
     transitivePeerDependencies:
       - acorn-walk
       - espree
     dev: true
 
-  /html-validate@8.19.0(jest@29.7.0)(vitest@1.6.0):
-    resolution: {integrity: sha512-VGdoPUPW1OX4xKh0dq3c+npLdOK6EHLgubPfPVYuLOxKEwEOGH/HgRtCSfGXRcdgSHrkQpUXB1kdBSyTJSU6NA==}
+  /html-validate@8.19.1(jest@29.7.0)(vitest@1.6.0):
+    resolution: {integrity: sha512-8nV35ZRr2eOy1tGeFZzBaV4rHaHtK6GZRfjOsqXi/iZ0BMajfMHcCZno2mWsSmX2rcjD228WbHgiAldTZwO2Xw==}
     engines: {node: '>= 16.14'}
     hasBin: true
     peerDependencies:
