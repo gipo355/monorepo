@@ -273,8 +273,8 @@ importers:
         specifier: 1.20.2
         version: 1.20.2
       bull:
-        specifier: 4.12.8
-        version: 4.12.8
+        specifier: 4.12.9
+        version: 4.12.9
       bullmq:
         specifier: 5.7.11
         version: 5.7.11
@@ -19568,8 +19568,8 @@ packages:
     dependencies:
       semver: 7.6.2
 
-  /bull@4.12.8:
-    resolution: {integrity: sha512-JgZVAR3ChuesMWSJfQjgTyXb6kdT6qos3ft9pt0AASRMiRZIjDxHMtxfcOs2Zf8O9uSv0Y5ycYwv5Te3liGJ3A==}
+  /bull@4.12.9:
+    resolution: {integrity: sha512-rqka/O9ZBfrKgI4fanhN6XW0AJ9WYRakjHlCJPjoHyh79xIvEjyU8hvs/CCeRdrbU6zSw8UNfDOjCUaQO1MTuQ==}
     engines: {node: '>=12'}
     dependencies:
       cron-parser: 4.9.0
