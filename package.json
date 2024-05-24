@@ -498,7 +498,7 @@
     "mocha": "10.4.0",
     "nightwind": "1.1.13",
     "nodemon": "3.1.0",
-    "npm-run-all2": "5.0.0",
+    "npm-run-all2": "5.0.2",
     "nx": "19.0.7",
     "nx-stylelint": "17.1.4",
     "optionator": "0.9.4",
