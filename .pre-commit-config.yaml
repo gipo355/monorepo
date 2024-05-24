@@ -57,11 +57,13 @@ repos:
         stages: [commit]
         args: ['--baseline', '.secrets.baseline']
         exclude: package.lock.json
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: '' # Use the sha or tag you want to point at
-    hooks:
-      - id: prettier
-        stages: [commit]
+  # WARN: archive, broken
+  # prettier and eslint hooks should be run with lint-staged
+  # - repo: https://github.com/pre-commit/mirrors-prettier
+  #   rev: '' # Use the sha or tag you want to point at
+  #   hooks:
+  #     - id: prettier
+  #       stages: [commit]
   # Custom hooks, local scripts
   # https://stackoverflow.com/questions/59499061/how-to-run-custom-shell-script-file-before-pre-commit-hook
   - repo: local
