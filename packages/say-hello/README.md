@@ -2,6 +2,8 @@
 
 This library was generated with [Nx](https://nx.dev).
 
+test
+
 ## Building
 
 Run `nx build say-hello` to build the library.
