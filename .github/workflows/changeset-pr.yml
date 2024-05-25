@@ -60,22 +60,24 @@ jobs:
         with:
           commit: 'chore: update versions'
           title: 'chore: update versions'
+          publish: npx nx release publish
           # publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       # print environment info
-      - name: Print Environment Info step
-        run: npx nx report
-        shell: bash
+      # - name: Print Environment Info step
+      #   run: npx nx report
+      #   shell: bash
       # publish release
       # example 1
-      - name: Publish packages
-        if: steps.changesets.outputs.hasChangesets == 'false'
-        run: npx nx release publish
-        shell: bash
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true # works only if repo is public
+      # - name: Publish packages
+      #   if: steps.changesets.outputs.hasChangesets == 'false'
+      #   run: npx nx release publish
+      #   shell: bash
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #     NPM_CONFIG_PROVENANCE: true # works only if repo is public
       # example 2
       # - name: Publish Release step
       #   if: steps.changesets.outputs.hasChangesets == 'false'
