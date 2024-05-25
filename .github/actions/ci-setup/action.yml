@@ -3,10 +3,10 @@ runs:
   using: composite
   steps:
     # setup go
-    - uses: actions/setup-go@v5
+    - uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # v5
       name: Setup Go
     # setup dotnet
-    - uses: actions/setup-dotnet@v4
+    - uses: actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3 # v4
       name: Setup .NET
     # setup node.js
     - name: Setup Node.js 22
