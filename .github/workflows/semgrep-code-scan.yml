@@ -15,6 +15,14 @@ on:
       # It is recommended to change the schedule to a random time.
 jobs:
   semgrep:
+    permissions:
+      # required for all workflows
+      security-events: write
+      # required to fetch internal or private CodeQL packs
+      packages: read
+      # only required for workflows in private repositories
+      actions: read
+      contents: read
     # User definable name of this GitHub Actions job.
     name: semgrep/ci
     # If you are self-hosting, change the following `runs-on` value:
