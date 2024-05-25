@@ -3,7 +3,7 @@
   "version": "0.3.2",
   "dependencies": {},
   "repository": {
-    "url": "https://github.com/gipo355/monorepo/libs/say-hello-cross"
+    "url": "https://github.com/gipo355/monorepo"
   },
   "homepage": "https://github.com/gipo355/monorepo/libs/say-hello-cross",
   "main": "./index.cjs",
