@@ -1,5 +1,11 @@
 # @gipo355/say-hello-cross
 
+## 0.3.2
+
+### Patch Changes
+
+- 890b7c8: add docs
+
 ## 0.3.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@gipo355/say-hello-cross",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "dependencies": {},
   "repository": {
     "url": "https://github.com/gipo355/monorepo/libs/say-hello-cross"
