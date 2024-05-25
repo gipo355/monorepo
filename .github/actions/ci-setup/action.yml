@@ -27,7 +27,9 @@ runs:
           ${{ runner.os }}-pnpm-store-
     # install nx cli
     - name: Install Nx CLI
+      shell: bash
       run: pnpm add -g nx@latest
     # install dependencies
     - name: Install dependencies
+      shell: bash
       run: pnpm install --frozen-lockfile --ignore-scripts
