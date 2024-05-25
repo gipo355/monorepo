@@ -14,10 +14,6 @@ interface ISayHelloCrossOptions {
  * @description it returns a string equals to the input
  * @param {ISayHelloCrossOptions} opts
  * @returns string
- * @example
- * ```ts
- * const result = sayHelloCross();
- * ```
  */
 export function sayHelloCross(opts: ISayHelloCrossOptions): string {
   return opts.output;
