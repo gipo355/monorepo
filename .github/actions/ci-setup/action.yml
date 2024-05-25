@@ -2,6 +2,8 @@ name: Setup CI
 runs:
   using: composite
   steps:
+    - uses: actions/setup-go@v5
+      name: Setup Go
     - name: Setup Node.js 22
       uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
       with:
