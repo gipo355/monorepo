@@ -1,5 +1,12 @@
 # @gipo355/say-hello-cross
 
+## 0.3.1
+
+### Patch Changes
+
+- 4f465ab: add assets
+- 13953d2: add homepage and url
+
 ## 0.3.0
 
 ### Minor Changes
