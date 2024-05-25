@@ -274,6 +274,7 @@
     "@nx/node": "19.1.0",
     "@nx/plugin": "19.1.0",
     "@nx/react": "19.1.0",
+    "@nx/rollup": "19.1.0",
     "@nx/storybook": "19.1.0",
     "@nx/vite": "19.1.0",
     "@nx/web": "19.1.0",
