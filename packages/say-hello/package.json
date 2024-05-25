@@ -1,6 +1,7 @@
 {
   "name": "@gipo355/say-hello",
   "version": "0.1.0",
+  "private": false,
   "dependencies": {
     "tslib": "^2.3.0"
   },

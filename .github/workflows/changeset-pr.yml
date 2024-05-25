@@ -75,7 +75,7 @@ jobs:
         shell: bash
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
+          # NPM_CONFIG_PROVENANCE: true # works only if repo is public
       # example 2
       # - name: Publish Release step
       #   if: steps.changesets.outputs.hasChangesets == 'false'
