@@ -1,5 +1,11 @@
 # @gipo355/say-hello
 
+## 0.3.0
+
+### Minor Changes
+
+- ebf690d: add access public
+
 ## 0.2.0
 
 ### Minor Changes
