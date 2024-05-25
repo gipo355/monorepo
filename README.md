@@ -1,5 +1,10 @@
 test test test
 
+TODO:
+
+add global ci setup
+<https://github.com/changesets/changesets/blob/main/.github/actions/ci-setup/action.yml>
+
 ## CONTRIBUTING
 
 please follow the [CONTRIBUTING.md](.github/CONTRIBUTING.md) guidelines
