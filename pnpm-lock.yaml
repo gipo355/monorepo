@@ -1697,10 +1697,10 @@ importers:
   apps/its-battistar-express:
     dependencies:
       pino-loki:
-        specifier: ^2.2.1
+        specifier: 2.3.0
         version: 2.3.0
       pino-pretty:
-        specifier: ^11.0.0
+        specifier: 11.0.0
         version: 11.0.0
 
   libs/shared-types: {}
@@ -1710,7 +1710,7 @@ importers:
   packages/say-hello:
     dependencies:
       tslib:
-        specifier: ^2.3.0
+        specifier: 2.6.2
         version: 2.6.2
 
 packages:
@@ -33730,7 +33730,7 @@ packages:
       joycon: 3.1.1
       minimist: 1.2.8
       on-exit-leak-free: 2.1.2
-      pino-abstract-transport: 1.1.0
+      pino-abstract-transport: 1.2.0
       pump: 3.0.0
       readable-stream: 4.5.2
       secure-json-parse: 2.7.0
@@ -33750,7 +33750,7 @@ packages:
       joycon: 3.1.1
       minimist: 1.2.8
       on-exit-leak-free: 2.1.2
-      pino-abstract-transport: 1.1.0
+      pino-abstract-transport: 1.2.0
       pump: 3.0.0
       readable-stream: 4.5.2
       secure-json-parse: 2.7.0
