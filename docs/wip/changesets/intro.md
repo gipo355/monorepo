@@ -19,3 +19,7 @@ We're thinking of adding another mode to this action that would do the versionin
 <https://pnpm.io/using-changesets>
 
 <https://nx.dev/recipes/nx-release/publish-in-ci-cd>
+
+<https://nx.dev/recipes/nx-release/publish-in-ci-cd>
+
+<https://github.com/nrwl/nx/issues/20704>
