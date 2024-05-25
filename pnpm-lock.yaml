@@ -313,7 +313,7 @@ importers:
         version: 5.0.2
       drizzle-orm:
         specifier: 0.30.10
-        version: 0.30.10(@aws-sdk/client-rds-data@3.577.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.9)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1)
+        version: 0.30.10(@aws-sdk/client-rds-data@3.577.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.10)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1)
       drizzle-zod:
         specifier: 0.5.1
         version: 0.5.1(drizzle-orm@0.30.10)(zod@3.23.8)
@@ -1114,8 +1114,8 @@ importers:
         specifier: 5.3.3
         version: 5.3.3(@popperjs/core@2.11.8)
       bun-types:
-        specifier: 1.1.9
-        version: 1.1.9
+        specifier: 1.1.10
+        version: 1.1.10
       caniuse-lite:
         specifier: 1.0.30001621
         version: 1.0.30001621
@@ -20312,8 +20312,8 @@ packages:
       - supports-color
     dev: false
 
-  /bun-types@1.1.9:
-    resolution: {integrity: sha512-3YuLiH4Ne/ghk7K6mHiaqCqKOMrtB0Z5p1WAskHSVgi0iMZgsARV4yGkbfi565YsStvUq6GXTWB3ga7M8cznkA==}
+  /bun-types@1.1.10:
+    resolution: {integrity: sha512-oBsZ0Bf9HEKr1Ta5bUYgVO6sHkZtTlfHlEj9DGpghZphNdhKI/38eZ5dk+/et/HrStT1sfykHBUW4ughmoNKog==}
     dependencies:
       '@types/node': 20.12.12
       '@types/ws': 8.5.10
@@ -23258,7 +23258,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.30.10(@aws-sdk/client-rds-data@3.577.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.9)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1):
+  /drizzle-orm@0.30.10(@aws-sdk/client-rds-data@3.577.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.10)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1):
     resolution: {integrity: sha512-IRy/QmMWw9lAQHpwbUh1b8fcn27S/a9zMIzqea1WNOxK9/4EB8gIo+FZWLiPXzl2n9ixGSv8BhsLZiOppWEwBw==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -23341,7 +23341,7 @@ packages:
       '@aws-sdk/client-rds-data': 3.577.0
       '@types/pg': 8.11.6
       '@types/react': 18.3.3
-      bun-types: 1.1.9
+      bun-types: 1.1.10
       kysely: 0.25.0
       pg: 8.11.5
       postgres: 3.4.4
@@ -23354,7 +23354,7 @@ packages:
       drizzle-orm: '>=0.23.13'
       zod: '*'
     dependencies:
-      drizzle-orm: 0.30.10(@aws-sdk/client-rds-data@3.577.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.9)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1)
+      drizzle-orm: 0.30.10(@aws-sdk/client-rds-data@3.577.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.10)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1)
       zod: 3.23.8
     dev: false
 
