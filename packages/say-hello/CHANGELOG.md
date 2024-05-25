@@ -1,5 +1,11 @@
 # @gipo355/say-hello
 
+## 0.1.0
+
+### Minor Changes
+
+- caad75f: added build step depends
+
 ## 0.0.3
 
 ### Patch Changes
