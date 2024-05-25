@@ -1,5 +1,11 @@
 # @gipo355/say-hello-cross
 
+## 0.3.4
+
+### Patch Changes
+
+- 8a79f2c: test increase
+
 ## 0.3.3
 
 ### Patch Changes
