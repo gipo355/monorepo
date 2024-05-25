@@ -1,5 +1,11 @@
 # @gipo355/say-hello-cross
 
+## 0.3.3
+
+### Patch Changes
+
+- ceea4e5: fix provenance
+
 ## 0.3.2
 
 ### Patch Changes
