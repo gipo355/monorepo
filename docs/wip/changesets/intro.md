@@ -15,3 +15,7 @@ The creation of the PR and NPM publish don't happen simultaneously. The way this
 
 We're thinking of adding another mode to this action that would do the versioning and publishing at the same time which I think is what you want?
 ```
+
+<https://pnpm.io/using-changesets>
+
+<https://nx.dev/recipes/nx-release/publish-in-ci-cd>
