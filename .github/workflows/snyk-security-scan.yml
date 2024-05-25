@@ -47,22 +47,18 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
           # Runs Snyk Code (SAST) analysis and uploads result into GitHub.
           # Use || true to not fail the pipeline
+      - name: login to snyk
+        run: snyk auth ${{ secrets.SNYK_TOKEN }}
       - name: Snyk Code test
         run: snyk code test --sarif > snyk-code.sarif  || true
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          # Runs Snyk Open Source (SCA) analysis and uploads result to Snyk.
+        # Runs Snyk Open Source (SCA) analysis and uploads result to Snyk.
       - name: Snyk Open Source monitor
         run: snyk monitor --all-projects
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          # Runs Snyk Infrastructure as Code (IaC) analysis and uploads result to Snyk.
-          # Use || true to not fail the pipeline.
+        # Runs Snyk Infrastructure as Code (IaC) analysis and uploads result to Snyk.
+        # Use || true to not fail the pipeline.
       - name: Snyk IaC test and report
         run: snyk iac test --report  || true
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-          # Build the docker image for testing
+        # Build the docker image for testing
         # - name: Build a Docker image
         #   run: docker build -t your/image-to-test .
         # Runs Snyk Container (Container and SCA) analysis and uploads result to Snyk.
