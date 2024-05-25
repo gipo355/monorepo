@@ -20,7 +20,13 @@
         "outputPath": "dist/libs/say-hello-cross",
         "main": "libs/say-hello-cross/src/index.ts",
         "tsConfig": "libs/say-hello-cross/tsconfig.lib.json",
-        "assets": ["libs/say-hello-cross/src/*.md"],
+        "assets": [
+          {
+            "input": "libs/say-hello-cross",
+            "glob": "*.md",
+            "output": "./"
+          }
+        ],
         "project": "libs/say-hello-cross/package.json",
         "compiler": "swc",
         "format": ["cjs", "esm"]
