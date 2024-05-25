@@ -28,6 +28,7 @@
     },
     "nx-release-publish": {
       "options": {
+        "dependsOn": ["build"],
         "packageRoot": "dist/{projectRoot}"
       }
     },
