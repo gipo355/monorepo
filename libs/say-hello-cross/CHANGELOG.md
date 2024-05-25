@@ -1,5 +1,11 @@
 # @gipo355/say-hello-cross
 
+## 0.3.0
+
+### Minor Changes
+
+- 12a1879: provide interface
+
 ## 0.2.0
 
 ### Minor Changes
