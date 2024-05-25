@@ -1,3 +1,4 @@
+# https://0xdbe.github.io/GitHub-HowToEnableCodeScanningWithSemgrep/
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
@@ -41,4 +42,5 @@ jobs:
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: semgrep.sarif
+          category: semgrep
         if: always()
