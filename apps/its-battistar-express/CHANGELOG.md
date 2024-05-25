@@ -1,5 +1,15 @@
 # @its-battistar/its-battistar-express
 
+## 1.2.0
+
+### Minor Changes
+
+- bc4fb02: added another comment to readme
+
+### Patch Changes
+
+- 15b666e: added a comment on readme
+
 ## 1.1.0
 
 ### Minor Changes
