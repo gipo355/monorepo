@@ -9,6 +9,7 @@
   "main": "./index.cjs",
   "module": "./index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   }
 }
