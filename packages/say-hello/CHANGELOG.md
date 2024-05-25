@@ -1,5 +1,11 @@
 # @gipo355/say-hello
 
+## 0.3.1
+
+### Patch Changes
+
+- 9bf9bfc: comment
+
 ## 0.3.0
 
 ### Minor Changes
