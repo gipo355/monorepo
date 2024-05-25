@@ -15,6 +15,7 @@ jobs:
       id-token: write # to enable use of OIDC for npm provenance
     runs-on: ubuntu-latest
     steps:
+      - uses: ./.github/actions/ci-setup
       - name: create npmrc step
         run: |
           # cat << EOF > .npmrc "$HOME/.npmrc"
