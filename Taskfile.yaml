@@ -8,3 +8,8 @@ tasks:
     #   - generate
     cmds:
       - echo "Hello, World!"
+  gen-pub-lib:
+    cmds:
+      - nx g @nx/js:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable --directory=libs/{{.CLI_ARGS}}
+  gen-pub-package:
+      - nx g @nx/js:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable --directory=packages/{{.CLI_ARGS}}
