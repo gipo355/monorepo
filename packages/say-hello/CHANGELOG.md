@@ -1,5 +1,11 @@
 # @gipo355/say-hello
 
+## 0.2.0
+
+### Minor Changes
+
+- da50f53: remove provenance
+
 ## 0.1.0
 
 ### Minor Changes
