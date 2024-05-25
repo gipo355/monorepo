@@ -104,7 +104,7 @@
     "ajv-formats": "3.0.1",
     "ajv-keywords": "5.1.0",
     "amqplib": "0.10.4",
-    "argon2": "0.40.1",
+    "argon2": "0.40.3",
     "astro": "4.9.1",
     "aws-sdk": "2.1628.0",
     "axios": "1.7.2",
