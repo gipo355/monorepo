@@ -14,6 +14,10 @@ runs:
       name: Setup Go
       with: # Set the Go version to use
         go-version: 1.22.2
+    # print go env
+    - name: Print Go env
+      shell: bash
+      run: go env
     # setup task
     - name: Install Task
       uses: arduino/setup-task@v2
