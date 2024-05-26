@@ -1710,12 +1710,6 @@ importers:
 
   libs/shared-utils: {}
 
-  packages/say-hello:
-    dependencies:
-      tslib:
-        specifier: 2.6.2
-        version: 2.6.2
-
   packages/say-hello-cross: {}
 
 packages:
