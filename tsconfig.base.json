@@ -19,7 +19,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@gipo355/say-hello": ["packages/say-hello/src/index.ts"],
       "@gipo355/say-hello-cross": ["packages/say-hello-cross/src/index.ts"],
       "@its-battistar/error-page": ["libs/error-page/src/index.ts"],
       "@its-battistar/nest-auth": ["libs/nest-auth/src/index.ts"],
