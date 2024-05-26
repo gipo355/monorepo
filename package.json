@@ -612,7 +612,7 @@
   "repository": "https://github.com/gipo355/monorepo",
   "scripts": {
     "changeset": "changeset",
-    "changeset-version": "changeset version",
+    "changeset-publish": "tsx scripts/nx-run-many.ts --build && changeset publish",
     "clear-all-cache": "tsx scripts/clear.ts --cache",
     "clear-all-useless-folders": "tsx scripts/clear.ts --folders",
     "commit": "git-cz",

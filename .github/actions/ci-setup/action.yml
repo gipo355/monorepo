@@ -8,6 +8,9 @@ runs:
     # setup dotnet
     - uses: actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3 # v4
       name: Setup .NET
+    # setup python
+    - uses: actions/setup-python@v5
+      name: Setup Python
     # setup node.js
     - name: Setup Node.js 22
       uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
@@ -37,4 +40,6 @@ runs:
     # install dependencies
     - name: Install dependencies
       shell: bash
-      run: pnpm install --frozen-lockfile --ignore-scripts
+      run: pnpm install --frozen-lockfile
+  # - name: Init tasks
+  #   run: nx run-many -t init
