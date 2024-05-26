@@ -30,8 +30,14 @@ runs:
     # setup pnpm
     - uses: pnpm/action-setup@v3
       name: Install pnpm
+      # respects package.json packageManager if present when no version is specified
       with:
         run_install: false
+    # enabling corepack prevents the need to install it
+    # and makes sure it respects package.json packageManager
+    # - name: enable corepack
+    #   shell: bash
+    #   run: corepack enable
     # get cache
     - name: Get pnpm store directory
       shell: bash
