@@ -3,12 +3,12 @@ runs:
   using: composite
   steps:
     # get git lfs objects
-    - name: Checkout LFS objects
-      shell: bash
-      run: git lfs checkout
-    - name: Pull LFS objects
-      shell: bash
-      run: git lfs pull
+    # - name: Checkout LFS objects
+    #   shell: bash
+    #   run: git lfs checkout
+    # - name: Pull LFS objects
+    #   shell: bash
+    #   run: git lfs pull
     # setup go
     - uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # v5
       name: Setup Go
