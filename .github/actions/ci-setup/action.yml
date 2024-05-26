@@ -22,6 +22,7 @@ runs:
     - name: Print which nilaway
       shell: bash
       run: which nilaway
+      # /home/runner/go/bin/nilaway <-- this is the folder i want to cache
       # print go env
     - name: Print Go env
       shell: bash
