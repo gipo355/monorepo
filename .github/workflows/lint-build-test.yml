@@ -1,7 +1,7 @@
 name: Lint Test Build Workflow
 on:
-  push:
-    branches: ['main']
+  # push:
+  #   branches: ['main']
   pull_request:
     branches: ['main']
   workflow_dispatch: {}
@@ -40,7 +40,5 @@ jobs:
       - name: Set up main branch for affected commands in PR
         run: git branch --track dev origin/main
         if: ${{ github.event_name == 'pull_request' }}
-      - name: prepare nx cloud
-        run: npx nx-cloud record -- nx format:check
       - name: lint test build
         run: nx affected -t lint test build

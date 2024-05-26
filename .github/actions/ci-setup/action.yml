@@ -14,19 +14,30 @@ runs:
       name: Setup Go
       with: # Set the Go version to use
         go-version: 1.22.2
+    # cache go binaries under /home/runner/go/bin
+    - uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+      name: Setup Go cache
+      with:
+        path: /home/runner/go/bin
+        key: ${{ runner.os }}-go-bin-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-bin-
     # install example go package
-    - name: Install example go package
+    - name: Install go tools
       shell: bash
-      run: go install go.uber.org/nilaway/cmd/nilaway@latest
-    # print which nilaway
-    - name: Print which nilaway
-      shell: bash
-      run: which nilaway
-      # /home/runner/go/bin/nilaway <-- this is the folder i want to cache
-      # print go env
-    - name: Print Go env
-      shell: bash
-      run: go env
+      run: |
+        go install go.uber.org/nilaway/cmd/nilaway@latest
+        go install github.com/swaggo/swag/cmd/swag@latest
+        go install github.com/dkorunic/betteralign/cmd/betteralign@latest
+        go install github.com/goreleaser/goreleaser@latest
+        go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+        go install github.com/a-h/templ/cmd/templ@latest
+        go install github.com/vektra/mockery/v2@latest
+        go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.58.1
+        go install github.com/segmentio/golines@latest
+        go install golang.org/x/tools/cmd/goimports@latest
+        go install github.com/securego/gosec/v2/cmd/gosec@latest
+        go install mvdan.cc/gofumpt@latest
     # setup task
     - name: Install Task
       uses: arduino/setup-task@v2
