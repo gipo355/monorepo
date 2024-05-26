@@ -1,4 +1,6 @@
 # https://github.com/clemenscodes/nx-plugins/blob/main/codecov.yml
+# https://github.com/rxjs-ninja/rxjs-ninja
+# https://emmer.dev/blog/reporting-lerna-monorepo-test-coverage-to-codecov/
 #
 codecov:
   notify:
