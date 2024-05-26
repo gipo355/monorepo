@@ -619,7 +619,7 @@
     "format-packages": "tsx scripts/format-packages.ts --all",
     "lint-all": "tsx scripts/nx-run-many.ts --lint --test --build",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "./pre-commit-3.7.0.pyz install --hook-type pre-commit --hook-type pre-push --hook-type commit-msg"
+    "prepare": "pre-commit install --hook-type pre-commit --hook-type pre-push --hook-type commit-msg"
   },
   "nx": {
     "includedScripts": []
