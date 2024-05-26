@@ -1,5 +1,11 @@
 # @gipo355/example-node-lib
 
+## 0.4.0
+
+### Minor Changes
+
+- f185a9f: rename project, add eslint
+
 ## 0.3.7
 
 ### Patch Changes
