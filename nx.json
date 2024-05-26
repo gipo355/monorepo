@@ -101,11 +101,10 @@
       }
     }
   ],
-  "nxCloudAccessToken": "NDFlYWVlN2QtNzA2My00OTZiLTlhYzctMThkMTE0Yjg4NDlkfHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "Zjc5YTkxNTQtZTljMS00ODllLWEyYmQtYjYwNTY5MzhiNDhhfHJlYWQ=",
   "release": {
     "version": {
       "preVersionCommand": "pnpm dlx nx run-many -t build"
     }
   }
 }
-
