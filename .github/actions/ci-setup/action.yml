@@ -5,17 +5,21 @@ runs:
     # setup go
     - uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # v5
       name: Setup Go
+      with: # Set the Go version to use
+        go-version: 1.22.2
     # setup dotnet
     - uses: actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3 # v4
       name: Setup .NET
     # setup python
     - uses: actions/setup-python@v5
       name: Setup Python
+      with:
+        python-version: 3.12
     # setup node.js
     - name: Setup Node.js 22
       uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
       with:
-        node-version: 22
+        node-version: 22.1.0
     # setup pnpm
     - uses: pnpm/action-setup@v3
       name: Install pnpm
@@ -36,7 +40,7 @@ runs:
     # install nx cli
     - name: Install Nx CLI
       shell: bash
-      run: pnpm add -g nx@latest
+      run: npm install -g nx@latest
     # install dependencies
     - name: Install dependencies
       shell: bash
