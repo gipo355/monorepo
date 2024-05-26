@@ -7,7 +7,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { ITodo } from '@its-battistar/shared-types';
+import { ITodo } from '@gipo355/shared-types';
 import { initFlowbite } from 'flowbite';
 
 import { TodoFilterComponent } from './todo-filter/todo-filter.component';

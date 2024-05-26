@@ -1,4 +1,4 @@
-import { todoSchemaInput } from '@its-battistar/shared-types';
+import { todoSchemaInput } from '@gipo355/shared-types';
 
 import { ajvInstance } from '../utils/ajv';
 

@@ -1,4 +1,4 @@
-import type { IUser } from '@its-battistar/shared-types';
+import type { IUser } from '@gipo355/shared-types';
 import type { Request } from 'express';
 import { StatusCodes } from 'http-status-codes';
 

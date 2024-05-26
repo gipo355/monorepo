@@ -1,4 +1,4 @@
-import { accountSchema } from '@its-battistar/shared-types';
+import { accountSchema } from '@gipo355/shared-types';
 import fastJsonStringify from 'fast-json-stringify';
 
 import { ajvInstance } from '../utils/ajv';

@@ -3,12 +3,12 @@ import type {
   GithubUser2,
   ReturnedGithubUser,
   TGithubUsers,
-} from '@its-battistar/shared-types';
+} from '@gipo355/shared-types';
 import {
   assertAjvValidationOrThrow,
   validateGithubUser2,
   validateGithubUsers,
-} from '@its-battistar/shared-utils';
+} from '@gipo355/shared-utils';
 import { StatusCodes } from 'http-status-codes';
 
 import { AppError } from './app-error';

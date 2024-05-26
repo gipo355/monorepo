@@ -1,5 +1,5 @@
-import type { IAccount } from '@its-battistar/shared-types';
-import { EStrategy } from '@its-battistar/shared-types';
+import type { IAccount } from '@gipo355/shared-types';
+import { EStrategy } from '@gipo355/shared-types';
 import type { Model } from 'mongoose';
 import mongoose from 'mongoose';
 import isEmail from 'validator/lib/isEmail';

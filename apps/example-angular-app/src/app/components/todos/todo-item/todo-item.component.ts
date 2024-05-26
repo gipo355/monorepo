@@ -6,7 +6,7 @@ import {
   input,
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ETodoColorOptions, ITodo } from '@its-battistar/shared-types';
+import { ETodoColorOptions, ITodo } from '@gipo355/shared-types';
 
 @Component({
   selector: 'app-todo-item',

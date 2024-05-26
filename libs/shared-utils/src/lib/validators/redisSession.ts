@@ -1,4 +1,4 @@
-import { redisSessionPayloadSchema } from '@its-battistar/shared-types';
+import { redisSessionPayloadSchema } from '@gipo355/shared-types';
 
 import { ajvInstance } from '../utils';
 

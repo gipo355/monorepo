@@ -7,7 +7,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ETodoSortByOptions } from '@its-battistar/shared-types';
+import { ETodoSortByOptions } from '@gipo355/shared-types';
 import { debounceTime, Subject, takeUntil } from 'rxjs';
 
 import { TodosStore } from '../todos.store';

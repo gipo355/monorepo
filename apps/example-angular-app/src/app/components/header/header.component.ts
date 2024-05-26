@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { IUserSafe } from '@its-battistar/shared-types';
+import { IUserSafe } from '@gipo355/shared-types';
 
 @Component({
   selector: 'app-header',

@@ -54,7 +54,7 @@ export const appRoutes: Route[] = [
     // ideally the url name should match the error type (page-not-found, server-error, etc)
     pathMatch: 'full',
     loadChildren: async () =>
-      import('@its-battistar/error-page').then((m) => m.errorPageRoutes),
+      import('@gipo355/error-page').then((m) => m.errorPageRoutes),
   },
 
   {

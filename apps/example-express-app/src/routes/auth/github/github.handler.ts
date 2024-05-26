@@ -1,4 +1,4 @@
-// import { CustomResponse } from '@its-battistar/shared-types';
+// import { CustomResponse } from '@gipo355/shared-types';
 import type { Handler } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import type { AuthorizationTokenConfig } from 'simple-oauth2';

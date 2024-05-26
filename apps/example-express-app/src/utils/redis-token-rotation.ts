@@ -1,8 +1,8 @@
-import type { TRedisSessionPayload } from '@its-battistar/shared-types';
+import type { TRedisSessionPayload } from '@gipo355/shared-types';
 import {
   assertAjvValidationOrThrow,
   validateRedisSessionPayload,
-} from '@its-battistar/shared-utils';
+} from '@gipo355/shared-utils';
 import { StatusCodes } from 'http-status-codes';
 import type IORedis from 'ioredis';
 import type mongoose from 'mongoose';

@@ -1,7 +1,7 @@
 import {
   githubUserSchema2,
   githubUsersSchema,
-} from '@its-battistar/shared-types';
+} from '@gipo355/shared-types';
 
 import { ajvInstance } from '../utils';
 

@@ -12,7 +12,7 @@ import {
 } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 // import { Router } from '@angular/router';
-import { CustomResponse } from '@its-battistar/shared-types';
+import { CustomResponse } from '@gipo355/shared-types';
 import { from, throwError } from 'rxjs';
 import { catchError, switchMap } from 'rxjs/operators';
 

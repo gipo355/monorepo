@@ -14,7 +14,7 @@
 // import {
 //   CustomResponse,
 // stringifyCustomResponseFactory,
-// } from '@its-battistar/shared-types';
+// } from '@gipo355/shared-types';
 import type { ErrorRequestHandler } from 'express';
 import { StatusCodes } from 'http-status-codes';
 

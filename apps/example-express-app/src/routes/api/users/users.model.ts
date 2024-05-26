@@ -1,5 +1,5 @@
-import type { IUser } from '@its-battistar/shared-types';
-import { ERole } from '@its-battistar/shared-types';
+import type { IUser } from '@gipo355/shared-types';
+import { ERole } from '@gipo355/shared-types';
 import mongoose from 'mongoose';
 import isAscii from 'validator/lib/isAscii';
 import isURL from 'validator/lib/isURL';

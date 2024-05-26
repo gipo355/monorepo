@@ -1,6 +1,6 @@
 /* eslint-disable no-magic-numbers */
-import type { ITodo } from '@its-battistar/shared-types';
-import { ETodoColorOptions } from '@its-battistar/shared-types';
+import type { ITodo } from '@gipo355/shared-types';
+import { ETodoColorOptions } from '@gipo355/shared-types';
 import mongoose from 'mongoose';
 import isAscii from 'validator/lib/isAscii';
 import isURL from 'validator/lib/isURL';

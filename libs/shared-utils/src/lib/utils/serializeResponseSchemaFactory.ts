@@ -1,4 +1,4 @@
-import { customResponseSchemaFactory } from '@its-battistar/shared-types';
+import { customResponseSchemaFactory } from '@gipo355/shared-types';
 import { type TSchema } from '@sinclair/typebox';
 import fastJsonStringify from 'fast-json-stringify';
 

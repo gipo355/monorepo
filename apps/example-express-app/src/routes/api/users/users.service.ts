@@ -4,13 +4,13 @@ import type {
   IAccount,
   IUser,
   TUserSafeWithAccounts,
-} from '@its-battistar/shared-types';
+} from '@gipo355/shared-types';
 import {
   EStrategy,
   LocalAccount,
   SocialAccount,
   User,
-} from '@its-battistar/shared-types';
+} from '@gipo355/shared-types';
 import type mongoose from 'mongoose';
 import type { HydratedDocument } from 'mongoose';
 

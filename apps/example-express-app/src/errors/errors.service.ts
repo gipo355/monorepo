@@ -1,8 +1,8 @@
-import { CustomResponse } from '@its-battistar/shared-types';
+import { CustomResponse } from '@gipo355/shared-types';
 // import {
 //   CustomResponse,
 // stringifyCustomResponseFactory,
-// } from '@its-battistar/shared-types';
+// } from '@gipo355/shared-types';
 import type { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 

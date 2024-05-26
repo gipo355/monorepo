@@ -3,14 +3,14 @@ import type {
   ITodoInput,
   ITodoInputWithCompleted,
   ITodoInputWithUserAndCompleted,
-} from '@its-battistar/shared-types';
-import { CustomResponse } from '@its-battistar/shared-types';
+} from '@gipo355/shared-types';
+import { CustomResponse } from '@gipo355/shared-types';
 import {
   assertAjvValidationOrThrow,
   stringifyGetAllTodosResponse,
   stringifySendOneTodoResponse,
   validateTodoInput,
-} from '@its-battistar/shared-utils';
+} from '@gipo355/shared-utils';
 import { StatusCodes } from 'http-status-codes';
 
 import { AppError, catchAsync, Sanitize } from '../../../utils';

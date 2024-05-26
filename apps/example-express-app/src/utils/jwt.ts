@@ -1,6 +1,6 @@
 import { createHash, randomUUID } from 'node:crypto';
 
-import type { ERole, EStrategy } from '@its-battistar/shared-types';
+import type { ERole, EStrategy } from '@gipo355/shared-types';
 import type { Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import * as jose from 'jose';

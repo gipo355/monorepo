@@ -2,12 +2,12 @@
 // Testing signals store with state in ngrx/signals
 
 import { computed, inject, InjectionToken } from '@angular/core';
-import type { ITodo } from '@its-battistar/shared-types';
+import type { ITodo } from '@gipo355/shared-types';
 import {
   ETodoColorOptions,
   ETodoSortByOptions,
   Todo,
-} from '@its-battistar/shared-types';
+} from '@gipo355/shared-types';
 import {
   patchState,
   signalStore,

@@ -1,6 +1,6 @@
 import express = require('express');
 
-import { CustomResponse } from '@its-battistar/shared-types';
+import { CustomResponse } from '@gipo355/shared-types';
 import type { Express } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import mongoose from 'mongoose';

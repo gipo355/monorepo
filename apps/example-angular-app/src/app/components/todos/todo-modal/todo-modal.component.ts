@@ -14,7 +14,7 @@ import {
   Validators,
 } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { ETodoColorOptions, ITodo, Todo } from '@its-battistar/shared-types';
+import { ETodoColorOptions, ITodo, Todo } from '@gipo355/shared-types';
 import { initFlowbite } from 'flowbite';
 import { debounceTime, Subject, takeUntil } from 'rxjs';
 

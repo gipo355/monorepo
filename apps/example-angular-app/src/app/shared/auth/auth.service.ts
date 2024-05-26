@@ -4,7 +4,7 @@ import {
   // HttpHeaders
 } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { CustomResponse } from '@its-battistar/shared-types';
+import { CustomResponse } from '@gipo355/shared-types';
 import { lastValueFrom, Observable, retry, take, tap, timeout } from 'rxjs';
 
 import { UserStore } from '../user/user.store';

@@ -1,5 +1,5 @@
-import type { ITodo } from '@its-battistar/shared-types';
-import { CustomResponse } from '@its-battistar/shared-types';
+import type { ITodo } from '@gipo355/shared-types';
+import { CustomResponse } from '@gipo355/shared-types';
 import { StatusCodes } from 'http-status-codes';
 
 import { AppError } from '../../../../utils/app-error';

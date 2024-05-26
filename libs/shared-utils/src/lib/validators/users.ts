@@ -1,4 +1,4 @@
-import { userSchema, userSchemaInput } from '@its-battistar/shared-types';
+import { userSchema, userSchemaInput } from '@gipo355/shared-types';
 import fastJsonStringify from 'fast-json-stringify';
 
 import { ajvInstance } from '../utils/ajv';
