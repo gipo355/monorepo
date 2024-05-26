@@ -32,7 +32,7 @@ jobs:
           echo "BASE: ${{ env.NX_BASE }}"
           echo "HEAD: ${{ env.NX_HEAD }}"
       - name: Set up main branch for affected commands in PR
-        run: git branch --track dev origin/dev
+        run: git branch --track dev origin/main
         if: ${{ github.event_name == 'pull_request' }}
       - name: lint test build
         run: nx affected -t lint test build
