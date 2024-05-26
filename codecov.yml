@@ -18,10 +18,10 @@ component_management:
   individual_components:
     - component_id: example-express-app
       paths:
-        - 'apps/example-express-app/**'
+        - 'coverage/apps/example-express-app/**'
     - component_id: example-angular-app
       paths:
-        - 'apps/example-angular-app/**'
+        - 'coverage/apps/example-angular-app/**'
     - component_id: example-node-lib
       paths:
-        - 'libs/example-node-lib/**'
+        - 'coverage/libs/example-node-lib/**'
