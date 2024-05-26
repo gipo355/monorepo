@@ -23,9 +23,11 @@ runs:
       id: go-cache
       with:
         path: /home/runner/go/bin
-        key: ${{ runner.os }}-go-bin-${{ hashFiles('**/go.sum') }}
+        key: ${{ runner.os }}-go-bin-${{ env.cache-version }}
         restore-keys: |
+          ${{ runner.os }}-go-bin-${{ env.cache-version }}
           ${{ runner.os }}-go-bin-
+          ${{ runner.os }}-
     # install example go package
     - name: Install go tools if not cached
       shell: bash
