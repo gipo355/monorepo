@@ -14,7 +14,15 @@ runs:
       name: Setup Go
       with: # Set the Go version to use
         go-version: 1.22.2
-    # print go env
+    # install example go package
+    - name: Install example go package
+      shell: bash
+      run: go install go.uber.org/nilaway/cmd/nilaway@latest
+    # print which nilaway
+    - name: Print which nilaway
+      shell: bash
+      run: which nilaway
+      # print go env
     - name: Print Go env
       shell: bash
       run: go env
