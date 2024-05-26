@@ -1,5 +1,11 @@
 # @gipo355/say-hello-cross
 
+## 0.3.7
+
+### Patch Changes
+
+- 4abf39e: add license
+
 ## 0.3.6
 
 ### Patch Changes
