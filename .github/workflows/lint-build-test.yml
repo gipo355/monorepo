@@ -42,3 +42,7 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
       - name: lint test build
         run: nx affected -t lint test build
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
