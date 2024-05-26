@@ -52,7 +52,7 @@ runs:
     - uses: actions/setup-dotnet@4d6c8fcf3c8f7a60068d26b594648e99df24cee3 # v4
       name: Setup .NET
     # setup python
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5
       name: Setup Python
       with:
         python-version: 3.12

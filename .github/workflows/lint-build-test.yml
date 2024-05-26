@@ -30,7 +30,7 @@ jobs:
       # testing nx affected
       - name:
           Derive appropriate SHAs for base and head for `nx affected` commands
-        uses: nrwl/nx-set-shas@v4
+        uses: nrwl/nx-set-shas@40f1175ceec169e68c9857c27aa7c5063692aa9a # v4
         with:
           # must compare to branch
           main-branch-name: 'main'
