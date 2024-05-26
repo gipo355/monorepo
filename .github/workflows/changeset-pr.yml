@@ -21,7 +21,8 @@ jobs:
           fetch-depth: 0
           lfs: true
           # persist-credentials: false
-      - uses: ./.github/actions/ci-setup
+      - name: Setup CI Environment
+        uses: ./.github/actions/ci-setup
       - name: create npmrc step
         run: |
           # cat << EOF > .npmrc "$HOME/.npmrc"
