@@ -1,5 +1,7 @@
 # say-hello-cross
 
+test
+
 This library was generated with [Nx](https://nx.dev).
 
 ## Building
