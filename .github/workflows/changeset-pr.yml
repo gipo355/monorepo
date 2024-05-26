@@ -1,5 +1,5 @@
 # https://github.com/changesets/action
-name: Release Workflow workflow
+name: Release Workflow
 on:
   push:
     branches:
