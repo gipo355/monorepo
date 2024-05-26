@@ -1,7 +1,7 @@
 {
-  "name": "@its-battistar/its-battistar-express",
+  "name": "@gipo355/example-express-app",
   "private": true,
-  "version": "1.2.0",
+  "version": "0.0.1",
   "dependencies": {
     "pino-pretty": "11.1.0",
     "pino-loki": "2.3.0"
