@@ -7,6 +7,10 @@ on:
   workflow_dispatch: {}
 jobs:
   LintTestBuild:
+    permissions:
+      # Needed for nx-set-shas when run on the main branch
+      actions: read
+      contents: read
     name: Lint and Test Job
     runs-on: ubuntu-22.04
     concurrency:
@@ -34,5 +38,7 @@ jobs:
       - name: Set up main branch for affected commands in PR
         run: git branch --track dev origin/main
         if: ${{ github.event_name == 'pull_request' }}
+      - name: prepare nx cloud
+        run: npx nx-cloud record -- nx format:check
       - name: lint test build
         run: nx affected -t lint test build
