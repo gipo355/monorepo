@@ -9,7 +9,6 @@ const nodePlugin = require('eslint-plugin-n');
 
 // const js = require('@eslint/js');
 // const { FlatCompat } = require('@eslint/eslintrc');
-
 // const compat = new FlatCompat({
 //   baseDirectory: __dirname,
 //   recommendedConfig: js.configs.recommended,
@@ -70,4 +69,17 @@ module.exports = tseslint.config(
     files: ['**/*.js', '**/*.jsx'],
     rules: {},
   }
+
+  // ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({
+  //   ...config,
+  //   files: ['**/*.json'],
+  //   rules: {
+  //     '@nx/dependency-checks': [
+  //       'error',
+  //       {
+  //         ignoredFiles: ['{projectRoot}/vite.config.{js,ts,mjs,mts}'],
+  //       },
+  //     ],
+  //   },
+  // }))
 );

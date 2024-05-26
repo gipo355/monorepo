@@ -1,7 +1,6 @@
 /* eslint-disable unicorn/prefer-module */
 /* eslint-disable no-magic-numbers */
 const globals = require('globals');
-// const { FlatCompat } = require('@eslint/eslintrc');
 const nodePlugin = require('eslint-plugin-n');
 const nxEslintPlugin = require('@nx/eslint-plugin');
 const tsSortKeys = require('eslint-plugin-typescript-sort-keys');
@@ -13,12 +12,14 @@ const tsParser = require('@typescript-eslint/parser');
 const eslint = require('@eslint/js');
 
 // const eslintrc = require('@eslint/eslintrc');
+const { FlatCompat } = require('@eslint/eslintrc');
+
 const eslintPluginImport = require('eslint-plugin-import');
 
-// const compat = new FlatCompat({
-//   baseDirectory: __dirname,
-//   recommendedConfig: eslint.configs.recommended,
-// });
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+  recommendedConfig: eslint.configs.recommended,
+});
 
 // tseslint.config is an utility function provided by typescript-eslint
 // to provide type safety and intellisense to the configuration
@@ -131,16 +132,29 @@ module.exports = tseslint.config(
   },
 
   // filetype specific rules and configs
-  {
-    files: ['*.json'],
-    languageOptions: {
-      parser: jsoncParser,
-    },
-    rules: {
-      // FIXME: could not find plugin nx
-      // '@nx/dependency-checks': 'error', // TODO:
-    },
-  },
+  // {
+  //   files: ['*.json'],
+  //   languageOptions: {
+  //     parser: jsoncParser,
+  //   },
+  //   rules: {
+  //     // FIXME: could not find plugin nx
+  //     // '@nx/dependency-checks': 'error', // TODO:
+  //   },
+  // },
+  // IMP: this works
+  // ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({
+  //   ...config,
+  //   files: ['**/*.json'],
+  //   rules: {
+  //     '@nx/dependency-checks': [
+  //       'error',
+  //       {
+  //         ignoredFiles: ['{projectRoot}/vite.config.{js,ts,mjs,mts}'],
+  //       },
+  //     ],
+  //   },
+  // })),
 
   // all files
   {

@@ -1,17 +1,16 @@
-/* eslint-disable unicorn/prefer-module */
 const globals = require('globals');
 const baseConfig = require('../../eslint.config.js');
 const tseslint = require('typescript-eslint');
-const { FlatCompat } = require('@eslint/eslintrc');
-const js = require('@eslint/js');
+// const { FlatCompat } = require('@eslint/eslintrc');
+// const js = require('@eslint/js');
 
 const pluginSecurity = require('eslint-plugin-security');
 const nodePlugin = require('eslint-plugin-n');
 
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-});
+// const compat = new FlatCompat({
+//   baseDirectory: __dirname,
+//   recommendedConfig: js.configs.recommended,
+// });
 
 module.exports = tseslint.config(
   ...baseConfig,
@@ -60,18 +59,18 @@ module.exports = tseslint.config(
       'unicorn/prefer-module': 'off',
       'unicorn/prefer-top-level-await': 'off',
     },
-  },
+  }
 
-  ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({
-    ...config,
-    files: ['**/*.json'],
-    rules: {
-      '@nx/dependency-checks': [
-        'error',
-        {
-          ignoredFiles: ['{projectRoot}/vite.config.{js,ts,mjs,mts}'],
-        },
-      ],
-    },
-  }))
+  // ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({
+  //   ...config,
+  //   files: ['**/*.json'],
+  //   rules: {
+  //     '@nx/dependency-checks': [
+  //       'error',
+  //       {
+  //         ignoredFiles: ['{projectRoot}/vite.config.{js,ts,mjs,mts}'],
+  //       },
+  //     ],
+  //   },
+  // }))
 );
