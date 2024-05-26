@@ -613,15 +613,13 @@
   "scripts": {
     "changeset": "changeset",
     "changeset-publish": "tsx scripts/nx-run-many.ts --build && changeset publish",
-    "clear-all-cache": "tsx scripts/clear.ts --cache",
-    "clear-all-useless-folders": "tsx scripts/clear.ts --folders",
+    "clear-all": "tsx scripts/clear.ts",
     "commit": "git-cz",
     "commitlint": "commitlint --edit",
     "format-packages": "tsx scripts/format-packages.ts --all",
     "lint-all": "tsx scripts/nx-run-many.ts --lint --test --build",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "./pre-commit-3.7.0.pyz install --hook-type pre-commit --hook-type pre-push --hook-type commit-msg",
-    "version-all": "nx affected --target version"
+    "prepare": "./pre-commit-3.7.0.pyz install --hook-type pre-commit --hook-type pre-push --hook-type commit-msg"
   },
   "nx": {
     "includedScripts": []
