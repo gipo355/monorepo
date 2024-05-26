@@ -14,42 +14,42 @@
     "build": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "task build",
+        "command": "task build -- ",
         "cwd": "apps/example-go-app"
       }
     },
     "preview": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "infisical run -- task preview",
+        "command": "infisical run -- task preview -- ",
         "cwd": "apps/example-go-app"
       }
     },
     "run": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "infisical run -- task run",
+        "command": "infisical run -- task run -- ",
         "cwd": "apps/example-go-app"
       }
     },
     "lint": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "task lint",
+        "command": "task lint -- ",
         "cwd": "apps/example-go-app"
       }
     },
     "fix": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "task fix",
+        "command": "task fix -- ",
         "cwd": "apps/example-go-app"
       }
     },
     "release": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "task release",
+        "command": "task release -- ",
         "cwd": "apps/example-go-app"
       }
     },
@@ -67,7 +67,7 @@
     "init": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "task init",
+        "command": "task init -- ",
         "cwd": "apps/example-go-app"
       }
     },
@@ -75,7 +75,7 @@
       "executor": "nx:run-commands",
       "dependsOn": ["docker-compose"],
       "options": {
-        "command": "infisical run -- task dev",
+        "command": "infisical run -- task dev -- ",
         "cwd": "apps/example-go-app"
       }
     }
