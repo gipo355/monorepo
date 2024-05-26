@@ -91,6 +91,6 @@ runs:
     # install dependencies
     - name: Install dependencies
       shell: bash
-      run: pnpm install --frozen-lockfile
+      run: pnpm install --frozen-lockfile --ignore-scripts
   # - name: Init tasks
   #   run: nx run-many -t init
