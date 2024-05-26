@@ -1,26 +1,26 @@
 {
-  "name": "its-battistar-angular",
+  "name": "example-angular-app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "apps/its-battistar-angular/src",
+  "sourceRoot": "apps/example-angular-app/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/its-battistar-angular",
-        "index": "apps/its-battistar-angular/src/index.html",
-        "browser": "apps/its-battistar-angular/src/main.ts",
+        "outputPath": "dist/apps/example-angular-app",
+        "index": "apps/example-angular-app/src/index.html",
+        "browser": "apps/example-angular-app/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/its-battistar-angular/tsconfig.app.json",
+        "tsConfig": "apps/example-angular-app/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          "apps/its-battistar-angular/src/favicon.ico",
-          "apps/its-battistar-angular/src/assets"
+          "apps/example-angular-app/src/favicon.ico",
+          "apps/example-angular-app/src/assets"
         ],
-        "styles": ["apps/its-battistar-angular/src/styles.scss"],
+        "styles": ["apps/example-angular-app/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -45,8 +45,8 @@
           "sourceMap": true,
           "fileReplacements": [
             {
-              "replace": "apps/its-battistar-angular/src/environments/environment.ts",
-              "with": "apps/its-battistar-angular/src/environments/environment.development.ts"
+              "replace": "apps/example-angular-app/src/environments/environment.ts",
+              "with": "apps/example-angular-app/src/environments/environment.development.ts"
             }
           ]
         }
@@ -57,35 +57,35 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "its-battistar-angular:build:production"
+          "buildTarget": "example-angular-app:build:production"
         },
         "development": {
-          "buildTarget": "its-battistar-angular:build:development"
+          "buildTarget": "example-angular-app:build:development"
         }
       },
       "defaultConfiguration": "development",
       "options": {
-        "proxyConfig": "apps/its-battistar-angular/proxy.conf.json"
+        "proxyConfig": "apps/example-angular-app/proxy.conf.json"
       }
     },
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "its-battistar-angular:build"
+        "buildTarget": "example-angular-app:build"
       }
     },
     "fix": {
       "executor": "nx:run-commands",
       "options": {
         "command": "eslint --fix ./src && prettier --write -c ./src",
-        "cwd": "apps/its-battistar-angular"
+        "cwd": "apps/example-angular-app"
       }
     },
     "pre-lint": {
       "executor": "nx:run-commands",
       "options": {
         "command": "tsc --noEmit -p ./tsconfig.app.json & prettier -c ./src",
-        "cwd": "apps/its-battistar-angular"
+        "cwd": "apps/example-angular-app"
       }
     },
     "lint": {
@@ -96,12 +96,12 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/its-battistar-angular/jest.config.ts"
+        "jestConfig": "apps/example-angular-app/jest.config.ts"
       }
     },
     "docker-build": {
       "dependsOn": ["build"],
-      "command": "docker build -f apps/its-battistar-angular/Dockerfile . -t its-battistar"
+      "command": "docker build -f apps/example-angular-app/Dockerfile . -t its-battistar"
     },
     "version": {
       "executor": "@jscutlery/semver:version",
@@ -113,8 +113,8 @@
       "executor": "@storybook/angular:start-storybook",
       "options": {
         "port": 4400,
-        "configDir": "apps/its-battistar-angular/.storybook",
-        "browserTarget": "its-battistar-angular:build",
+        "configDir": "apps/example-angular-app/.storybook",
+        "browserTarget": "example-angular-app:build",
         "compodoc": false
       },
       "configurations": {
@@ -128,8 +128,8 @@
       "outputs": ["{options.outputDir}"],
       "options": {
         "outputDir": "dist/storybook/its-battistar",
-        "configDir": "apps/its-battistar-angular/.storybook",
-        "browserTarget": "its-battistar-angular:build",
+        "configDir": "apps/example-angular-app/.storybook",
+        "browserTarget": "example-angular-app:build",
         "compodoc": false
       },
       "configurations": {
@@ -141,13 +141,13 @@
     "static-storybook": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "its-battistar-angular:build-storybook",
+        "buildTarget": "example-angular-app:build-storybook",
         "staticFilePath": "dist/storybook/its-battistar",
         "spa": true
       },
       "configurations": {
         "ci": {
-          "buildTarget": "its-battistar-angular:build-storybook:ci"
+          "buildTarget": "example-angular-app:build-storybook:ci"
         }
       }
     }

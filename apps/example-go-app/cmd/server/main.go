@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/gipo355/monorepo/apps/its-battistar-be-go/internal/hello"
+	"github.com/gipo355/monorepo/apps/example-go-app/internal/hello"
 )
 
 func main() {

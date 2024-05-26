@@ -1,10 +1,10 @@
-# Build the docker image with `npx nx docker-build its-battistar-express`.
+# Build the docker image with `npx nx docker-build example-express-app`.
 # Tip: Modify "docker-build" options in project.json to change docker build args.
 #
-# Run the container with `docker run -p 3000:3000 -t its-battistar-express`.
+# Run the container with `docker run -p 3000:3000 -t example-express-app`.
 FROM docker.io/golang:alpine@sha256:b8ded51bad03238f67994d0a6b88680609b392db04312f60c23358cc878d4902 as builder
 
-LABEL org.opencontainers.image.source=https://github.com/gipo355/its-battistar-be-go
+LABEL org.opencontainers.image.source=https://github.com/gipo355/example-go-app
 
 # TODO: ENV vars for production usage if not using infisical
 
@@ -33,11 +33,11 @@ ENV EXPRESS_TRUST_NUMBER_OF_PROXIES = 0
 
 WORKDIR /app
 
-RUN addgroup --system its-battistar-be-go && \
-  adduser --system -G its-battistar-be-go its-battistar-be-go
+RUN addgroup --system example-go-app && \
+  adduser --system -G example-go-app example-go-app
 
-COPY dist/apps/its-battistar-be-go its-battistar-be-go
-RUN chown -R its-battistar-be-go:its-battistar-be-go .
+COPY dist/apps/example-go-app example-go-app
+RUN chown -R example-go-app:example-go-app .
 
 # install infisical cli
 # can inject secrets into env
@@ -49,5 +49,5 @@ RUN chown -R its-battistar-be-go:its-battistar-be-go .
 
 EXPOSE ${PORT}
 
-# CMD [ "infisical run -- ", "./its-battistar-be-go/server" ]
-CMD [ "./its-battistar-be-go/server" ]
+# CMD [ "infisical run -- ", "./example-go-app/server" ]
+CMD [ "./example-go-app/server" ]

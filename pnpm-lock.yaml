@@ -1693,11 +1693,11 @@ importers:
         specifier: 3.23.8
         version: 3.23.8
 
-  apps/its-battistar-angular: {}
+  apps/example-angular-app: {}
 
-  apps/its-battistar-be-go: {}
+  apps/example-go-app: {}
 
-  apps/its-battistar-express:
+  apps/example-express-app:
     dependencies:
       pino-loki:
         specifier: 2.3.0

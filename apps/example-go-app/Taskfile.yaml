@@ -51,14 +51,14 @@ tasks:
       - generate
     cmds:
       # - go build -o ./bin/api ./cmd/api/...
-      - go build -o=../../dist/apps/its-battistar-be-go/ ./cmd/server
+      - go build -o=../../dist/apps/example-go-app/ ./cmd/server
   preview:
     desc: Build and serve the api
     deps:
       - build
     cmds:
       # - ./bin/api
-      - ../../dist/apps/its-battistar-be-go/server
+      - ../../dist/apps/example-go-app/server
   fix:
     desc: Fix the code
     cmds:

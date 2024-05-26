@@ -1,9 +1,9 @@
  
 export default {
-  displayName: 'its-battistar-angular',
+  displayName: 'example-angular-app',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/its-battistar-angular',
+  coverageDirectory: '../../coverage/apps/example-angular-app',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
