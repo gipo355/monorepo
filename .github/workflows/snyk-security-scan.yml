@@ -39,6 +39,9 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
+        with:
+          fetch-depth: 0
+          lfs: true
       - uses: ./.github/actions/ci-setup
       - name: Set up Snyk CLI to check for security issues
         # Snyk can be used to break the build when it detects security issues.
