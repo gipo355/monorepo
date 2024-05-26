@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "declaration": true,
+    "types": ["node"]
+  },
+  "include": ["../example-node-lib/src/**/*.ts"],
+  "exclude": [
+    "../example-node-lib/vite.config.ts",
+    "../example-node-lib/src/**/*.spec.ts",
+    "../example-node-lib/src/**/*.test.ts"
+  ]
+}

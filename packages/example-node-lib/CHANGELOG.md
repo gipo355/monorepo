@@ -1,4 +1,4 @@
-# @gipo355/say-hello-cross
+# @gipo355/example-node-lib
 
 ## 0.3.7
 

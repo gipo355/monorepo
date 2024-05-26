@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/libs/say-hello-cross',
+  cacheDir: '../../node_modules/.vite/libs/example-node-lib',
 
   plugins: [nxViteTsPaths()],
 
@@ -14,12 +14,12 @@ export default defineConfig({
 
   test: {
     globals: true,
-    cache: { dir: '../../node_modules/.vitest/libs/say-hello-cross' },
+    cache: { dir: '../../node_modules/.vitest/libs/example-node-lib' },
     environment: 'node',
     include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     reporters: ['default'],
     coverage: {
-      reportsDirectory: '../../coverage/libs/say-hello-cross',
+      reportsDirectory: '../../coverage/libs/example-node-lib',
       provider: 'v8',
     },
   },

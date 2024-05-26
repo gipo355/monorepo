@@ -2,6 +2,8 @@ const baseConfig = require('../../eslint.config.js');
 const globals = require('globals');
 const tseslint = require('typescript-eslint');
 
+// TODO: make a config for node, angular, react, generic, svelte, vue, etc.
+// to prevent repetition
 const pluginSecurity = require('eslint-plugin-security');
 const nodePlugin = require('eslint-plugin-n');
 
@@ -31,6 +33,7 @@ module.exports = tseslint.config(
       // TODO: increase specificity between projects of globals available
       globals: {
         ...globals.node,
+        ...globals.es2021,
         ...globals.worker,
       },
     },

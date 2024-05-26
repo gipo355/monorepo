@@ -1710,7 +1710,7 @@ importers:
 
   libs/shared-utils: {}
 
-  packages/say-hello-cross: {}
+  packages/example-node-lib: {}
 
 packages:
 

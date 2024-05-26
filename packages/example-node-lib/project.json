@@ -1,7 +1,7 @@
 {
-  "name": "say-hello-cross",
+  "name": "example-node-lib",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/say-hello-cross/src",
+  "sourceRoot": "packages/example-node-lib/src",
   "projectType": "library",
   "release": {
     "version": {
@@ -17,12 +17,12 @@
       "executor": "@nx/rollup:rollup",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/say-hello-cross",
-        "main": "packages/say-hello-cross/src/index.ts",
-        "tsConfig": "packages/say-hello-cross/tsconfig.lib.json",
+        "outputPath": "dist/packages/example-node-lib",
+        "main": "packages/example-node-lib/src/index.ts",
+        "tsConfig": "packages/example-node-lib/tsconfig.lib.json",
         "assets": [
           {
-            "input": "packages/say-hello-cross",
+            "input": "packages/example-node-lib",
             "glob": "*.md",
             "output": "./"
           },
@@ -32,7 +32,7 @@
             "output": "./"
           }
         ],
-        "project": "packages/say-hello-cross/package.json",
+        "project": "packages/example-node-lib/package.json",
         "compiler": "swc",
         "format": ["cjs", "esm"]
       }
@@ -47,7 +47,7 @@
       "executor": "@nx/vite:test",
       "outputs": ["{options.reportsDirectory}"],
       "options": {
-        "reportsDirectory": "../../coverage/packages/say-hello-cross"
+        "reportsDirectory": "../../coverage/packages/example-node-lib"
       }
     }
   }

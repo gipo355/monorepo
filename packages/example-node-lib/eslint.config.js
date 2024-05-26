@@ -5,6 +5,9 @@ const tseslint = require('typescript-eslint');
 const { FlatCompat } = require('@eslint/eslintrc');
 const js = require('@eslint/js');
 
+const pluginSecurity = require('eslint-plugin-security');
+const nodePlugin = require('eslint-plugin-n');
+
 const compat = new FlatCompat({
   baseDirectory: __dirname,
   recommendedConfig: js.configs.recommended,
@@ -42,6 +45,21 @@ module.exports = tseslint.config(
   {
     files: ['**/*.js', '**/*.jsx'],
     rules: {},
+  },
+
+  nodePlugin.configs['flat/recommended'],
+
+  pluginSecurity.configs.recommended,
+
+  {
+    rules: {
+      'n/no-missing-import': 'off',
+      'n/no-extraneous-import': 'off',
+      'n/no-extraneous-require': 'off',
+      'n/no-unpublished-require': 'off',
+      'unicorn/prefer-module': 'off',
+      'unicorn/prefer-top-level-await': 'off',
+    },
   },
 
   ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({

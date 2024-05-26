@@ -4,8 +4,8 @@ describe('sayHelloCross', () => {
   it('should work', () => {
     expect(
       sayHelloCross({
-        output: 'say-hello-cross',
+        output: 'example-node-lib',
       })
-    ).toEqual('say-hello-cross');
+    ).toEqual('example-node-lib');
   });
 });
