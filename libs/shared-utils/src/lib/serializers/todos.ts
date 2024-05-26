@@ -1,7 +1,4 @@
-import {
-  customResponseSchemaFactory,
-  todoSchema,
-} from '@gipo355/shared-types';
+import { customResponseSchemaFactory, todoSchema } from '@gipo355/shared-types';
 import { Type } from '@sinclair/typebox';
 import stringify from 'fast-json-stringify';
 

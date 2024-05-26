@@ -1,7 +1,4 @@
-import {
-  githubUserSchema2,
-  githubUsersSchema,
-} from '@gipo355/shared-types';
+import { githubUserSchema2, githubUsersSchema } from '@gipo355/shared-types';
 
 import { ajvInstance } from '../utils';
 
