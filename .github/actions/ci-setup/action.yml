@@ -15,16 +15,21 @@ runs:
       with: # Set the Go version to use
         go-version: 1.22.2
     # cache go binaries under /home/runner/go/bin
-    - uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
-      name: Setup Go cache
+    # https://stackoverflow.com/questions/61980794/can-we-cache-yarn-globals-in-github-actions
+    - name: Setup Go cache
+      uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+      env:
+        cache-version: v1
+      id: go-cache
       with:
         path: /home/runner/go/bin
         key: ${{ runner.os }}-go-bin-${{ hashFiles('**/go.sum') }}
         restore-keys: |
           ${{ runner.os }}-go-bin-
     # install example go package
-    - name: Install go tools
+    - name: Install go tools if not cached
       shell: bash
+      if: steps.go-cache.outputs.cache-hit != 'true'
       run: |
         go install go.uber.org/nilaway/cmd/nilaway@latest
         go install github.com/swaggo/swag/cmd/swag@latest
