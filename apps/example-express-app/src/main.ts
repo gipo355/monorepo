@@ -15,7 +15,7 @@ import { logger } from './utils/logger';
 let server: Server | null = null;
 
 export const main = async function (): Promise<void> {
-  logger.info('🚀 Starting server...');
+  logger.info('🚀 Starting server!!!');
 
   const app = await buildApp();
 
