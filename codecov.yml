@@ -26,4 +26,4 @@ component_management:
     #     - 'coverage/apps/example-angular-app/**'
     - component_id: example-node-lib
       paths:
-        - 'coverage/libs/example-node-lib/coverage-final.json'
+        - 'packages/example-node-lib/coverage.json'
