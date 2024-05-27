@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/libs/example-node-lib',
+  cacheDir: '../../node_modules/.vite/packages/example-node-lib',
 
   plugins: [nxViteTsPaths()],
 

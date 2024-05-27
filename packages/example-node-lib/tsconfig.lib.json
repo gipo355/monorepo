@@ -5,10 +5,6 @@
     "declaration": true,
     "types": ["node"]
   },
-  "include": ["../example-node-lib/src/**/*.ts"],
-  "exclude": [
-    "../example-node-lib/vite.config.ts",
-    "../example-node-lib/src/**/*.spec.ts",
-    "../example-node-lib/src/**/*.test.ts"
-  ]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./vite.config.ts", "./src/**/*.spec.ts", "./src/**/*.test.ts"]
 }
