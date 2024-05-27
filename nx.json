@@ -37,7 +37,9 @@
       "cache": true,
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
       "options": {
-        "passWithNoTests": true
+        "passWithNoTests": true,
+        "json": true,
+        "outputFile": "{projectRoot}/coverage.json"
       },
       "configurations": {
         "ci": {
