@@ -21,6 +21,8 @@ const compat = new FlatCompat({
   recommendedConfig: eslint.configs.recommended,
 });
 
+// TODO: sonar, angular, import plugins
+
 // tseslint.config is an utility function provided by typescript-eslint
 // to provide type safety and intellisense to the configuration
 module.exports = tseslint.config(
@@ -142,7 +144,7 @@ module.exports = tseslint.config(
   //     // '@nx/dependency-checks': 'error', // TODO:
   //   },
   // },
-  // IMP: this works
+  // IMP: this works but not compatible with multi package.json in integrated monorepo
   // ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({
   //   ...config,
   //   files: ['**/*.json'],
