@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  ########## redis
+  redisdev-battistar-nest:
+    env_file: ./.env
+    container_name: redisdev-battistar-nest
+    image: redis/redis-stack:latest
+    # user: redis
+    network_mode: host
+    ports:
+      - 127.0.0.1:6379:6379
+      #  redis insight
+      - 127.0.0.1:9002:8001
+    volumes:
+      - /tmp/db/redis:/data
+    environment:
+      # default user is: default
+      - REDIS_ARGS=--save 60 1000 --appendonly yes --loglevel warning
+        --requirepass ${REDIS_PASSWORD}
