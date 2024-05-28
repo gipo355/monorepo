@@ -89,6 +89,15 @@ runs:
         key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
+    # NX cache
+    - name: Cache Nx
+      uses: actions/cache@v2
+      with:
+        path: .cache/nx
+        key: ${{ runner.os }}-nx-${{ hashFiles('pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-nx-${{ hashFiles('pnpm-lock.yaml') }}
+          ${{ runner.os }}-nx-
     # install nx cli
     - name: Install Nx CLI
       shell: bash
