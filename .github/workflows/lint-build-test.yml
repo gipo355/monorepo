@@ -11,7 +11,7 @@ jobs:
       # Needed for nx-set-shas when run on the main branch
       actions: read
       contents: read
-    name: Lint and Test Job
+    name: Lint Test Build Job
     env:
       NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
     runs-on: ubuntu-22.04
