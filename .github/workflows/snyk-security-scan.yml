@@ -26,6 +26,7 @@ permissions:
   contents: read
 jobs:
   snyk:
+    if: (github.actor != 'dependabot[bot]') && (github.actor != 'renovate[bot]')
     name: Snyk Security Scan Job
     permissions:
       # required for all workflows

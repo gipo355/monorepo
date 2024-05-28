@@ -31,7 +31,7 @@ jobs:
       # A Docker image with Semgrep installed. Do not change this.
       image: semgrep/semgrep@sha256:ba8b9988d722e50f67687d167d1bb91ee1bf3c04057412dc9077e729ffa2e401
     # Skip any PR created by dependabot to avoid permission issues:
-    if: (github.actor != 'dependabot[bot]')
+    if: (github.actor != 'dependabot[bot]') && (github.actor != 'renovate[bot]')
     steps:
       # Fetch project source with GitHub Actions Checkout. Use either v3 or v4.
       - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
