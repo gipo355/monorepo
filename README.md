@@ -1,3 +1,9 @@
+[![codecov](https://codecov.io/gh/gipo355/monorepo/graph/badge.svg?token=5J3S64RHGQ)](https://codecov.io/gh/gipo355/monorepo)
+[![Lint Test Build Workflow](https://github.com/gipo355/monorepo/actions/workflows/lint-build-test.yml/badge.svg)](https://github.com/gipo355/monorepo/actions/workflows/lint-build-test.yml)
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+
 test test test test test test
 
 TODO:
