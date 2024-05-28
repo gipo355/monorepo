@@ -6,5 +6,5 @@ module.exports = {
   '*.{yml,md,js,ts,tsx,svelte,astro,cjs,mjs,cts,mts,jsx,json,json5,jsonc,css,scss,less,sass,html,htm,mdx,mdown,markdown}':
     'prettier --write',
 
-  // '*.{html}': 'html-validate && htmlhint',
+  '*.{html}': 'html-validate && htmlhint',
 };

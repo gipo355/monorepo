@@ -1,0 +1,48 @@
+{
+  "deno.enablePaths": ["apps/test-deno-app", "apps/minisudoku"],
+  "deno.unstable": true,
+  "deno.importMap": "./import_map.json",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "stylelint.validate": ["css", "less", "postcss", "scss", "html", "svelte"],
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": ["source.formatDocument"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "html",
+    "svelte"
+  ],
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.formatDocument",
+      "source.fixAll.eslint",
+      "source.fixAll.stylelint"
+    ]
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll"]
+  }
+}
