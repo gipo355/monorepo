@@ -4,12 +4,9 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
-test test test test test test
+# Gipo355 Monorepo
 
-TODO:
-
-add global ci setup
-<https://github.com/changesets/changesets/blob/main/.github/actions/ci-setup/action.yml>
+a place for all
 
 ## CONTRIBUTING
 
