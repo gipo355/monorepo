@@ -310,7 +310,7 @@
     "@sveltejs/adapter-vercel": "5.3.1",
     "@sveltejs/enhanced-img": "0.2.1",
     "@sveltejs/kit": "2.5.10",
-    "@sveltejs/vite-plugin-svelte": "3.1.0",
+    "@sveltejs/vite-plugin-svelte": "3.1.1",
     "@svgr/webpack": "8.1.0",
     "@swc-node/register": "1.9.1",
     "@swc/cli": "0.3.12",
