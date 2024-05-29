@@ -503,7 +503,7 @@
     "mini-css-extract-plugin": "2.9.0",
     "mocha": "10.4.0",
     "nightwind": "1.1.13",
-    "nodemon": "3.1.1",
+    "nodemon": "3.1.2",
     "npm-run-all2": "6.2.0",
     "nx": "19.1.0",
     "nx-stylelint": "17.1.4",
