@@ -806,7 +806,7 @@ importers:
         version: 8.1.4(react@18.3.1)
       '@storybook/angular':
         specifier: 8.1.4
-        version: 8.1.4(@angular-devkit/architect@0.1800.1)(@angular-devkit/build-angular@18.0.2)(@angular-devkit/core@18.0.2)(@angular/cli@18.0.2)(@angular/common@18.0.0)(@angular/compiler-cli@18.0.0)(@angular/compiler@18.0.0)(@angular/core@18.0.0)(@angular/forms@18.0.0)(@angular/platform-browser-dynamic@18.0.0)(@angular/platform-browser@18.0.0)(@swc/core@1.5.7)(esbuild@0.21.4)(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.17.4)(webpack-cli@5.1.4)(zone.js@0.14.6)
+        version: 8.1.4(@angular-devkit/architect@0.1800.2)(@angular-devkit/build-angular@18.0.2)(@angular-devkit/core@18.0.2)(@angular/cli@18.0.2)(@angular/common@18.0.0)(@angular/compiler-cli@18.0.0)(@angular/compiler@18.0.0)(@angular/core@18.0.0)(@angular/forms@18.0.0)(@angular/platform-browser-dynamic@18.0.0)(@angular/platform-browser@18.0.0)(@swc/core@1.5.7)(esbuild@0.21.4)(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.17.4)(webpack-cli@5.1.4)(zone.js@0.14.6)
       '@storybook/blocks':
         specifier: 8.1.4
         version: 8.1.4(@types/react-dom@18.3.0)(@types/react@18.3.3)(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)
@@ -838,8 +838,8 @@ importers:
         specifier: 5.3.1
         version: 5.3.1(@sveltejs/kit@2.5.10)
       '@sveltejs/enhanced-img':
-        specifier: 0.2.0
-        version: 0.2.0(rollup@4.18.0)(svelte@4.2.17)
+        specifier: 0.2.1
+        version: 0.2.1(rollup@4.18.0)(svelte@4.2.17)
       '@sveltejs/kit':
         specifier: 2.5.10
         version: 2.5.10(@sveltejs/vite-plugin-svelte@3.1.0)(svelte@4.2.17)(vite@5.2.12)
@@ -1730,16 +1730,6 @@ packages:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  /@angular-devkit/architect@0.1800.1:
-    resolution: {integrity: sha512-L3n1Rh0NUNTlQZBBuPY8VFc5Skr6Oa6xT821k+XLLZTbz1ci2e3ltINyUhqISeksa3AyyL8e4JR2kCbDli9uJA==}
-    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    dependencies:
-      '@angular-devkit/core': 18.0.1
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - chokidar
-    dev: true
-
   /@angular-devkit/architect@0.1800.2:
     resolution: {integrity: sha512-PX7lCTAqWe9C40+fie+DAc8vhpGA+JgZKWWrMHUTV/iZx8RXx2X4xGQsqYu36p4i3MSfQdbn+0xLWGmjScPVOQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
@@ -1924,23 +1914,6 @@ packages:
       ajv-formats: 2.1.1(ajv@8.12.0)
       jsonc-parser: 3.2.0
       picomatch: 3.0.1
-      rxjs: 7.8.1
-      source-map: 0.7.4
-    dev: true
-
-  /@angular-devkit/core@18.0.1:
-    resolution: {integrity: sha512-91eKZoObs+wRgwssw81Y/94Nvixj0WqJkNusBAg+gAfZTCEeJoGGZJkRK8wrONbM79C3Bx8lN/TfSIPRbjnfOQ==}
-    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    peerDependencies:
-      chokidar: ^3.5.2
-    peerDependenciesMeta:
-      chokidar:
-        optional: true
-    dependencies:
-      ajv: 8.13.0
-      ajv-formats: 3.0.1(ajv@8.13.0)
-      jsonc-parser: 3.2.1
-      picomatch: 4.0.2
       rxjs: 7.8.1
       source-map: 0.7.4
     dev: true
@@ -14665,7 +14638,7 @@ packages:
       memoizerific: 1.11.3
     dev: true
 
-  /@storybook/angular@8.1.4(@angular-devkit/architect@0.1800.1)(@angular-devkit/build-angular@18.0.2)(@angular-devkit/core@18.0.2)(@angular/cli@18.0.2)(@angular/common@18.0.0)(@angular/compiler-cli@18.0.0)(@angular/compiler@18.0.0)(@angular/core@18.0.0)(@angular/forms@18.0.0)(@angular/platform-browser-dynamic@18.0.0)(@angular/platform-browser@18.0.0)(@swc/core@1.5.7)(esbuild@0.21.4)(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.17.4)(webpack-cli@5.1.4)(zone.js@0.14.6):
+  /@storybook/angular@8.1.4(@angular-devkit/architect@0.1800.2)(@angular-devkit/build-angular@18.0.2)(@angular-devkit/core@18.0.2)(@angular/cli@18.0.2)(@angular/common@18.0.0)(@angular/compiler-cli@18.0.0)(@angular/compiler@18.0.0)(@angular/core@18.0.0)(@angular/forms@18.0.0)(@angular/platform-browser-dynamic@18.0.0)(@angular/platform-browser@18.0.0)(@swc/core@1.5.7)(esbuild@0.21.4)(prettier@3.2.5)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.17.4)(webpack-cli@5.1.4)(zone.js@0.14.6):
     resolution: {integrity: sha512-pe/uadsGOZeRqgOsk2IVjhpf0H/2neyHBzdz0BxOwrs/U1l3ni0DWDAolNUq1PfWFUCNGFYuHtsahaid4ZUCYw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -14687,7 +14660,7 @@ packages:
       '@angular/cli':
         optional: true
     dependencies:
-      '@angular-devkit/architect': 0.1800.1
+      '@angular-devkit/architect': 0.1800.2
       '@angular-devkit/build-angular': 18.0.2(@angular/compiler-cli@18.0.0)(@angular/localize@18.0.0)(@swc/core@1.5.7)(@types/node@20.12.12)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.3)(typescript@5.4.5)(uglify-js@3.17.4)(webpack-cli@5.1.4)
       '@angular-devkit/core': 18.0.2
       '@angular/cli': 18.0.2
@@ -15515,8 +15488,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/enhanced-img@0.2.0(rollup@4.18.0)(svelte@4.2.17):
-    resolution: {integrity: sha512-W6wG0RxQYoL13LmUl8IBHeQatMXSd2ybrjg/WQuE5EoIJq+wUkf1hUDaMp9PHe4ubpnzWK/c0QaE5Ls+zjHimA==}
+  /@sveltejs/enhanced-img@0.2.1(rollup@4.18.0)(svelte@4.2.17):
+    resolution: {integrity: sha512-tEJCtDDSY4Od7YosS2OAHFjGwM09AOHaL97YuqDAnnKLnTpSYJvpLl3r6bLmWDht2ZqoAXfaPsbFJaG9zbQMjw==}
     dependencies:
       magic-string: 0.30.10
       svelte-parse-markup: 0.1.4(svelte@4.2.17)
