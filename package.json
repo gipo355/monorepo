@@ -474,7 +474,7 @@
     "html-webpack-pug-plugin": "4.0.0",
     "htmlhint": "1.1.4",
     "husky": "9.0.11",
-    "image-minimizer-webpack-plugin": "4.0.0",
+    "image-minimizer-webpack-plugin": "4.0.1",
     "imagemin": "9.0.0",
     "imagemin-gifsicle": "7.0.0",
     "imagemin-jpegtran": "7.0.0",
