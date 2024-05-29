@@ -260,7 +260,7 @@
     "@html-eslint/eslint-plugin": "0.24.1",
     "@html-eslint/parser": "0.24.1",
     "@jscutlery/semver": "5.2.2",
-    "@microsoft/tsdoc-config": "0.16.2",
+    "@microsoft/tsdoc-config": "0.17.0",
     "@neoconfetti/svelte": "2.2.1",
     "@nestjs/schematics": "10.1.1",
     "@nestjs/testing": "10.3.8",
