@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       # A Docker image with Semgrep installed. Do not change this.
-      image: semgrep/semgrep@sha256:ba8b9988d722e50f67687d167d1bb91ee1bf3c04057412dc9077e729ffa2e401
+      image: semgrep/semgrep@sha256:cffeb57efaaffe57811b7fd740e4ee6313dbfaf6b364bb5cce52a8e506d35f42
     # Skip any PR created by dependabot to avoid permission issues:
     if: (github.actor != 'dependabot[bot]') && (github.actor != 'renovate[bot]')
     steps:
