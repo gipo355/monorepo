@@ -5,7 +5,7 @@
       "nodeGypDependencies": true
     },
     "ghcr.io/devcontainers/features/go:1@sha256:6adad519ea1b49989de42ce5bde5add32748cae68eeb6034db4c2d69e87c161b": {},
-    "ghcr.io/devcontainers/features/python:1@sha256:bf021f1800543f08bf029c449a3f25341be782b620802befa1f8e6ee51cf6cf6": {},
+    "ghcr.io/devcontainers/features/python:1@sha256:c56a79099ac16ccfca67b430db41a6b6858ba4eecd9f9bd21b1234814eb220c2": {},
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1@sha256:20761bd733511c1995ee955682cc2778b0a2e556abf88e9b88490c3be3c80bbc": {}
   }
 }
