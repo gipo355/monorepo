@@ -1219,8 +1219,8 @@ importers:
         specifier: 6.8.0
         version: 6.8.0(eslint@9.3.0)
       eslint-plugin-lit:
-        specifier: 1.13.0
-        version: 1.13.0(eslint@9.3.0)
+        specifier: 1.14.0
+        version: 1.14.0(eslint@9.3.0)
       eslint-plugin-n:
         specifier: 17.7.0
         version: 17.7.0(eslint@9.3.0)
@@ -24434,8 +24434,8 @@ packages:
       object.entries: 1.1.8
       object.fromentries: 2.0.8
 
-  /eslint-plugin-lit@1.13.0(eslint@9.3.0):
-    resolution: {integrity: sha512-vKc67q6YQ+naYO1QuFpqMoTs3535yp8+0WB/8bzZRLr5NSOb4C6vZrD4se7S9XZtym5TxSVlIqa9QTWYISykQg==}
+  /eslint-plugin-lit@1.14.0(eslint@9.3.0):
+    resolution: {integrity: sha512-J4w+CgO31621GreLFCdTUbTr5yeV2/RJ/M0myw0dykD5p9FGGIRLityQiNa6SG+JpVbmeQTQPJy4pNFmiurJ/w==}
     engines: {node: '>= 12'}
     peerDependencies:
       eslint: '>= 5'
