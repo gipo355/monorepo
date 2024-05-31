@@ -201,7 +201,7 @@
     "svelte-persisted-store": "0.9.4",
     "sveltekit-i18n": "2.4.2",
     "swagger-jsdoc": "6.2.8",
-    "swagger-ui-express": "5.0.0",
+    "swagger-ui-express": "5.0.1",
     "tippy.js": "6.3.7",
     "toad-scheduler": "3.0.1",
     "trpc-sveltekit": "3.6.1",
