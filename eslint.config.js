@@ -28,7 +28,14 @@ const compat = new FlatCompat({
 module.exports = tseslint.config(
   {
     // must be on its own for glob pattern to work
-    ignores: ['!**/*', 'node_modules', 'dist', 'tmp', '.angular'],
+    ignores: [
+      '**/*',
+      // '!**/*',
+      // 'node_modules',
+      // 'dist',
+      // 'tmp',
+      // '.angular'
+    ],
   },
 
   {
