@@ -288,7 +288,7 @@
     "@nxext/svelte": "18.0.0",
     "@nxext/sveltekit": "18.0.0",
     "@playwright/test": "1.44.1",
-    "@pmmmwh/react-refresh-webpack-plugin": "0.5.13",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.14",
     "@popperjs/core": "2.11.8",
     "@prettier/plugin-pug": "3.0.0",
     "@schematics/angular": "18.0.2",
