@@ -198,7 +198,7 @@
     "svelte-french-toast": "1.2.0",
     "svelte-headless-table": "0.18.2",
     "svelte-legos": "0.2.3",
-    "svelte-persisted-store": "0.9.4",
+    "svelte-persisted-store": "0.10.0",
     "sveltekit-i18n": "2.4.2",
     "swagger-jsdoc": "6.2.8",
     "swagger-ui-express": "5.0.1",
