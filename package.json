@@ -430,7 +430,7 @@
     "eslint-plugin-angular": "4.1.0",
     "eslint-plugin-astro": "1.2.0",
     "eslint-plugin-cypress": "3.3.0",
-    "eslint-plugin-deprecation": "2.0.0",
+    "eslint-plugin-deprecation": "3.0.0",
     "eslint-plugin-html": "8.1.1",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jest": "28.5.0",
