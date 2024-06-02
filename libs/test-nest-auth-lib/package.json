@@ -2,6 +2,7 @@
   "name": "@gipo355/test-nest-auth-lib",
   "version": "0.0.1",
   "dependencies": {
+    "@nestjs/mapped-types": "*",
     "tslib": "^2.3.0"
   },
   "type": "commonjs",
