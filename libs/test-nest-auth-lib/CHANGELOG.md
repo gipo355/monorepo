@@ -1,5 +1,12 @@
 # @gipo355/test-nest-auth-lib
 
+## 0.1.0
+
+### Minor Changes
+
+- 420dc7f: changed output path to projectRoot/dist for npm changeset publish.
+  tentative fix for external import
+
 ## 0.0.6
 
 ### Patch Changes
