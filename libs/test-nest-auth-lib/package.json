@@ -7,8 +7,7 @@
   },
   "type": "commonjs",
   "license": "MIT",
-  "main": "./src/index.js",
-  "typings": "./src/index.d.ts",
+  "main": "./dist/src/index.js",
   "homepage": "https://github.com/gipo355/monorepo/libs/example-node-lib",
   "repository": {
     "url": "https://github.com/gipo355/monorepo"

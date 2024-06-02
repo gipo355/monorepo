@@ -6,7 +6,7 @@
   "release": {
     "version": {
       "generatorOptions": {
-        "packageRoot": "dist/{projectRoot}",
+        "packageRoot": "{projectRoot}/dist",
         "currentVersionResolver": "git-tag"
       }
     }
@@ -17,17 +17,16 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/libs/test-nest-auth-lib",
+        "outputPath": "{projectRoot}/dist",
         "tsConfig": "libs/test-nest-auth-lib/tsconfig.lib.json",
         "packageJson": "libs/test-nest-auth-lib/package.json",
-        "main": "libs/test-nest-auth-lib/src/index.ts",
-        "assets": ["libs/test-nest-auth-lib/*.md"]
+        "main": "libs/test-nest-auth-lib/src/index.ts"
       }
     },
     "nx-release-publish": {
       "dependsOn": ["build"],
       "options": {
-        "packageRoot": "dist/{projectRoot}"
+        "packageRoot": "{projectRoot}/dist"
       }
     },
     "test": {

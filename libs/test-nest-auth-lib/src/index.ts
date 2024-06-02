@@ -1,2 +1,5 @@
+// full module
 export * from './lib/test-nest-auth-lib.module';
-export * from './lib/test-nest-auth-lib.service';
+// auth module standalone
+export * from './auth/auth.service';
+export * from './auth/auth.module';
