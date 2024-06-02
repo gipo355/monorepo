@@ -1,5 +1,11 @@
 # @gipo355/test-nest-auth-lib
 
+## 0.0.5
+
+### Patch Changes
+
+- 2fd3717: what
+
 ## 0.0.4
 
 ### Patch Changes
