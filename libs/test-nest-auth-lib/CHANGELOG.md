@@ -1,5 +1,11 @@
 # @gipo355/test-nest-auth-lib
 
+## 0.0.4
+
+### Patch Changes
+
+- 4f1ce07: change url
+
 ## 0.0.3
 
 ### Patch Changes
