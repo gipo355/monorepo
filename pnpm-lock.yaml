@@ -36,8 +36,8 @@ importers:
         specifier: 0.32.0
         version: 0.32.0(nodemailer@6.9.13)
       '@auth/sveltekit':
-        specifier: 1.1.0
-        version: 1.1.0(@sveltejs/kit@2.5.10)(nodemailer@6.9.13)(svelte@4.2.17)
+        specifier: 1.2.0
+        version: 1.2.0(@sveltejs/kit@2.5.10)(nodemailer@6.9.13)(svelte@4.2.17)
       '@aws-sdk/client-s3':
         specifier: 3.588.0
         version: 3.588.0
@@ -2495,30 +2495,6 @@ packages:
       - vite
     dev: true
 
-  /@auth/core@0.31.0(nodemailer@6.9.13):
-    resolution: {integrity: sha512-UKk3psvA1cRbk4/c9CkpWB8mdWrkKvzw0DmEYRsWolUQytQ2cRqx+hYuV6ZCsngw/xbj9hpmkZmAZEyq2g4fMg==}
-    peerDependencies:
-      '@simplewebauthn/browser': ^9.0.1
-      '@simplewebauthn/server': ^9.0.2
-      nodemailer: ^6.8.0
-    peerDependenciesMeta:
-      '@simplewebauthn/browser':
-        optional: true
-      '@simplewebauthn/server':
-        optional: true
-      nodemailer:
-        optional: true
-    dependencies:
-      '@panva/hkdf': 1.1.1
-      '@types/cookie': 0.6.0
-      cookie: 0.6.0
-      jose: 5.3.0
-      nodemailer: 6.9.13
-      oauth4webapi: 2.10.4
-      preact: 10.11.3
-      preact-render-to-string: 5.2.3(preact@10.11.3)
-    dev: false
-
   /@auth/core@0.32.0(nodemailer@6.9.13):
     resolution: {integrity: sha512-3+ssTScBd+1fd0/fscAyQN1tSygXzuhysuVVzB942ggU4mdfiTbv36P0ccVnExKWYJKvu3E2r3/zxXCCAmTOrg==}
     peerDependencies:
@@ -2543,8 +2519,8 @@ packages:
       preact-render-to-string: 5.2.3(preact@10.11.3)
     dev: false
 
-  /@auth/sveltekit@1.1.0(@sveltejs/kit@2.5.10)(nodemailer@6.9.13)(svelte@4.2.17):
-    resolution: {integrity: sha512-RdnRBvz09R+dNR7SkjYOedcq2tBozfRidbzq+YogIRHF7+HEeXksJClo4CW6jUC1slWLcTgOpkM9NFPD+4dg6w==}
+  /@auth/sveltekit@1.2.0(@sveltejs/kit@2.5.10)(nodemailer@6.9.13)(svelte@4.2.17):
+    resolution: {integrity: sha512-S2IbKK4pxc7YTN8GrE6/4+z7P0QysreEKmE9Dy6lAIkvwh4F3EEwcRu6S8rgnuAJrs3YZN4gdrum3eLoXE9fmg==}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
       '@simplewebauthn/server': ^9.0.3
@@ -2559,7 +2535,7 @@ packages:
       nodemailer:
         optional: true
     dependencies:
-      '@auth/core': 0.31.0(nodemailer@6.9.13)
+      '@auth/core': 0.32.0(nodemailer@6.9.13)
       '@sveltejs/kit': 2.5.10(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.17)(vite@5.2.12)
       nodemailer: 6.9.13
       set-cookie-parser: 2.6.0
