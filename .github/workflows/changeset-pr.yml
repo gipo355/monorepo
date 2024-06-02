@@ -39,8 +39,8 @@ jobs:
         uses: changesets/action@v1
         id: changesets
         with:
-          commit: 'chore: update versions'
-          title: 'chore: update versions'
+          commit: 'chore: release'
+          title: 'chore: release'
           # with publish, it will run the cmd if there are no changesets
           # publish: npx nx release publish
           # publish: pnpm ci:publish
