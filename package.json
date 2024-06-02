@@ -468,7 +468,7 @@
     "html-loader": "5.0.0",
     "html-minifier-terser": "7.2.0",
     "html-minimizer-webpack-plugin": "5.0.0",
-    "html-validate": "8.19.1",
+    "html-validate": "8.20.0",
     "html-validate-angular": "5.0.0",
     "html-webpack-plugin": "5.6.0",
     "html-webpack-pug-plugin": "4.0.0",
