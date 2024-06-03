@@ -778,8 +778,8 @@ importers:
         specifier: 1.44.1
         version: 1.44.1
       '@pmmmwh/react-refresh-webpack-plugin':
-        specifier: 0.5.14
-        version: 0.5.14(react-refresh@0.14.2)(webpack-dev-server@5.0.4)(webpack@5.91.0)
+        specifier: 0.5.15
+        version: 0.5.15(react-refresh@0.14.2)(webpack-dev-server@5.0.4)(webpack@5.91.0)
       '@popperjs/core':
         specifier: 2.11.8
         version: 2.11.8
@@ -13095,8 +13095,8 @@ packages:
       - supports-color
     dev: false
 
-  /@pmmmwh/react-refresh-webpack-plugin@0.5.14(react-refresh@0.14.2)(webpack-dev-server@5.0.4)(webpack@5.91.0):
-    resolution: {integrity: sha512-kmivGoNIyf4MolK7HoxvmIoR/J1ccM8iEShIlYzG27CdBmWsJEWNTwzocnlCkiF4iOSoWhf1QoQt71VGwq9r6Q==}
+  /@pmmmwh/react-refresh-webpack-plugin@0.5.15(react-refresh@0.14.2)(webpack-dev-server@5.0.4)(webpack@5.91.0):
+    resolution: {integrity: sha512-LFWllMA55pzB9D34w/wXUCf8+c+IYKuJDgxiZ3qMhl64KRMBHYM1I3VdGaD2BV5FNPV2/S2596bppxHbv2ZydQ==}
     engines: {node: '>= 10.13'}
     peerDependencies:
       '@types/webpack': 4.x || 5.x
