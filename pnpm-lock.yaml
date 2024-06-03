@@ -213,8 +213,8 @@ importers:
         specifier: 0.32.31
         version: 0.32.31
       '@stripe/stripe-js':
-        specifier: 3.4.1
-        version: 3.4.1
+        specifier: 3.5.0
+        version: 3.5.0
       '@trpc/client':
         specifier: 10.45.2
         version: 10.45.2(@trpc/server@10.45.2)
@@ -15880,8 +15880,8 @@ packages:
       file-system-cache: 2.3.0
     dev: true
 
-  /@stripe/stripe-js@3.4.1:
-    resolution: {integrity: sha512-6vFTA7+MzoQyhZDn/D3wWZrUE8M8OSUFJE2Y3O1okfBWr4eCLvMeSoZuYN2xb1KJ3J0bBw96YfKxY75M/H0JZw==}
+  /@stripe/stripe-js@3.5.0:
+    resolution: {integrity: sha512-pKS3wZnJoL1iTyGBXAvCwduNNeghJHY6QSRSNNvpYnrrQrLZ6Owsazjyynu0e0ObRgks0i7Rv+pe2M7/MBTZpQ==}
     engines: {node: '>=12.16'}
     dev: false
 
