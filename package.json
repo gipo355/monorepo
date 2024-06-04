@@ -213,7 +213,7 @@
     "validator": "13.12.0",
     "vue": "3.4.27",
     "winston": "3.13.0",
-    "workerpool": "9.1.1",
+    "workerpool": "9.1.2",
     "xss-clean": "0.1.4",
     "zone.js": "0.14.6"
   },
