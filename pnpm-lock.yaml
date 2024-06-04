@@ -1330,8 +1330,8 @@ importers:
         specifier: 9.0.11
         version: 9.0.11
       image-minimizer-webpack-plugin:
-        specifier: 4.0.1
-        version: 4.0.1(imagemin@9.0.0)(sharp@0.33.4)(svgo@3.3.2)(webpack@5.91.0)
+        specifier: 4.0.2
+        version: 4.0.2(imagemin@9.0.0)(sharp@0.33.4)(svgo@3.3.2)(webpack@5.91.0)
       imagemin:
         specifier: 9.0.0
         version: 9.0.0
@@ -28185,8 +28185,8 @@ packages:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
 
-  /image-minimizer-webpack-plugin@4.0.1(imagemin@9.0.0)(sharp@0.33.4)(svgo@3.3.2)(webpack@5.91.0):
-    resolution: {integrity: sha512-sKANrcwFTGyFlyir0Ke4ZTwrvjxb+VeFhh7P/Mbo0zJ+t0/AxpT/JSTptCXU+LbTaY34g61P7Aez7+T/itKt5w==}
+  /image-minimizer-webpack-plugin@4.0.2(imagemin@9.0.0)(sharp@0.33.4)(svgo@3.3.2)(webpack@5.91.0):
+    resolution: {integrity: sha512-/A7yc5r/6wQBF/AvVPO8eEroV2XwBFg36+7staL2M88E4VrcjSSjkNJn4dUizw3FAZ/GXO8A7IwWrIGC0f2tCg==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@squoosh/lib': '*'
