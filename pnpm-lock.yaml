@@ -507,8 +507,8 @@ importers:
         specifier: 2.43.0
         version: 2.43.0(@aws-sdk/client-sso-oidc@3.588.0)(@types/react@18.3.3)(pg@8.11.5)
       stripe:
-        specifier: 15.8.0
-        version: 15.8.0
+        specifier: 15.9.0
+        version: 15.9.0
       svelte:
         specifier: 4.2.17
         version: 4.2.17
@@ -39292,8 +39292,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /stripe@15.8.0:
-    resolution: {integrity: sha512-7eEPMgehd1I16cXeP7Rcn/JKkPWIadB9vGIeE+vbCzQXaY5R95AoNmkZx0vmlu1H4QIDs7j1pYIKPRm9Dr4LKg==}
+  /stripe@15.9.0:
+    resolution: {integrity: sha512-C7NAK17wGr6DOybxThO0n1zVcqSShWno7kx/UcJorQ/nWZ5KnfHQ38DUTb9NgizC8TCII3BPIhqq6Zc/1aUkrg==}
     engines: {node: '>=12.*'}
     dependencies:
       '@types/node': 20.14.1
