@@ -567,8 +567,8 @@ importers:
         specifier: 3.13.0
         version: 3.13.0
       workerpool:
-        specifier: 9.1.1
-        version: 9.1.1
+        specifier: 9.1.2
+        version: 9.1.2
       xss-clean:
         specifier: 0.1.4
         version: 0.1.4
@@ -43422,8 +43422,8 @@ packages:
     resolution: {integrity: sha512-ILEIE97kDZvF9Wb9f6h5aXK4swSlKGUcOEGiIYb2OOu/IrDU9iwj0fD//SsA6E5ibwJxpEvhullJY4Sl4GcpAw==}
     dev: true
 
-  /workerpool@9.1.1:
-    resolution: {integrity: sha512-EFoFTSEo9m4V4wNrwzVRjxnf/E/oBpOzcI/R5CIugJhl9RsCiq525rszo4AtqcjQQoqFdu2E3H82AnbtpaQHvg==}
+  /workerpool@9.1.2:
+    resolution: {integrity: sha512-5wZwyy5lcqrakQQcjaYQgVCbMR3djwIFWXuD2EGk/o/9bL3bd2kRGNwF74Bhcf1CIkAIwoOMG82EVnA5JmVVNw==}
     dev: false
 
   /wrap-ansi@6.2.0:
