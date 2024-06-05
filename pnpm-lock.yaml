@@ -1486,8 +1486,8 @@ importers:
         specifier: 1.1.1
         version: 1.1.1
       sonarqube-scanner:
-        specifier: 3.5.0
-        version: 3.5.0
+        specifier: 4.0.1
+        version: 4.0.1
       storybook:
         specifier: 8.1.5
         version: 8.1.5(@babel/preset-env@7.24.6)(react-dom@18.3.1)(react@18.3.1)
@@ -20054,6 +20054,16 @@ packages:
       - debug
     dev: false
 
+  /axios@1.6.8:
+    resolution: {integrity: sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==}
+    dependencies:
+      follow-redirects: 1.15.6(debug@4.1.1)
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+    dev: true
+
   /axios@1.7.2:
     resolution: {integrity: sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==}
     dependencies:
@@ -25789,13 +25799,6 @@ packages:
     resolution: {integrity: sha512-11Ndz7Nv+mvAC1j0ktTa7fAb0vLyGGX+rMHNBYQviQDGU0Hw7lhctJANqbPhu9nV9/izT/IntTgZ7Im/9LJs9g==}
     engines: {'0': node >=0.6.0}
 
-  /fancy-log@2.0.0:
-    resolution: {integrity: sha512-9CzxZbACXMUXW13tS0tI8XsGGmxWzO2DmYrGuBJOJ8k8q2K7hwfJA5qHjuPPe8wtsco33YR9wc+Rlr5wYFvhSA==}
-    engines: {node: '>=10.13.0'}
-    dependencies:
-      color-support: 1.1.3
-    dev: true
-
   /fast-check@3.17.2:
     resolution: {integrity: sha512-+3DPTxtxABLgmmVpYxrash3DHoq0cMa1jjLYNp3qqokKKhqVEaS4lbnaDKqWU5Dd6C2pEudPPBAEEQ9nUou9OQ==}
     engines: {node: '>=8.0.0'}
@@ -27635,7 +27638,6 @@ packages:
   /hpagent@1.2.0:
     resolution: {integrity: sha512-A91dYTeIB6NoXG+PxTQpCCDDnfHsW9kc06Lvpu1TEe9gnd6ZFeiBoRO9JvzEv6xK7EX97/dUE8g/vBMTqTS3CA==}
     engines: {node: '>=14'}
-    dev: false
 
   /hpp@0.2.3:
     resolution: {integrity: sha512-4zDZypjQcxK/8pfFNR7jaON7zEUpXZxz4viyFmqjb3kWNWAHsLEUmWXcdn25c5l76ISvnD6hbOGO97cXUI3Ryw==}
@@ -32537,12 +32539,6 @@ packages:
     engines: {node: '>= 0.10.5'}
     dependencies:
       minimatch: 3.1.2
-    dev: true
-
-  /node-downloader-helper@2.1.9:
-    resolution: {integrity: sha512-FSvAol2Z8UP191sZtsUZwHIN0eGoGue3uEXGdWIH5228e9KH1YHXT7fN8Oa33UGf+FbqGTQg3sJfrRGzmVCaJA==}
-    engines: {node: '>=14.18'}
-    hasBin: true
     dev: true
 
   /node-environment-flags@1.0.6:
@@ -38490,21 +38486,24 @@ packages:
       node-gyp-build: 4.8.1
     dev: false
 
-  /sonarqube-scanner@3.5.0:
-    resolution: {integrity: sha512-MiIJhFv8p/ePlTO0A1uC6UOxfIjSnjEw3sZ1G8q9mt6y2W/q/QrE/XWo0zCKkS8flmX0T2fjEuaDHnS/P9QQmw==}
-    engines: {node: '>= 16'}
+  /sonarqube-scanner@4.0.1:
+    resolution: {integrity: sha512-F9wJuJ8ycQI4ViqBF0hpo0yoAIlwbt1K2ExoeiP+WI3uMQJ/+L1GsFtcvbjDomV0XvBkWObVJ+t0EIDk/qxTRg==}
+    engines: {node: '>= 18'}
     hasBin: true
     dependencies:
       adm-zip: 0.5.12
-      fancy-log: 2.0.0
-      https-proxy-agent: 7.0.4
+      axios: 1.6.8
+      commander: 12.0.0
+      fs-extra: 11.2.0
+      hpagent: 1.2.0
       jest-sonar-reporter: 2.0.0
-      mkdirp: 3.0.1
-      node-downloader-helper: 2.1.9
-      progress: 2.0.3
+      node-forge: 1.3.1
+      proxy-from-env: 1.1.0
+      semver: 7.6.0
       slugify: 1.6.6
+      tar-stream: 3.1.7
     transitivePeerDependencies:
-      - supports-color
+      - debug
     dev: true
 
   /sonic-boom@2.8.0:

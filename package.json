@@ -526,7 +526,7 @@
     "sass": "1.77.4",
     "sass-loader": "14.2.1",
     "sitemap-webpack-plugin": "1.1.1",
-    "sonarqube-scanner": "3.5.0",
+    "sonarqube-scanner": "4.0.1",
     "storybook": "8.1.5",
     "style-loader": "4.0.0",
     "stylelint": "16.6.1",
