@@ -1261,8 +1261,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(eslint@9.4.0)(svelte@4.2.17)
       eslint-plugin-tailwindcss:
-        specifier: 3.17.0
-        version: 3.17.0(tailwindcss@3.4.3)
+        specifier: 3.17.1
+        version: 3.17.1(tailwindcss@3.4.3)
       eslint-plugin-tsdoc:
         specifier: 0.3.0
         version: 0.3.0
@@ -25452,9 +25452,9 @@ packages:
       - ts-node
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.0(tailwindcss@3.4.3):
-    resolution: {integrity: sha512-Ofl7tNh57a3W8BKHstKZSkD2gSCEkw54ycwZ958IK9zUR8TiNYdp8b0WGoLWLeyOAbeF1VPVJFBnlkJeIM2kVg==}
-    engines: {node: '>=14.0.0'}
+  /eslint-plugin-tailwindcss@3.17.1(tailwindcss@3.4.3):
+    resolution: {integrity: sha512-uHgM2bp2lIDEsW0thwbELfHRkPBRrtz7LrNg8DQ7EngYBBtZ9StJv2HVOKY7B+3zDE8N5G6ygynfJ/sxA6Vk1A==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
     dependencies:
