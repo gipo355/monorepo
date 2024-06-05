@@ -1426,8 +1426,8 @@ importers:
         specifier: 19.1.2
         version: 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)
       nx-stylelint:
-        specifier: 17.1.4
-        version: 17.1.4(nx@19.1.2)(stylelint-config-standard-scss@13.1.0)(stylelint-config-standard@36.0.0)(stylelint@16.6.1)
+        specifier: 17.1.5
+        version: 17.1.5(nx@19.1.2)(stylelint-config-standard-scss@13.1.0)(stylelint-config-standard@36.0.0)(stylelint@16.6.1)
       optionator:
         specifier: 0.9.4
         version: 0.9.4
@@ -32886,8 +32886,8 @@ packages:
   /nwsapi@2.2.10:
     resolution: {integrity: sha512-QK0sRs7MKv0tKe1+5uZIQk/C8XGza4DAnztJG8iD+TpJIORARrCxczA738awHrZoHeTjSSoHqao2teO0dC/gFQ==}
 
-  /nx-stylelint@17.1.4(nx@19.1.2)(stylelint-config-standard-scss@13.1.0)(stylelint-config-standard@36.0.0)(stylelint@16.6.1):
-    resolution: {integrity: sha512-S6K4DqRxoz3op2TyFLcDm/46CbGPqrQyEhW8qtXUOfgM+33VITWGSsPEbrng0b9E1FPz4ba6Rh1eS5hIpCoi1g==}
+  /nx-stylelint@17.1.5(nx@19.1.2)(stylelint-config-standard-scss@13.1.0)(stylelint-config-standard@36.0.0)(stylelint@16.6.1):
+    resolution: {integrity: sha512-k/vd4Nqj31+iIPyh98pLXtyMbNudfV43Zag74yTf2cz80ha6vsTuphcWntCT+jLiDB4iGqwANJa/hjhywltz/A==}
     engines: {node: ^18.13.0 || >=20.0.0}
     peerDependencies:
       stylelint: ^15.0.0 || ^16.0.0
@@ -32899,7 +32899,7 @@ packages:
       stylelint-config-standard-scss:
         optional: true
     dependencies:
-      '@nx/devkit': 18.3.5(nx@19.1.2)
+      '@nx/devkit': 19.1.2(nx@19.1.2)
       stylelint: 16.6.1(typescript@5.4.5)
       stylelint-config-standard: 36.0.0(stylelint@16.6.1)
       stylelint-config-standard-scss: 13.1.0(postcss@8.4.38)(stylelint@16.6.1)
