@@ -949,8 +949,8 @@ importers:
         specifier: 9.0.4
         version: 9.0.4
       '@types/imagemin':
-        specifier: 8.0.5
-        version: 8.0.5
+        specifier: 9.0.0
+        version: 9.0.0
       '@types/imagemin-gifsicle':
         specifier: 7.0.4
         version: 7.0.4
@@ -17294,30 +17294,30 @@ packages:
   /@types/imagemin-gifsicle@7.0.4:
     resolution: {integrity: sha512-ZghMBd/Jgqg5utTJNPmvf6DkuHzMhscJ8vgf/7MUGCpO+G+cLrhYltL+5d+h3A1B4W73S2SrmJZ1jS5LACpX+A==}
     dependencies:
-      '@types/imagemin': 8.0.5
+      '@types/imagemin': 9.0.0
     dev: true
 
   /@types/imagemin-jpegtran@5.0.4:
     resolution: {integrity: sha512-PSMxOeJa8q94Y+qx8Yriw+qj1+vH5xWpvar63o6SGO0Xi5RlKuwHHfJmN2GRUngPrlhe394jOUmpVq8jQlVmFA==}
     dependencies:
-      '@types/imagemin': 8.0.5
+      '@types/imagemin': 9.0.0
     dev: true
 
   /@types/imagemin-optipng@5.2.4:
     resolution: {integrity: sha512-mvKnDMC8eCYZetAQudjs1DbgpR84WhsTx1wgvdiXnpuUEti3oJ+MaMYBRWPY0JlQ4+y4TXKOfa7+LOuT8daegQ==}
     dependencies:
-      '@types/imagemin': 8.0.5
+      '@types/imagemin': 9.0.0
     dev: true
 
   /@types/imagemin-svgo@10.0.5:
     resolution: {integrity: sha512-9U2Rf7vWBHeqJvzmWNP3vYAKqR0208QqQ9Mkrq9OLIL5AeoF/dRVRou6iUYCufBSim57BpBpCJhZLrTgfS3k1g==}
     dependencies:
-      '@types/imagemin': 8.0.5
+      '@types/imagemin': 9.0.0
       '@types/svgo': 2.6.4
     dev: true
 
-  /@types/imagemin@8.0.5:
-    resolution: {integrity: sha512-tah3dm+5sG+fEDAz6CrQ5evuEaPX9K6DF3E5a01MPOKhA2oGBoC+oA5EJzSugB905sN4DE19EDzldT2Cld2g6Q==}
+  /@types/imagemin@9.0.0:
+    resolution: {integrity: sha512-4IaT+BdPUAFf/AAy3XlFAbqGk4RawhdidxWO5XTe+PJAYAr4d7m2FHiqyEPXbDpwS+IaLIJq5AIjLE9HcwMGBg==}
     dependencies:
       '@types/node': 20.14.1
     dev: true
