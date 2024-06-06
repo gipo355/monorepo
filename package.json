@@ -451,7 +451,7 @@
     "eslint-plugin-storybook": "0.8.0",
     "eslint-plugin-svelte": "2.39.0",
     "eslint-plugin-svelte3": "4.0.0",
-    "eslint-plugin-tailwindcss": "3.17.1",
+    "eslint-plugin-tailwindcss": "3.17.2",
     "eslint-plugin-tsdoc": "0.3.0",
     "eslint-plugin-typescript-sort-keys": "3.2.0",
     "eslint-plugin-unicorn": "53.0.0",
