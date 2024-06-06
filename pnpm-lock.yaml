@@ -1165,8 +1165,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0(webpack@5.91.0)
       drizzle-kit:
-        specifier: 0.22.3
-        version: 0.22.3
+        specifier: 0.22.4
+        version: 0.22.4
       esbuild:
         specifier: 0.21.4
         version: 0.21.4
@@ -24127,8 +24127,8 @@ packages:
       pify: 3.0.0
     dev: true
 
-  /drizzle-kit@0.22.3:
-    resolution: {integrity: sha512-SWxH9rTE5G6SjKh9ckiEWAvzZ2ZElntQT+Vn4K/jPgSOESKXPlwNby2bTIVutvtBQzo40S9XnyZ7iR6ObvpDHA==}
+  /drizzle-kit@0.22.4:
+    resolution: {integrity: sha512-jsiYGqHsbsP/GtM26y/bGK7je1ja+1H/RniCt1ovg2E7tMNraw6XdqKcjxHhb8FonCfDDjvwFgouRsZS46vrmA==}
     hasBin: true
     dependencies:
       '@esbuild-kit/esm-loader': 2.6.5
