@@ -519,7 +519,7 @@
     "postcss-scss": "4.0.9",
     "prettier": "3.3.1",
     "prettier-plugin-astro": "0.14.0",
-    "prettier-plugin-svelte": "3.2.3",
+    "prettier-plugin-svelte": "3.2.4",
     "prettier-plugin-tailwindcss": "0.6.1",
     "pug-loader": "2.4.0",
     "react-refresh": "0.14.2",
