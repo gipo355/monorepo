@@ -215,7 +215,7 @@
     "winston": "3.13.0",
     "workerpool": "9.1.2",
     "xss-clean": "0.1.4",
-    "zone.js": "0.14.6"
+    "zone.js": "0.14.7"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "18.0.3",
