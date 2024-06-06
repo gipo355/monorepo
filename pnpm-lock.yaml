@@ -713,7 +713,7 @@ importers:
         version: 15.0.0-rc.0(@nrwl/workspace@15.9.7)(nx@19.1.2)
       '@nx/cypress':
         specifier: 19.1.2
-        version: 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+        version: 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/devkit':
         specifier: 19.1.2
         version: 19.1.2(nx@19.1.2)
@@ -755,7 +755,7 @@ importers:
         version: 19.1.2(@babel/core@7.24.7)(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/babel__core@7.20.5)(@types/node@20.14.2)(nx@19.1.2)(ts-node@10.9.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/storybook':
         specifier: 19.1.2
-        version: 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+        version: 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/vite':
         specifier: 19.1.2
         version: 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)(vite@5.2.12)(vitest@1.6.0)
@@ -1147,8 +1147,8 @@ importers:
         specifier: 7.0.2
         version: 7.0.2(postcss@8.4.38)
       cypress:
-        specifier: 13.10.0
-        version: 13.10.0
+        specifier: 13.11.0
+        version: 13.11.0
       cz-conventional-changelog:
         specifier: 3.3.0
         version: 3.3.0(@types/node@20.14.2)(typescript@5.4.5)
@@ -11400,10 +11400,10 @@ packages:
       - debug
     dev: true
 
-  /@nrwl/cypress@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
+  /@nrwl/cypress@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
     resolution: {integrity: sha512-Iv7As9gCHV4ljvFMf1fBN9GZxgmqmYT/bZjIN7msjunHQPFe5s2VSX9tpfodhWYx7jgRgxh5XvI2s3bapNLmag==}
     dependencies:
-      '@nx/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+      '@nx/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -11792,10 +11792,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/storybook@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
+  /@nrwl/storybook@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
     resolution: {integrity: sha512-Bu446rErsVVCwKKbX07Lt3vmtaxjoKqQ31qA9Tn81dTBEgCafnCal2pjL8A0QFMb2lXsCwJ1euNg8Det9kEVgQ==}
     dependencies:
-      '@nx/storybook': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+      '@nx/storybook': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -12051,7 +12051,7 @@ packages:
       - webpack-cli
     dev: false
 
-  /@nx/cypress@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
+  /@nx/cypress@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
     resolution: {integrity: sha512-BaXaYxOYoUHMitIiokn0OWb5PpxaicFZ/Ebii9kminWSsFprRp1ytioaQ4zTbwAocilXYJpj0yQDQuIXr/V0xA==}
     peerDependencies:
       cypress: '>= 3 < 14'
@@ -12059,12 +12059,12 @@ packages:
       cypress:
         optional: true
     dependencies:
-      '@nrwl/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+      '@nrwl/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/devkit': 19.1.2(nx@19.1.2)
       '@nx/eslint': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(eslint@9.4.0)(nx@19.1.2)(verdaccio@5.31.0)
       '@nx/js': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.4.5)
-      cypress: 13.10.0
+      cypress: 13.11.0
       detect-port: 1.6.1
       tslib: 2.6.3
     transitivePeerDependencies:
@@ -12731,11 +12731,11 @@ packages:
       - verdaccio
     dev: true
 
-  /@nx/storybook@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
+  /@nx/storybook@19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0):
     resolution: {integrity: sha512-k5SlV50lPwrBRE97I+cGHFvEeNHxYLM/tI4o/HFSkVI7l+7uSfHFVneJaicSKp/WehMb3NlwusymyaWIqX7b2g==}
     dependencies:
-      '@nrwl/storybook': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
-      '@nx/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+      '@nrwl/storybook': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+      '@nx/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/devkit': 19.1.2(nx@19.1.2)
       '@nx/eslint': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(eslint@9.4.0)(nx@19.1.2)(verdaccio@5.31.0)
       '@nx/js': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
@@ -12919,12 +12919,12 @@ packages:
       nx: ^18.0.8
       typescript: 5.3.3
     dependencies:
-      '@nx/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+      '@nx/cypress': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/devkit': 18.3.5(nx@19.1.2)
       '@nx/eslint': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(eslint@9.4.0)(nx@19.1.2)(verdaccio@5.31.0)
       '@nx/jest': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(nx@19.1.2)(ts-node@10.9.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/js': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
-      '@nx/storybook': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.10.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
+      '@nx/storybook': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(cypress@13.11.0)(eslint@9.4.0)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)
       '@nx/vite': 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)(@types/node@20.14.2)(nx@19.1.2)(typescript@5.4.5)(verdaccio@5.31.0)(vite@5.2.12)(vitest@1.6.0)
       nx: 19.1.2(@swc-node/register@1.9.1)(@swc/core@1.5.25)
       tslib: 2.6.3
@@ -23055,8 +23055,8 @@ packages:
   /custom-event@1.0.1:
     resolution: {integrity: sha512-GAj5FOq0Hd+RsCGVJxZuKaIDXDf3h6GQoNEjFgbLLI/trgtavwUbSnZ5pVfg27DVCaWjIohryS0JFwIJyT2cMg==}
 
-  /cypress@13.10.0:
-    resolution: {integrity: sha512-tOhwRlurVOQbMduX+KonoMeQILs2cwR3yHGGENoFvvSoLUBHmJ8b9/n21gFSDqjlOJ+SRVcwuh+fG/JDsHsT6Q==}
+  /cypress@13.11.0:
+    resolution: {integrity: sha512-NXXogbAxVlVje4XHX+Cx5eMFZv4Dho/2rIcdBHg9CNPFUGZdM4cRdgIgM7USmNYsC12XY0bZENEQ+KBk72fl+A==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
