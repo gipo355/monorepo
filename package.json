@@ -104,7 +104,7 @@
     "@unpic/svelte": "0.0.53",
     "abstract-cache": "1.0.1",
     "abstract-cache-redis": "2.0.0",
-    "ajv": "8.15.0",
+    "ajv": "8.16.0",
     "ajv-errors": "3.0.0",
     "ajv-formats": "3.0.1",
     "ajv-keywords": "5.1.0",
