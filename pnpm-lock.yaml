@@ -150,8 +150,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(@sinclair/typebox@0.32.31)
       '@fastify/under-pressure':
-        specifier: 8.3.0
-        version: 8.3.0
+        specifier: 8.4.0
+        version: 8.4.0
       '@fastify/url-data':
         specifier: 5.4.0
         version: 5.4.0
@@ -9671,7 +9671,7 @@ packages:
     peerDependencies:
       next: 12.x.x || 13.x.x
     dependencies:
-      '@fastify/under-pressure': 8.3.0
+      '@fastify/under-pressure': 8.4.0
       fastify-plugin: 4.5.1
       next: 14.2.3(@babel/core@7.24.7)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1)(sass@1.77.4)
     dev: false
@@ -9827,8 +9827,8 @@ packages:
       '@sinclair/typebox': 0.32.31
     dev: false
 
-  /@fastify/under-pressure@8.3.0:
-    resolution: {integrity: sha512-ap1EePB9vHm8uQLM0nnaOeIMBLooNmAMTnccavBRwaXmu+acJFuSEQRVdMGRkW6viFDhdo5RGTcHzMBQyrucEA==}
+  /@fastify/under-pressure@8.4.0:
+    resolution: {integrity: sha512-MQ0gYneI6hW7Guhz9ljHFBP9pIEY1ZB4kN+KaLFEMg0G9cJz7560KDXnyESm8WGUfQr2dix1vBzoEZomCWzaRQ==}
     dependencies:
       '@fastify/error': 3.4.1
       fastify-plugin: 4.5.1
