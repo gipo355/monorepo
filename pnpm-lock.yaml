@@ -1156,8 +1156,8 @@ importers:
         specifier: 1.9.2
         version: 1.9.2
       dependency-cruiser:
-        specifier: 16.3.2
-        version: 16.3.2
+        specifier: 16.3.3
+        version: 16.3.3
       docker-compose:
         specifier: 0.24.8
         version: 0.24.8
@@ -24337,8 +24337,8 @@ packages:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
     engines: {node: '>= 0.8'}
 
-  /dependency-cruiser@16.3.2:
-    resolution: {integrity: sha512-nNaa2wpViBMqWXNqwqR2YMWLXXpr3CGtaNk53yOPWFWe4qR3A242YyHnK+h6v4IeY1oxM+APXg4af5U7iovyjQ==}
+  /dependency-cruiser@16.3.3:
+    resolution: {integrity: sha512-+YHPbd6RqM1nLUUbRVkbYO6mVeeq+VEL+bBkR+KFkYVU20vs1D0TalZ9z/hDLxiYiYCSTctUaoWWaUrRc1I+mw==}
     engines: {node: ^18.17||>=20}
     hasBin: true
     dependencies:
@@ -24347,10 +24347,10 @@ packages:
       acorn-jsx-walk: 2.0.0
       acorn-loose: 8.4.0
       acorn-walk: 8.3.2
-      ajv: 8.13.0
+      ajv: 8.16.0
       chalk: 5.3.0
-      commander: 12.0.0
-      enhanced-resolve: 5.16.1
+      commander: 12.1.0
+      enhanced-resolve: 5.17.0
       figures: 6.1.0
       ignore: 5.3.1
       indent-string: 5.0.0
@@ -27303,7 +27303,7 @@ packages:
     dependencies:
       app-module-path: 2.2.0
       commander: 10.0.1
-      enhanced-resolve: 5.16.1
+      enhanced-resolve: 5.17.0
       is-relative-path: 1.0.2
       module-definition: 5.0.1
       module-lookup-amd: 8.0.5
