@@ -141,8 +141,8 @@ importers:
         specifier: 8.14.0
         version: 8.14.0
       '@fastify/swagger-ui':
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.1.0
+        version: 3.1.0
       '@fastify/throttle':
         specifier: 2.0.1
         version: 2.0.1
@@ -9781,8 +9781,8 @@ packages:
       glob: 10.4.1
     dev: false
 
-  /@fastify/swagger-ui@3.0.0:
-    resolution: {integrity: sha512-8P5OwHVv6QR4XSE6cW4fsENeMbW4yWWWj6Dz/5tvQN2pwNyTiSWxYpsY3+VP+uiZucNaDrAE2xm11rqytqAocA==}
+  /@fastify/swagger-ui@3.1.0:
+    resolution: {integrity: sha512-68jm6k8VzvHXkEBT4Dakm/kkzUlPO4POIi0agWJSWxsYichPBqzjo+IpfqPl4pSJR1zCToQhEOo+cv+yJL2qew==}
     dependencies:
       '@fastify/static': 7.0.4
       fastify-plugin: 4.5.1
