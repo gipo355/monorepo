@@ -387,8 +387,8 @@ importers:
         specifier: 5.4.1
         version: 5.4.1
       isomorphic-dompurify:
-        specifier: 2.11.0
-        version: 2.11.0
+        specifier: 2.12.0
+        version: 2.12.0
       jose:
         specifier: 5.4.0
         version: 5.4.0
@@ -30200,8 +30200,8 @@ packages:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
 
-  /isomorphic-dompurify@2.11.0:
-    resolution: {integrity: sha512-PNGGCbbSH7+zF45UKu4Kh+yI8hm1bWA8kIZQow4KMImnjYQtrqJA0ZmwHamYUU7+M5tQ84z7xXMWmZF/v5t5eA==}
+  /isomorphic-dompurify@2.12.0:
+    resolution: {integrity: sha512-jJm6VgJ9toBLqNUHuLudn+2Q3NBBaoPbsh5SzzO2dp9Zq9+p6fEg4Ffuq9RZsofb8OnqE6FJVVq3MRDLlmBHpA==}
     engines: {node: '>=18'}
     dependencies:
       '@types/dompurify': 3.0.5
