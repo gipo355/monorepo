@@ -190,7 +190,7 @@
     "regenerator-runtime": "0.14.1",
     "rxjs": "7.8.1",
     "sharp": "0.33.4",
-    "simple-oauth2": "5.0.0",
+    "simple-oauth2": "5.0.1",
     "slugify": "1.6.6",
     "sst": "2.43.0",
     "stripe": "15.9.0",
