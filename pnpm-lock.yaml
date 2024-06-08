@@ -313,7 +313,7 @@ importers:
         version: 5.0.2
       drizzle-orm:
         specifier: 0.31.2
-        version: 0.31.2(@aws-sdk/client-rds-data@3.583.0)(@opentelemetry/api@1.8.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.12)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1)
+        version: 0.31.2(@aws-sdk/client-rds-data@3.583.0)(@opentelemetry/api@1.8.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.12)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1)
       drizzle-zod:
         specifier: 0.5.1
         version: 0.5.1(drizzle-orm@0.31.2)(zod@3.23.8)
@@ -441,8 +441,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       pg:
-        specifier: 8.11.5
-        version: 8.11.5
+        specifier: 8.12.0
+        version: 8.12.0
       pino:
         specifier: 9.1.0
         version: 9.1.0
@@ -505,7 +505,7 @@ importers:
         version: 1.6.6
       sst:
         specifier: 2.43.0
-        version: 2.43.0(@aws-sdk/client-sso-oidc@3.592.0)(@types/react@18.3.3)(pg@8.11.5)
+        version: 2.43.0(@aws-sdk/client-sso-oidc@3.592.0)(@types/react@18.3.3)(pg@8.12.0)
       stripe:
         specifier: 15.9.0
         version: 15.9.0
@@ -24829,7 +24829,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.31.2(@aws-sdk/client-rds-data@3.583.0)(@opentelemetry/api@1.8.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.12)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1):
+  /drizzle-orm@0.31.2(@aws-sdk/client-rds-data@3.583.0)(@opentelemetry/api@1.8.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.12)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1):
     resolution: {integrity: sha512-QnenevbnnAzmbNzQwbhklvIYrDE8YER8K7kSrAWQSV1YvFCdSQPzj+jzqRdTSsV2cDqSpQ0NXGyL1G9I43LDLg==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -24918,7 +24918,7 @@ packages:
       '@types/react': 18.3.3
       bun-types: 1.1.12
       kysely: 0.25.0
-      pg: 8.11.5
+      pg: 8.12.0
       postgres: 3.4.4
       react: 18.3.1
     dev: false
@@ -24929,7 +24929,7 @@ packages:
       drizzle-orm: '>=0.23.13'
       zod: '*'
     dependencies:
-      drizzle-orm: 0.31.2(@aws-sdk/client-rds-data@3.583.0)(@opentelemetry/api@1.8.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.12)(kysely@0.25.0)(pg@8.11.5)(postgres@3.4.4)(react@18.3.1)
+      drizzle-orm: 0.31.2(@aws-sdk/client-rds-data@3.583.0)(@opentelemetry/api@1.8.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.12)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1)
       zod: 3.23.8
     dev: false
 
@@ -31381,7 +31381,7 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /kysely-codegen@0.10.1(kysely@0.25.0)(pg@8.11.5):
+  /kysely-codegen@0.10.1(kysely@0.25.0)(pg@8.12.0):
     resolution: {integrity: sha512-8Bslh952gN5gtucRv4jTZDFD18RBioS6M50zHfe5kwb5iSyEAunU4ZYMdHzkHraa4zxjg5/183XlOryBCXLRIw==}
     hasBin: true
     peerDependencies:
@@ -31402,7 +31402,7 @@ packages:
       kysely: 0.25.0
       micromatch: 4.0.7
       minimist: 1.2.8
-      pg: 8.11.5
+      pg: 8.12.0
     dev: false
 
   /kysely-data-api@0.2.1(@aws-sdk/client-rds-data@3.583.0)(kysely@0.25.0):
@@ -35193,12 +35193,12 @@ packages:
     resolution: {integrity: sha512-BM/Thnrw5jm2kKLE5uJkXqqExRUY/toLHda65XgFTBTFYZyopbKjBe29Ii3RbkvlsMoFwD+tHeGaCjjv0gHlyw==}
     engines: {node: '>=4'}
 
-  /pg-pool@3.6.2(pg@8.11.5):
+  /pg-pool@3.6.2(pg@8.12.0):
     resolution: {integrity: sha512-Htjbg8BlwXqSBQ9V8Vjtc+vzf/6fVUuak/3/XXKA9oxZprwW3IMDQTGHP+KDmVL7rtd+R1QjbnCFPuTHm3G4hg==}
     peerDependencies:
       pg: '>=8.0'
     dependencies:
-      pg: 8.11.5
+      pg: 8.12.0
     dev: false
 
   /pg-protocol@1.6.1:
@@ -35227,8 +35227,8 @@ packages:
       postgres-interval: 3.0.0
       postgres-range: 1.1.4
 
-  /pg@8.11.5:
-    resolution: {integrity: sha512-jqgNHSKL5cbDjFlHyYsCXmQDrfIX/3RsNwYqpd4N0Kt8niLuNoRNH+aazv6cOd43gPh9Y4DjQCtb+X0MH0Hvnw==}
+  /pg@8.12.0:
+    resolution: {integrity: sha512-A+LHUSnwnxrnL/tZ+OLfqR1SxLN3c/pgDztZ47Rpbsd4jUytsTtwQo/TLPRzPJMp/1pbhYVhH9cuSZLAajNfjQ==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -35237,7 +35237,7 @@ packages:
         optional: true
     dependencies:
       pg-connection-string: 2.6.4
-      pg-pool: 3.6.2(pg@8.11.5)
+      pg-pool: 3.6.2(pg@8.12.0)
       pg-protocol: 1.6.1
       pg-types: 2.2.0
       pgpass: 1.0.5
@@ -39928,7 +39928,7 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /sst@2.43.0(@aws-sdk/client-sso-oidc@3.592.0)(@types/react@18.3.3)(pg@8.11.5):
+  /sst@2.43.0(@aws-sdk/client-sso-oidc@3.592.0)(@types/react@18.3.3)(pg@8.12.0):
     resolution: {integrity: sha512-iTcYYaCfusJJZHJCwhHsanRMFouMvnLOBfPOOZGiq5ezw38iPCMF/sZfT9nLWD50BSbEsDP2OiAVeXJAQvmrsQ==}
     hasBin: true
     peerDependencies:
@@ -39990,7 +39990,7 @@ packages:
       ink: 4.4.1(@types/react@18.3.3)(react@18.3.1)
       ink-spinner: 5.0.0(ink@4.4.1)(react@18.3.1)
       kysely: 0.25.0
-      kysely-codegen: 0.10.1(kysely@0.25.0)(pg@8.11.5)
+      kysely-codegen: 0.10.1(kysely@0.25.0)(pg@8.12.0)
       kysely-data-api: 0.2.1(@aws-sdk/client-rds-data@3.583.0)(kysely@0.25.0)
       minimatch: 6.2.0
       openid-client: 5.6.5
