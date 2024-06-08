@@ -402,8 +402,8 @@ importers:
         specifier: 1.3.0
         version: 1.3.0
       layercake:
-        specifier: 8.2.0
-        version: 8.2.0(svelte@4.2.18)(typescript@5.4.5)
+        specifier: 8.3.0
+        version: 8.3.0(svelte@4.2.18)(typescript@5.4.5)
       lodash:
         specifier: 4.17.21
         version: 4.17.21
@@ -31435,8 +31435,8 @@ packages:
       picocolors: 1.0.1
       shell-quote: 1.8.1
 
-  /layercake@8.2.0(svelte@4.2.18)(typescript@5.4.5):
-    resolution: {integrity: sha512-CjQMT/nKdEkw7J2QLoB70UOr6b9tJPEnfA9G+unmuEJteJdfCSbjkzhzjN2MngX4YvR8VBG4H7x9sx5qO8aN6g==}
+  /layercake@8.3.0(svelte@4.2.18)(typescript@5.4.5):
+    resolution: {integrity: sha512-4oJDeEg314VciGCbYkb0X7OQV5zG1vgxIPMnaW7NnneQqR2N6CDTmGDKiPA5VXDA9ZEp39qytSwjO+3McOIzbQ==}
     peerDependencies:
       svelte: 3 - 5 || >=5.0.0-next.120
       typescript: ^5.0.2
