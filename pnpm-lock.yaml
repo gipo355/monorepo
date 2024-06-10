@@ -1084,8 +1084,8 @@ importers:
         specifier: 7.12.0
         version: 7.12.0(eslint@9.4.0)(typescript@5.4.5)
       '@vitejs/plugin-react':
-        specifier: 4.3.0
-        version: 4.3.0(vite@5.2.13)
+        specifier: 4.3.1
+        version: 4.3.1(vite@5.2.13)
       '@vitejs/plugin-vue':
         specifier: 5.0.5
         version: 5.0.5(vite@5.2.13)(vue@3.4.27)
@@ -2425,7 +2425,7 @@ packages:
     dependencies:
       '@types/react': 18.3.3
       '@types/react-dom': 18.3.0
-      '@vitejs/plugin-react': 4.3.0(vite@5.2.13)
+      '@vitejs/plugin-react': 4.3.1(vite@5.2.13)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       ultrahtml: 1.5.3
@@ -4981,11 +4981,6 @@ packages:
     dependencies:
       '@babel/types': 7.24.7
 
-  /@babel/helper-plugin-utils@7.24.6:
-    resolution: {integrity: sha512-MZG/JcWfxybKwsA9N9PmtF2lOSFSEMVCpIRrbxccZFLJPrJciJdG/UhSh5W96GEteJI2ARqm5UAHxISwRDLSNg==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-plugin-utils@7.24.7:
     resolution: {integrity: sha512-Rq76wjt7yz9AAc1KnlRKNAi/dMSVWgDRx43FHoJEbcYU6xOWaE2dVPwcdTukJrjxS65GITyfbvEYHvkirZ6uEg==}
     engines: {node: '>=6.9.0'}
@@ -6538,7 +6533,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.7
-      '@babel/helper-plugin-utils': 7.24.6
+      '@babel/helper-plugin-utils': 7.24.7
     dev: true
 
   /@babel/plugin-transform-react-jsx-source@7.24.6(@babel/core@7.24.7):
@@ -6548,7 +6543,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.7
-      '@babel/helper-plugin-utils': 7.24.6
+      '@babel/helper-plugin-utils': 7.24.7
     dev: true
 
   /@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.7):
@@ -19634,8 +19629,8 @@ packages:
     dependencies:
       vite: 5.2.11(@types/node@20.14.2)(less@4.2.0)(lightningcss@1.25.1)(sass@1.77.2)(stylus@0.59.0)(terser@5.31.0)
 
-  /@vitejs/plugin-react@4.3.0(vite@5.2.13):
-    resolution: {integrity: sha512-KcEbMsn4Dpk+LIbHMj7gDPRKaTMStxxWRkRmxsg/jVdFdJCZWt1SchZcf0M4t8lIKdwwMsEyzhrcOXRrDPtOBw==}
+  /@vitejs/plugin-react@4.3.1(vite@5.2.13):
+    resolution: {integrity: sha512-m/V2syj5CuVnaxcUJOQRel/Wr31FFXRFlnOoq1TVtkCxsY5veGMTEmpWHndrhB2U8ScHtCQB1e+4hWYExQc6Lg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.2.0 || ^5.0.0
