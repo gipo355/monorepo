@@ -419,7 +419,7 @@
     "dependency-cruiser": "16.3.3",
     "docker-compose": "0.24.8",
     "dotenv-webpack": "8.1.0",
-    "drizzle-kit": "0.22.6",
+    "drizzle-kit": "0.22.7",
     "esbuild": "0.21.5",
     "esbuild-loader": "4.1.0",
     "eslint": "9.4.0",
