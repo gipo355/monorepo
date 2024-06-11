@@ -92,7 +92,7 @@
     "@node-rs/argon2": "1.8.3",
     "@nx/angular": "19.2.3",
     "@prisma/client": "5.15.0",
-    "@sentry/angular-ivy": "7.114.0",
+    "@sentry/angular-ivy": "7.116.0",
     "@sentry/node": "8.8.0",
     "@sinclair/typebox": "0.32.31",
     "@stripe/stripe-js": "3.5.0",
