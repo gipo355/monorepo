@@ -228,7 +228,7 @@
     "@angular/compiler-cli": "18.0.2",
     "@angular/language-service": "18.0.2",
     "@angular/localize": "18.0.2",
-    "@astrojs/node": "8.2.6",
+    "@astrojs/node": "8.3.0",
     "@astrojs/partytown": "2.1.1",
     "@astrojs/prefetch": "0.4.1",
     "@astrojs/react": "3.5.0",
