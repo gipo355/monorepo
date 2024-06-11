@@ -114,8 +114,8 @@ importers:
         specifier: 7.8.1
         version: 7.8.1
       '@fastify/passport':
-        specifier: 2.4.0
-        version: 2.4.0
+        specifier: 2.5.0
+        version: 2.5.0
       '@fastify/rate-limit':
         specifier: 9.1.0
         version: 9.1.0
@@ -9681,8 +9681,8 @@ packages:
       - supports-color
     dev: false
 
-  /@fastify/passport@2.4.0:
-    resolution: {integrity: sha512-ad/Bg8mi9qrB2jqx63+t6rwUr4KtJzAUj7P+OIObq8zX/LhPz8OyHg8Ou9oyevSo3vZHA8YFmZvLExP4Xwmlhw==}
+  /@fastify/passport@2.5.0:
+    resolution: {integrity: sha512-C7FFT4XMjjDFQDDDNZYfciDpCC/BcEy+PBI0RgSJTrRtrDhvDxbQXCiFV6ls5wnGFfz+fIkUYfYzRP2HPv+pBw==}
     dependencies:
       '@fastify/flash': 5.2.0
       fastify-plugin: 4.5.1
