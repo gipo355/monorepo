@@ -10,7 +10,7 @@ require (
 	github.com/swaggo/echo-swagger v1.4.1
 	github.com/swaggo/swag v1.16.3
 	golang.org/x/crypto v0.24.0
-	gorm.io/driver/postgres v1.5.7
+	gorm.io/driver/postgres v1.5.9
 	gorm.io/gorm v1.25.10
 )
 
