@@ -1288,8 +1288,8 @@ importers:
         specifier: 13.1.2
         version: 13.1.2
       fastify-cli:
-        specifier: 6.1.1
-        version: 6.1.1
+        specifier: 6.2.1
+        version: 6.2.1
       favicons:
         specifier: 7.2.0
         version: 7.2.0
@@ -25852,8 +25852,8 @@ packages:
       reusify: 1.0.4
     dev: false
 
-  /fastify-cli@6.1.1:
-    resolution: {integrity: sha512-3TinVuHxcEOhwjRLoE9rTeH1IXa73B5fS21amNyTgF2kOnC72sHzp1p6y2RsbPES1NGf2A7+4S11jbfdTOchVQ==}
+  /fastify-cli@6.2.1:
+    resolution: {integrity: sha512-i8CJZWD/5P0Vfx0HPLw7XMA7cyaYQDrKehWIUxmcueJsnd5KNsX6TTVn997dOiQvlmDU33di0AoBLDBf8zxBoA==}
     hasBin: true
     dependencies:
       '@fastify/deepmerge': 1.3.0
@@ -25867,8 +25867,7 @@ packages:
       generify: 4.2.0
       help-me: 4.2.0
       is-docker: 2.2.1
-      make-promises-safe: 5.1.0
-      pino-pretty: 10.3.1
+      pino-pretty: 11.2.1
       pkg-up: 3.1.0
       resolve-from: 5.0.0
       semver: 7.6.2
@@ -28297,6 +28296,7 @@ packages:
   /ini@4.1.1:
     resolution: {integrity: sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    requiresBuild: true
     dev: true
 
   /ini@4.1.2:
@@ -31176,10 +31176,6 @@ packages:
       ssri: 10.0.6
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /make-promises-safe@5.1.0:
-    resolution: {integrity: sha512-AfdZ49rtyhQR/6cqVKGoH7y4ql7XkS5HJI1lZm0/5N6CQosy1eYbBJ/qbhkKHzo17UH7M918Bysf6XB9f3kS1g==}
     dev: true
 
   /makeerror@1.0.12:
@@ -34208,26 +34204,6 @@ packages:
       pump: 3.0.0
     dev: false
 
-  /pino-pretty@10.3.1:
-    resolution: {integrity: sha512-az8JbIYeN/1iLj2t0jR9DV48/LQ3RC6hZPpapKPkb84Q+yTidMCpgWxIT3N0flnBDilyBQ1luWNpOeJptjdp/g==}
-    hasBin: true
-    dependencies:
-      colorette: 2.0.20
-      dateformat: 4.6.3
-      fast-copy: 3.0.2
-      fast-safe-stringify: 2.1.1
-      help-me: 5.0.0
-      joycon: 3.1.1
-      minimist: 1.2.8
-      on-exit-leak-free: 2.1.2
-      pino-abstract-transport: 1.2.0
-      pump: 3.0.0
-      readable-stream: 4.5.2
-      secure-json-parse: 2.7.0
-      sonic-boom: 3.8.1
-      strip-json-comments: 3.1.1
-    dev: true
-
   /pino-pretty@11.2.1:
     resolution: {integrity: sha512-O05NuD9tkRasFRWVaF/uHLOvoRDFD7tb5VMertr78rbsYFjYp48Vg3477EshVAF5eZaEw+OpDl/tu+B0R5o+7g==}
     hasBin: true
@@ -34246,7 +34222,6 @@ packages:
       secure-json-parse: 2.7.0
       sonic-boom: 4.0.1
       strip-json-comments: 3.1.1
-    dev: false
 
   /pino-std-serializers@4.0.0:
     resolution: {integrity: sha512-cK0pekc1Kjy5w9V2/n+8MkZwusa6EyyxfeQCB799CQRhRt/CqYKiWs5adeu8Shve2ZNffvfC/7J64A2PJo1W/Q==}
