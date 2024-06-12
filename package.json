@@ -460,7 +460,7 @@
     "eslint-watch": "8.0.0",
     "eslint-webpack-plugin": "4.2.0",
     "eslint_d": "13.1.2",
-    "fastify-cli": "6.1.1",
+    "fastify-cli": "6.2.1",
     "favicons": "7.2.0",
     "favicons-webpack-plugin": "6.0.1",
     "fork-ts-checker-webpack-plugin": "9.0.2",
