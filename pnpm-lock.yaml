@@ -148,7 +148,7 @@ importers:
         version: 2.0.1
       '@fastify/type-provider-typebox':
         specifier: 4.0.0
-        version: 4.0.0(@sinclair/typebox@0.32.31)
+        version: 4.0.0(@sinclair/typebox@0.32.32)
       '@fastify/under-pressure':
         specifier: 8.5.0
         version: 8.5.0
@@ -210,8 +210,8 @@ importers:
         specifier: 8.8.0
         version: 8.8.0
       '@sinclair/typebox':
-        specifier: 0.32.31
-        version: 0.32.31
+        specifier: 0.32.32
+        version: 0.32.32
       '@stripe/stripe-js':
         specifier: 3.5.0
         version: 3.5.0
@@ -8917,12 +8917,12 @@ packages:
       json-schema-to-ts: 3.1.0
     dev: true
 
-  /@fastify/type-provider-typebox@4.0.0(@sinclair/typebox@0.32.31):
+  /@fastify/type-provider-typebox@4.0.0(@sinclair/typebox@0.32.32):
     resolution: {integrity: sha512-kTlN0saC/+xhcQPyBjb3YONQAMjiD/EHlCRjQjsr5E3NFjS5K8ZX5LGzXYDRjSa+sV4y8gTL5Q7FlObePv4iTA==}
     peerDependencies:
       '@sinclair/typebox': '>=0.26 <=0.32'
     dependencies:
-      '@sinclair/typebox': 0.32.31
+      '@sinclair/typebox': 0.32.32
     dev: false
 
   /@fastify/under-pressure@8.5.0:
@@ -13850,8 +13850,8 @@ packages:
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
 
-  /@sinclair/typebox@0.32.31:
-    resolution: {integrity: sha512-rYB0tgGHawpom3ZwwsGidvI0NI+W/rRHu1dyyO1KlIoH8iMdg3esSnYQxQtyJ8eflhqxmzEV7Nu8zT4JY7CHKw==}
+  /@sinclair/typebox@0.32.32:
+    resolution: {integrity: sha512-m+A3zFSI87TCtoz6vQCSnd+t/kDKL78JmzhKYkON+7SnHSa+794qraIVpm6ozFGK+5svnVOt1LJ7BUEhGkIvgg==}
 
   /@sindresorhus/is@0.7.0:
     resolution: {integrity: sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==}
@@ -39918,7 +39918,7 @@ packages:
     optionalDependencies:
       '@exodus/schemasafe': 1.3.0
       '@gcornut/valibot-json-schema': 0.31.0
-      '@sinclair/typebox': 0.32.31
+      '@sinclair/typebox': 0.32.32
       '@sodaru/yup-to-json-schema': 2.0.1
       '@vinejs/vine': 1.8.0
       arktype: 2.0.0-dev.21
