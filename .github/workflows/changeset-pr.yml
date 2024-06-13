@@ -7,7 +7,7 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 jobs:
   release:
-    if: (github.actor != 'dependabot[bot]') && (github.actor != 'renovate[bot]')
+    # if: (github.actor != 'dependabot[bot]') && (github.actor != 'renovate[bot]')
     name: Release Job
     permissions:
       contents: write # to be able to publish a GitHub release
@@ -39,8 +39,8 @@ jobs:
         uses: changesets/action@v1
         id: changesets
         with:
-          commit: 'chore: release'
-          title: 'chore: release'
+          commit: 'chore: changeset release'
+          title: 'chore: changeset release'
           # with publish, it will run the cmd if there are no changesets
           # publish: npx nx release publish
           # publish: pnpm ci:publish
