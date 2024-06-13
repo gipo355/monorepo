@@ -826,8 +826,8 @@ importers:
         specifier: 0.2.2
         version: 0.2.2
       '@sveltejs/adapter-auto':
-        specifier: 3.2.1
-        version: 3.2.1(@sveltejs/kit@2.5.10)
+        specifier: 3.2.2
+        version: 3.2.2(@sveltejs/kit@2.5.10)
       '@sveltejs/adapter-node':
         specifier: 5.0.1
         version: 5.0.1(@sveltejs/kit@2.5.10)
@@ -15846,8 +15846,8 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /@sveltejs/adapter-auto@3.2.1(@sveltejs/kit@2.5.10):
-    resolution: {integrity: sha512-/3xx8ZFCD5UBc/7AbyXkFF3HNCzWAp2xncH8HA4doGjoGQEN7PmwiRx4Y9nOzi4mqDqYYUic0gaIAE2khWWU4Q==}
+  /@sveltejs/adapter-auto@3.2.2(@sveltejs/kit@2.5.10):
+    resolution: {integrity: sha512-Mso5xPCA8zgcKrv+QioVlqMZkyUQ5MjDJiEPuG/Z7cV/5tmwV7LmcVWk5tZ+H0NCOV1x12AsoSpt/CwFwuVXMA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
