@@ -1,0 +1,22 @@
+# https://taskfile.dev
+version: '3'
+tasks:
+  example:
+    desc: Example task
+    cmds:
+      - echo "Hello, World!"
+  gen-pub-lib:
+    desc: Generate a publishable library
+    cmds:
+      - nx g @nx/js:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable
+        --directory=libs/{{.CLI_ARGS}}
+  gen-pub-package:
+    desc: Generate a publishable package
+    cmds:
+      - nx g @nx/js:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable
+        --directory=packages/{{.CLI_ARGS}}
+  gen-pub-package-js:
+    desc: Generate a publishable package with JS
+    cmds:
+      - nx g @nx/js:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable
+        --directory=packages/{{.CLI_ARGS}} --js=true
