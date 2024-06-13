@@ -1,6 +1,6 @@
 {
   "name": "@gipo355/nest-utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "dependencies": {},
   "main": "./index.cjs",
   "module": "./index.js",
