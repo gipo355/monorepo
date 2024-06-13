@@ -619,7 +619,8 @@
   "repository": "https://github.com/gipo355/monorepo",
   "scripts": {
     "changeset": "changeset",
-    "changeset-publish": "tsx scripts/nx-run-many --build && changeset publish",
+    "changeset-publish-with-changeset": "tsx scripts/nx-run-many --build && changeset publish",
+    "changeset-publish": "nx release publish",
     "clear-all": "tsx scripts/clear.ts",
     "commit": "git-cz",
     "commitlint": "commitlint --edit",
