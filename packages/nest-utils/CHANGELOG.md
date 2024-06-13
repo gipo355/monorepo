@@ -1,5 +1,11 @@
 # @gipo355/nest-utils
 
+## 0.0.4
+
+### Patch Changes
+
+- 47df386: add tsdocs to nest-utils
+
 ## 0.0.3
 
 ### Patch Changes
