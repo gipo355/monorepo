@@ -276,8 +276,8 @@ importers:
         specifier: 4.13.0
         version: 4.13.0
       bullmq:
-        specifier: 5.7.15
-        version: 5.7.15
+        specifier: 5.8.1
+        version: 5.8.1
       class-transformer:
         specifier: 0.5.1
         version: 0.5.1
@@ -20553,8 +20553,8 @@ packages:
       - supports-color
     dev: false
 
-  /bullmq@5.7.15:
-    resolution: {integrity: sha512-XR5sTA8BPUY67sS37sMKGCDvSLaVpMq7aaQG8FGSKOUnPoJMRf17n1TibVWP3+yK0xKLdK5Y7PY9D874Fpeqpg==}
+  /bullmq@5.8.1:
+    resolution: {integrity: sha512-t6BTH3J6T7exR+1C1NtQYekCgzkzEnxzBKU8Qit2YVgoJyTsu/xlHk7z/6g088uv1qD6XtHtV5Aiur/sUewTQA==}
     dependencies:
       cron-parser: 4.9.0
       ioredis: 5.4.1
