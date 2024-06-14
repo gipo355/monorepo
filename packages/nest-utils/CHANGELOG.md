@@ -1,5 +1,11 @@
 # @gipo355/nest-utils
 
+## 0.0.6
+
+### Patch Changes
+
+- b472d71: update response dto to provide more cases and type safety
+
 ## 0.0.5
 
 ### Patch Changes
