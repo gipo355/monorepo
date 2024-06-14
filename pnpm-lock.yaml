@@ -37,7 +37,7 @@ importers:
         version: 0.32.0(nodemailer@6.9.13)
       '@auth/sveltekit':
         specifier: 1.2.0
-        version: 1.2.0(@sveltejs/kit@2.5.14)(nodemailer@6.9.13)(svelte@4.2.18)
+        version: 1.2.0(@sveltejs/kit@2.5.15)(nodemailer@6.9.13)(svelte@4.2.18)
       '@aws-sdk/client-s3':
         specifier: 3.596.0
         version: 3.596.0
@@ -827,22 +827,22 @@ importers:
         version: 0.2.2
       '@sveltejs/adapter-auto':
         specifier: 3.2.2
-        version: 3.2.2(@sveltejs/kit@2.5.14)
+        version: 3.2.2(@sveltejs/kit@2.5.15)
       '@sveltejs/adapter-node':
         specifier: 5.1.0
-        version: 5.1.0(@sveltejs/kit@2.5.14)
+        version: 5.1.0(@sveltejs/kit@2.5.15)
       '@sveltejs/adapter-static':
         specifier: 3.0.2
-        version: 3.0.2(@sveltejs/kit@2.5.14)
+        version: 3.0.2(@sveltejs/kit@2.5.15)
       '@sveltejs/adapter-vercel':
         specifier: 5.3.2
-        version: 5.3.2(@sveltejs/kit@2.5.14)
+        version: 5.3.2(@sveltejs/kit@2.5.15)
       '@sveltejs/enhanced-img':
         specifier: 0.3.0
         version: 0.3.0(rollup@4.18.0)(svelte@4.2.18)
       '@sveltejs/kit':
-        specifier: 2.5.14
-        version: 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
+        specifier: 2.5.15
+        version: 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
       '@sveltejs/vite-plugin-svelte':
         specifier: 3.1.1
         version: 3.1.1(svelte@4.2.18)(vite@5.3.1)
@@ -1559,7 +1559,7 @@ importers:
         version: 2.6.0
       sveltekit-superforms:
         specifier: 2.15.1
-        version: 2.15.1(@sveltejs/kit@2.5.14)(svelte@4.2.18)
+        version: 2.15.1(@sveltejs/kit@2.5.15)(svelte@4.2.18)
       svgo:
         specifier: 3.3.2
         version: 3.3.2
@@ -2523,7 +2523,7 @@ packages:
       preact-render-to-string: 5.2.3(preact@10.11.3)
     dev: false
 
-  /@auth/sveltekit@1.2.0(@sveltejs/kit@2.5.14)(nodemailer@6.9.13)(svelte@4.2.18):
+  /@auth/sveltekit@1.2.0(@sveltejs/kit@2.5.15)(nodemailer@6.9.13)(svelte@4.2.18):
     resolution: {integrity: sha512-S2IbKK4pxc7YTN8GrE6/4+z7P0QysreEKmE9Dy6lAIkvwh4F3EEwcRu6S8rgnuAJrs3YZN4gdrum3eLoXE9fmg==}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
@@ -2540,7 +2540,7 @@ packages:
         optional: true
     dependencies:
       '@auth/core': 0.32.0(nodemailer@6.9.13)
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
       nodemailer: 6.9.13
       set-cookie-parser: 2.6.0
       svelte: 4.2.18
@@ -15864,16 +15864,16 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /@sveltejs/adapter-auto@3.2.2(@sveltejs/kit@2.5.14):
+  /@sveltejs/adapter-auto@3.2.2(@sveltejs/kit@2.5.15):
     resolution: {integrity: sha512-Mso5xPCA8zgcKrv+QioVlqMZkyUQ5MjDJiEPuG/Z7cV/5tmwV7LmcVWk5tZ+H0NCOV1x12AsoSpt/CwFwuVXMA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
       import-meta-resolve: 4.1.0
     dev: true
 
-  /@sveltejs/adapter-node@5.1.0(@sveltejs/kit@2.5.14):
+  /@sveltejs/adapter-node@5.1.0(@sveltejs/kit@2.5.15):
     resolution: {integrity: sha512-1tjcWgzawWVXlCUy71gSk9zdmG9QG3/jGH2UAk2wEov3UEmFGPCvZ5dlNHO4S4XNHcjVYdzh/81wzmtXf0E15A==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
@@ -15881,23 +15881,23 @@ packages:
       '@rollup/plugin-commonjs': 26.0.1(rollup@4.18.0)
       '@rollup/plugin-json': 6.1.0(rollup@4.18.0)
       '@rollup/plugin-node-resolve': 15.2.3(rollup@4.18.0)
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
       rollup: 4.18.0
 
-  /@sveltejs/adapter-static@3.0.2(@sveltejs/kit@2.5.14):
+  /@sveltejs/adapter-static@3.0.2(@sveltejs/kit@2.5.15):
     resolution: {integrity: sha512-/EBFydZDwfwFfFEuF1vzUseBoRziwKP7AoHAwv+Ot3M084sE/HTVBHf9mCmXfdM9ijprY5YEugZjleflncX5fQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
     dev: true
 
-  /@sveltejs/adapter-vercel@5.3.2(@sveltejs/kit@2.5.14):
+  /@sveltejs/adapter-vercel@5.3.2(@sveltejs/kit@2.5.15):
     resolution: {integrity: sha512-3nRBF9OHS14kM8yAZgR4Mu5gO5bAs1HXYGZFZwZrOOClo+jWbeHFn86fkj7yP5CSAu9aw2zVFxJbJrh9ZDFLUg==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
     dependencies:
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
       '@vercel/nft': 0.27.2
       esbuild: 0.20.2
     transitivePeerDependencies:
@@ -15916,8 +15916,8 @@ packages:
       - svelte
     dev: true
 
-  /@sveltejs/kit@2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1):
-    resolution: {integrity: sha512-wgn1EbZOmnqbvs1vjWyrQhrdphSqBALGlMa30rbKXYyLLgrUkHzZHxL7MRfQbtmAi1YEbrNBMt9BadfB57w+Qw==}
+  /@sveltejs/kit@2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1):
+    resolution: {integrity: sha512-O3yB2Z84xllzaRyBLAw/jCi74wx9hTszs6mqUj4pbKsGBRHtTXl3qA+yvKbfXnxNhab/jEyVfphB9q6jU05dpg==}
     engines: {node: '>=18.13'}
     hasBin: true
     requiresBuild: true
@@ -39955,13 +39955,13 @@ packages:
       svelte: 4.2.18
     dev: false
 
-  /sveltekit-superforms@2.15.1(@sveltejs/kit@2.5.14)(svelte@4.2.18):
+  /sveltekit-superforms@2.15.1(@sveltejs/kit@2.5.15)(svelte@4.2.18):
     resolution: {integrity: sha512-rLzcJTGEzt2oFC1fNYn+ddM25uoCawudHBU7qoLo5gp/JLMRNhtX9gbBMt8imMLo4VcB8339VtxBRcWiMV1faQ==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
     dependencies:
-      '@sveltejs/kit': 2.5.14(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
+      '@sveltejs/kit': 2.5.15(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1)
       devalue: 5.0.0
       just-clone: 6.2.0
       memoize-weak: 1.0.2
@@ -40820,7 +40820,7 @@ packages:
       '@trpc/server': ^10.0.0
       ws: '>=8'
     dependencies:
-      '@sveltejs/adapter-node': 5.1.0(@sveltejs/kit@2.5.14)
+      '@sveltejs/adapter-node': 5.1.0(@sveltejs/kit@2.5.15)
       '@trpc/client': 10.45.2(@trpc/server@10.45.2)
       '@trpc/server': 10.45.2
       ws: 8.17.0
