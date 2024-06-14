@@ -541,7 +541,7 @@ importers:
         version: 3.0.1
       trpc-sveltekit:
         specifier: 3.6.1
-        version: 3.6.1(@sveltejs/adapter-node@5.0.1)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0)
+        version: 3.6.1(@sveltejs/adapter-node@5.1.0)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0)
       tslib:
         specifier: 2.6.3
         version: 2.6.3
@@ -829,8 +829,8 @@ importers:
         specifier: 3.2.2
         version: 3.2.2(@sveltejs/kit@2.5.11)
       '@sveltejs/adapter-node':
-        specifier: 5.0.1
-        version: 5.0.1(@sveltejs/kit@2.5.11)
+        specifier: 5.1.0
+        version: 5.1.0(@sveltejs/kit@2.5.11)
       '@sveltejs/adapter-static':
         specifier: 3.0.2
         version: 3.0.2(@sveltejs/kit@2.5.11)
@@ -13528,6 +13528,24 @@ packages:
       is-reference: 1.2.1
       magic-string: 0.30.10
       rollup: 4.18.0
+    dev: true
+
+  /@rollup/plugin-commonjs@26.0.1(rollup@4.18.0):
+    resolution: {integrity: sha512-UnsKoZK6/aGIH6AdkptXhNvhaqftcjq3zZdT+LY5Ftms6JR06nADcDsYp5hTU9E2lbJUEOhdlY5J4DNTneM+jQ==}
+    engines: {node: '>=16.0.0 || 14 >= 14.17'}
+    peerDependencies:
+      rollup: ^2.68.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
+      commondir: 1.0.1
+      estree-walker: 2.0.2
+      glob: 10.4.1
+      is-reference: 1.2.1
+      magic-string: 0.30.10
+      rollup: 4.18.0
 
   /@rollup/plugin-image@3.0.3(rollup@4.18.0):
     resolution: {integrity: sha512-qXWQwsXpvD4trSb8PeFPFajp8JLpRtqqOeNYRUKnEQNHm7e5UP7fuSRcbjQAJ7wDZBbnJvSdY5ujNBQd9B1iFg==}
@@ -15855,12 +15873,12 @@ packages:
       import-meta-resolve: 4.1.0
     dev: true
 
-  /@sveltejs/adapter-node@5.0.1(@sveltejs/kit@2.5.11):
-    resolution: {integrity: sha512-eYdmxdUWMW+dad1JfMsWBPY2vjXz9eE+52A2AQnXPScPJlIxIVk5mmbaEEzrZivLfO2wEcLTZ5vdC03W69x+iA==}
+  /@sveltejs/adapter-node@5.1.0(@sveltejs/kit@2.5.11):
+    resolution: {integrity: sha512-1tjcWgzawWVXlCUy71gSk9zdmG9QG3/jGH2UAk2wEov3UEmFGPCvZ5dlNHO4S4XNHcjVYdzh/81wzmtXf0E15A==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
     dependencies:
-      '@rollup/plugin-commonjs': 25.0.8(rollup@4.18.0)
+      '@rollup/plugin-commonjs': 26.0.1(rollup@4.18.0)
       '@rollup/plugin-json': 6.1.0(rollup@4.18.0)
       '@rollup/plugin-node-resolve': 15.2.3(rollup@4.18.0)
       '@sveltejs/kit': 2.5.11(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.0)
@@ -40709,7 +40727,7 @@ packages:
   /trough@2.2.0:
     resolution: {integrity: sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw==}
 
-  /trpc-sveltekit@3.6.1(@sveltejs/adapter-node@5.0.1)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0):
+  /trpc-sveltekit@3.6.1(@sveltejs/adapter-node@5.1.0)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0):
     resolution: {integrity: sha512-5Sfw/xwvyuAdpoMHPgzC5B3m3pjbjcT6d3Vo9ukS1/NP8d2LPj30wWyHP3ploeUQNJRvCffRRkc69mp7csqf/g==}
     peerDependencies:
       '@sveltejs/adapter-node': '>=1.2'
@@ -40717,7 +40735,7 @@ packages:
       '@trpc/server': ^10.0.0
       ws: '>=8'
     dependencies:
-      '@sveltejs/adapter-node': 5.0.1(@sveltejs/kit@2.5.11)
+      '@sveltejs/adapter-node': 5.1.0(@sveltejs/kit@2.5.11)
       '@trpc/client': 10.45.2(@trpc/server@10.45.2)
       '@trpc/server': 10.45.2
       ws: 8.17.0
