@@ -124,7 +124,7 @@ importers:
         version: 6.2.0
       '@fastify/schedule':
         specifier: 4.1.1
-        version: 4.1.1(fastify@4.27.0)(toad-scheduler@3.0.1)
+        version: 4.1.1(fastify@4.28.0)(toad-scheduler@3.0.1)
       '@fastify/secure-session':
         specifier: 7.5.1
         version: 7.5.1
@@ -342,8 +342,8 @@ importers:
         specifier: 5.16.0
         version: 5.16.0
       fastify:
-        specifier: 4.27.0
-        version: 4.27.0
+        specifier: 4.28.0
+        version: 4.28.0
       fastify-mongodb-sanitizer:
         specifier: 1.2.2
         version: 1.2.2
@@ -677,7 +677,7 @@ importers:
         version: 8.4.1
       '@fastify/type-provider-json-schema-to-ts':
         specifier: 3.0.0
-        version: 3.0.0(fastify@4.27.0)(json-schema-to-ts@3.1.0)
+        version: 3.0.0(fastify@4.28.0)(json-schema-to-ts@3.1.0)
       '@fontsource/fira-mono':
         specifier: 5.0.13
         version: 5.0.13
@@ -9358,13 +9358,13 @@ packages:
       - supports-color
     dev: false
 
-  /@fastify/schedule@4.1.1(fastify@4.27.0)(toad-scheduler@3.0.1):
+  /@fastify/schedule@4.1.1(fastify@4.28.0)(toad-scheduler@3.0.1):
     resolution: {integrity: sha512-riIh+eumfpoDDpNqMqzHdzYofWVhaHJYxH69OMQyVzGUJikF5luvr4LMx/uxedE1VJfmHJCUjBuMVcPLB7KsZg==}
     peerDependencies:
       fastify: ^4.0.0
       toad-scheduler: '>= 2.0.0 < 4'
     dependencies:
-      fastify: 4.27.0
+      fastify: 4.28.0
       fastify-plugin: 4.5.1
       toad-scheduler: 3.0.1
     dev: false
@@ -9457,13 +9457,13 @@ packages:
       fastify-plugin: 4.5.1
     dev: false
 
-  /@fastify/type-provider-json-schema-to-ts@3.0.0(fastify@4.27.0)(json-schema-to-ts@3.1.0):
+  /@fastify/type-provider-json-schema-to-ts@3.0.0(fastify@4.28.0)(json-schema-to-ts@3.1.0):
     resolution: {integrity: sha512-xYU+a21K5IWsXsvDHNzTqwiWVxVbOldzUvNqnj+kFG5TihCZ00g3ODMbu8v6Nj66hBuzOrAz7agVqhgsH3hzGA==}
     peerDependencies:
       fastify: ^4.25.2
       json-schema-to-ts: ^3.0.0
     dependencies:
-      fastify: 4.27.0
+      fastify: 4.28.0
       json-schema-to-ts: 3.1.0
     dev: true
 
@@ -26497,7 +26497,7 @@ packages:
       close-with-grace: 1.3.0
       commist: 3.2.0
       dotenv: 16.4.5
-      fastify: 4.27.0
+      fastify: 4.28.0
       fastify-plugin: 4.5.1
       generify: 4.2.0
       help-me: 4.2.0
@@ -26525,8 +26525,8 @@ packages:
   /fastify-plugin@4.5.1:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
 
-  /fastify@4.27.0:
-    resolution: {integrity: sha512-ci9IXzbigB8dyi0mSy3faa3Bsj0xWAPb9JeT4KRzubdSb6pNhcADRUaXCBml6V1Ss/a05kbtQls5LBmhHydoTA==}
+  /fastify@4.28.0:
+    resolution: {integrity: sha512-HhW7UHW07YlqH5qpS0af8d2Gl/o98DhJ8ZDQWHRNDnzeOhZvtreWsX8xanjGgXmkYerGbo8ax/n40Dpwqkot8Q==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.4.1
