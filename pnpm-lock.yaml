@@ -1348,8 +1348,8 @@ importers:
         specifier: 8.0.0
         version: 8.0.0
       imagemin-svgo:
-        specifier: 11.0.0
-        version: 11.0.0
+        specifier: 11.0.1
+        version: 11.0.1
       jasmine-core:
         specifier: 5.1.2
         version: 5.1.2
@@ -28740,8 +28740,8 @@ packages:
       optipng-bin: 7.0.1
     dev: true
 
-  /imagemin-svgo@11.0.0:
-    resolution: {integrity: sha512-Cg9gJ5IQOblP5U3qXzLHwN3AVjQRkZ/g8UxGdX9zjIJqxpMPmtF5BU8p7+REd+GVIUccO66Tbxky+RXKA3RY9A==}
+  /imagemin-svgo@11.0.1:
+    resolution: {integrity: sha512-sUZdlXFXZkPt61nzVXbt7EzYjjevPkNuZmAw0VjEm085PRrK5AHSF+1myF0NKtE+ZhY2Vf6W3CEoRqAgksruWQ==}
     engines: {node: '>=18'}
     dependencies:
       is-svg: 5.0.1
