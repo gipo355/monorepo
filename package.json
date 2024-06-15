@@ -138,7 +138,7 @@
     "express-status-monitor": "1.3.4",
     "express-validator": "7.1.0",
     "fast-json-stringify": "5.16.0",
-    "fastify": "4.27.0",
+    "fastify": "4.28.0",
     "fastify-mongodb-sanitizer": "1.2.2",
     "fastify-piscina": "5.0.0",
     "fastify-plugin": "4.5.1",
