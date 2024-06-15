@@ -204,7 +204,7 @@
     "swagger-ui-express": "5.0.1",
     "tippy.js": "6.3.7",
     "toad-scheduler": "3.0.1",
-    "trpc-sveltekit": "3.6.1",
+    "trpc-sveltekit": "3.6.2",
     "tslib": "2.6.3",
     "undici": "6.19.0",
     "url": "0.11.3",
