@@ -450,7 +450,7 @@
     "eslint-plugin-sonarjs": "1.0.3",
     "eslint-plugin-spellcheck": "0.0.20",
     "eslint-plugin-storybook": "0.8.0",
-    "eslint-plugin-svelte": "2.39.3",
+    "eslint-plugin-svelte": "2.39.4",
     "eslint-plugin-svelte3": "4.0.0",
     "eslint-plugin-tailwindcss": "3.17.3",
     "eslint-plugin-tsdoc": "0.3.0",
