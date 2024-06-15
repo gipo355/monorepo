@@ -206,7 +206,7 @@
     "toad-scheduler": "3.0.1",
     "trpc-sveltekit": "3.6.1",
     "tslib": "2.6.3",
-    "undici": "6.18.2",
+    "undici": "6.19.0",
     "url": "0.11.3",
     "uuid": "10.0.0",
     "valibot": "0.31.1",
