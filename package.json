@@ -560,7 +560,7 @@
     "tap": "19.2.5",
     "terser-webpack-plugin": "5.3.10",
     "testcontainers": "10.9.0",
-    "ts-jest": "29.1.4",
+    "ts-jest": "29.1.5",
     "ts-lit-plugin": "2.0.2",
     "ts-loader": "9.5.1",
     "ts-node": "10.9.2",
