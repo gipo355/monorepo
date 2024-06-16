@@ -405,7 +405,7 @@
     "barrelsby": "2.8.1",
     "bootstrap": "5.3.3",
     "bun-types": "1.1.13",
-    "caniuse-lite": "1.0.30001634",
+    "caniuse-lite": "1.0.30001636",
     "chai": "5.1.1",
     "clean-webpack-plugin": "4.0.0",
     "commitizen": "4.3.0",
