@@ -1069,8 +1069,8 @@ importers:
         specifier: 9.0.8
         version: 9.0.8
       '@types/validator':
-        specifier: 13.11.10
-        version: 13.11.10
+        specifier: 13.12.0
+        version: 13.12.0
       '@types/webpack-bundle-analyzer':
         specifier: 4.7.0
         version: 4.7.0(@swc/core@1.6.1)(esbuild@0.21.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
@@ -18438,8 +18438,8 @@ packages:
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
     dev: true
 
-  /@types/validator@13.11.10:
-    resolution: {integrity: sha512-e2PNXoXLr6Z+dbfx5zSh9TRlXJrELycxiaXznp4S5+D2M3b9bqJEitNHA5923jhnB2zzFiZHa2f0SI1HoIahpg==}
+  /@types/validator@13.12.0:
+    resolution: {integrity: sha512-nH45Lk7oPIJ1RVOF6JgFI6Dy0QpHEzq4QecZhvguxYPDwT8c93prCMqAtiIttm39voZ+DDR+qkNnMpJmMBRqag==}
 
   /@types/webidl-conversions@7.0.3:
     resolution: {integrity: sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==}
@@ -18971,7 +18971,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@poppinss/macroable': 1.0.2
-      '@types/validator': 13.11.10
+      '@types/validator': 13.12.0
       '@vinejs/compiler': 2.5.0
       camelcase: 8.0.0
       dayjs: 1.11.11
@@ -21735,7 +21735,7 @@ packages:
   /class-validator@0.14.1:
     resolution: {integrity: sha512-2VEG9JICxIqTpoK1eMzZqaV+u/EiwEJkMGzTrZf6sU/fwsnOITVgYJ8yojSy6CaXtO9V0Cc6ZQZ8h8m4UBuLwQ==}
     dependencies:
-      '@types/validator': 13.11.10
+      '@types/validator': 13.12.0
       libphonenumber-js: 1.11.3
       validator: 13.12.0
 
