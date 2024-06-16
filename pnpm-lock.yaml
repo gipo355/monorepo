@@ -541,7 +541,7 @@ importers:
         version: 3.0.1
       trpc-sveltekit:
         specifier: 3.6.2
-        version: 3.6.2(@sveltejs/adapter-node@5.1.0)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0)
+        version: 3.6.2(@sveltejs/adapter-node@5.1.1)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0)
       tslib:
         specifier: 2.6.3
         version: 2.6.3
@@ -829,8 +829,8 @@ importers:
         specifier: 3.2.2
         version: 3.2.2(@sveltejs/kit@2.5.15)
       '@sveltejs/adapter-node':
-        specifier: 5.1.0
-        version: 5.1.0(@sveltejs/kit@2.5.15)
+        specifier: 5.1.1
+        version: 5.1.1(@sveltejs/kit@2.5.15)
       '@sveltejs/adapter-static':
         specifier: 3.0.2
         version: 3.0.2(@sveltejs/kit@2.5.15)
@@ -16469,8 +16469,8 @@ packages:
       import-meta-resolve: 4.1.0
     dev: true
 
-  /@sveltejs/adapter-node@5.1.0(@sveltejs/kit@2.5.15):
-    resolution: {integrity: sha512-1tjcWgzawWVXlCUy71gSk9zdmG9QG3/jGH2UAk2wEov3UEmFGPCvZ5dlNHO4S4XNHcjVYdzh/81wzmtXf0E15A==}
+  /@sveltejs/adapter-node@5.1.1(@sveltejs/kit@2.5.15):
+    resolution: {integrity: sha512-BQYLa9aWrL8D367p/NgSkDA58QOkoxoYs8HD7exYciAhyKx83LfF6QN8w+Uidg+H9ZX4nib7Fg0yDOKaxT4mxw==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
     dependencies:
@@ -41412,7 +41412,7 @@ packages:
   /trough@2.2.0:
     resolution: {integrity: sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw==}
 
-  /trpc-sveltekit@3.6.2(@sveltejs/adapter-node@5.1.0)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0):
+  /trpc-sveltekit@3.6.2(@sveltejs/adapter-node@5.1.1)(@trpc/client@10.45.2)(@trpc/server@10.45.2)(ws@8.17.0):
     resolution: {integrity: sha512-wfcUGpasdSQjNaMnbaaHs4gnh5580oNoOYBsnWujE8+tXyyYAxYA2z6vrQmuG4/rOLdbiEns5ISfsejZz9l+2Q==}
     peerDependencies:
       '@sveltejs/adapter-node': '>=1.2'
@@ -41420,7 +41420,7 @@ packages:
       '@trpc/server': ^10.0.0
       ws: '>=8'
     dependencies:
-      '@sveltejs/adapter-node': 5.1.0(@sveltejs/kit@2.5.15)
+      '@sveltejs/adapter-node': 5.1.1(@sveltejs/kit@2.5.15)
       '@trpc/client': 10.45.2(@trpc/server@10.45.2)
       '@trpc/server': 10.45.2
       ws: 8.17.0
