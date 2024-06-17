@@ -325,7 +325,7 @@
     "@tsconfig/svelte": "5.0.4",
     "@types/amqplib": "0.10.5",
     "@types/babel__core": "7.20.5",
-    "@types/babel__preset-env": "7.9.6",
+    "@types/babel__preset-env": "7.9.7",
     "@types/bcrypt": "5.0.2",
     "@types/body-parser": "1.19.5",
     "@types/caniuse-lite": "1.0.5",
