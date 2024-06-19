@@ -313,7 +313,7 @@ importers:
         version: 5.0.2
       drizzle-orm:
         specifier: 0.31.2
-        version: 0.31.2(@aws-sdk/client-rds-data@3.592.0)(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.13)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1)
+        version: 0.31.2(@aws-sdk/client-rds-data@3.592.0)(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.14)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1)
       drizzle-zod:
         specifier: 0.5.1
         version: 0.5.1(drizzle-orm@0.31.2)(zod@3.23.8)
@@ -1120,8 +1120,8 @@ importers:
         specifier: 5.3.3
         version: 5.3.3(@popperjs/core@2.11.8)
       bun-types:
-        specifier: 1.1.13
-        version: 1.1.13
+        specifier: 1.1.14
+        version: 1.1.14
       caniuse-lite:
         specifier: 1.0.30001636
         version: 1.0.30001636
@@ -21246,8 +21246,8 @@ packages:
       - supports-color
     dev: false
 
-  /bun-types@1.1.13:
-    resolution: {integrity: sha512-G/TqF0SsMQGLr4g7K3B2BK8BrPEA1EqCNwxZbyRdj5M4t54zvwyaqvRJOW34kuPqc2IvNNalRU3swc8B4oc4FA==}
+  /bun-types@1.1.14:
+    resolution: {integrity: sha512-esfxOvECTkjEuUEHBOoOo590Qggf4b9cz5h29AOB2SKt3yZwG3LbAX4iIYwWZX7GnO7vaY5hIdcQygwN0xGdNw==}
     dependencies:
       '@types/node': 20.12.14
       '@types/ws': 8.5.10
@@ -24264,7 +24264,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.31.2(@aws-sdk/client-rds-data@3.592.0)(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.13)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1):
+  /drizzle-orm@0.31.2(@aws-sdk/client-rds-data@3.592.0)(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.14)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1):
     resolution: {integrity: sha512-QnenevbnnAzmbNzQwbhklvIYrDE8YER8K7kSrAWQSV1YvFCdSQPzj+jzqRdTSsV2cDqSpQ0NXGyL1G9I43LDLg==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -24351,7 +24351,7 @@ packages:
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.11.6
       '@types/react': 18.3.3
-      bun-types: 1.1.13
+      bun-types: 1.1.14
       kysely: 0.25.0
       pg: 8.12.0
       postgres: 3.4.4
@@ -24364,7 +24364,7 @@ packages:
       drizzle-orm: '>=0.23.13'
       zod: '*'
     dependencies:
-      drizzle-orm: 0.31.2(@aws-sdk/client-rds-data@3.592.0)(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.13)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1)
+      drizzle-orm: 0.31.2(@aws-sdk/client-rds-data@3.592.0)(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@18.3.3)(bun-types@1.1.14)(kysely@0.25.0)(pg@8.12.0)(postgres@3.4.4)(react@18.3.1)
       zod: 3.23.8
     dev: false
 
