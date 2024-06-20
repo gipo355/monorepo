@@ -199,7 +199,7 @@ importers:
         version: 1.8.3
       '@nx/angular':
         specifier: 19.3.0
-        version: 19.3.0(@angular-devkit/build-angular@18.0.4)(@angular-devkit/core@18.0.4)(@angular-devkit/schematics@18.0.4)(@schematics/angular@18.0.4)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4)
+        version: 19.3.0(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular-devkit/schematics@18.0.5)(@schematics/angular@18.0.5)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4)
       '@prisma/client':
         specifier: 5.15.0
         version: 5.15.0(prisma@5.15.0)
@@ -577,14 +577,14 @@ importers:
         version: 0.14.7
     devDependencies:
       '@angular-devkit/build-angular':
-        specifier: 18.0.4
-        version: 18.0.4(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
+        specifier: 18.0.5
+        version: 18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
       '@angular-devkit/core':
-        specifier: 18.0.4
-        version: 18.0.4
+        specifier: 18.0.5
+        version: 18.0.5
       '@angular-devkit/schematics':
-        specifier: 18.0.4
-        version: 18.0.4
+        specifier: 18.0.5
+        version: 18.0.5
       '@angular-eslint/eslint-plugin':
         specifier: 18.0.1
         version: 18.0.1(@typescript-eslint/utils@7.13.0)(eslint@9.5.0)(typescript@5.4.5)
@@ -595,8 +595,8 @@ importers:
         specifier: 18.0.1
         version: 18.0.1(eslint@9.5.0)(typescript@5.4.5)
       '@angular/cli':
-        specifier: 18.0.4
-        version: 18.0.4
+        specifier: 18.0.5
+        version: 18.0.5
       '@angular/compiler-cli':
         specifier: 18.0.3
         version: 18.0.3(@angular/compiler@18.0.3)(typescript@5.4.5)
@@ -787,8 +787,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0(prettier@3.3.2)
       '@schematics/angular':
-        specifier: 18.0.4
-        version: 18.0.4
+        specifier: 18.0.5
+        version: 18.0.5
       '@sentry/types':
         specifier: 8.9.2
         version: 8.9.2
@@ -806,7 +806,7 @@ importers:
         version: 8.1.10(react@18.3.1)
       '@storybook/angular':
         specifier: 8.1.10
-        version: 8.1.10(@angular-devkit/architect@0.1800.4)(@angular-devkit/build-angular@18.0.4)(@angular-devkit/core@18.0.4)(@angular/cli@18.0.4)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7)
+        version: 8.1.10(@angular-devkit/architect@0.1800.4)(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular/cli@18.0.5)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7)
       '@storybook/blocks':
         specifier: 8.1.10
         version: 8.1.10(@types/react-dom@18.3.0)(@types/react@18.3.3)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)
@@ -1364,7 +1364,7 @@ importers:
         version: 29.7.0
       jest-preset-angular:
         specifier: 14.1.1
-        version: 14.1.1(@angular-devkit/build-angular@18.0.4)(@angular/compiler-cli@18.0.3)(@angular/core@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@babel/core@7.24.7)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.4.5)
+        version: 14.1.1(@angular-devkit/build-angular@18.0.5)(@angular/compiler-cli@18.0.3)(@angular/core@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@babel/core@7.24.7)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.4.5)
       jsdom:
         specifier: 24.1.0
         version: 24.1.0
@@ -1746,9 +1746,19 @@ packages:
       rxjs: 7.8.1
     transitivePeerDependencies:
       - chokidar
+    dev: true
 
-  /@angular-devkit/build-angular@18.0.4(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4):
-    resolution: {integrity: sha512-lFu1NDEUPIUxY+CmZJ3JspqVZDesrvdae5RbqQXCl87RfSy+ZDIa7rOtQxyBQtt2BuQIB9pWQSzCMii5kTHd6w==}
+  /@angular-devkit/architect@0.1800.5:
+    resolution: {integrity: sha512-KliFJTqwAIyRvW10JnJLlpXK86yx683unTgwgvkg9V4gUc/7cNCmWJiOCmYh1+gATpFq+3d3o36EdTzb4QS03g==}
+    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
+    dependencies:
+      '@angular-devkit/core': 18.0.5
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - chokidar
+
+  /@angular-devkit/build-angular@18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4):
+    resolution: {integrity: sha512-itZN5tAZ+66bHZ4JNxIiPxfbSvQP6Gk4hcCzfGzcs3G0VsahR0rpX0Rg+1CRX1bpDzan3z8AVfwIxlLPKSOBbg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^18.0.0
@@ -1789,10 +1799,10 @@ packages:
         optional: true
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@angular-devkit/architect': 0.1800.4
-      '@angular-devkit/build-webpack': 0.1800.4(webpack-dev-server@5.0.4)(webpack@5.91.0)
-      '@angular-devkit/core': 18.0.4
-      '@angular/build': 18.0.4(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@types/node@20.14.6)(less@4.2.0)(lightningcss@1.25.1)(postcss@8.4.38)(stylus@0.59.0)(tailwindcss@3.4.4)(terser@5.31.0)(typescript@5.4.5)
+      '@angular-devkit/architect': 0.1800.5
+      '@angular-devkit/build-webpack': 0.1800.5(webpack-dev-server@5.0.4)(webpack@5.91.0)
+      '@angular-devkit/core': 18.0.5
+      '@angular/build': 18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@types/node@20.14.6)(less@4.2.0)(lightningcss@1.25.1)(postcss@8.4.38)(stylus@0.59.0)(tailwindcss@3.4.4)(terser@5.31.0)(typescript@5.4.5)
       '@angular/compiler-cli': 18.0.3(@angular/compiler@18.0.3)(typescript@5.4.5)
       '@angular/localize': 18.0.3(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)
       '@babel/core': 7.24.5
@@ -1805,12 +1815,11 @@ packages:
       '@babel/preset-env': 7.24.5(@babel/core@7.24.5)
       '@babel/runtime': 7.24.5
       '@discoveryjs/json-ext': 0.5.7
-      '@ngtools/webpack': 18.0.4(@angular/compiler-cli@18.0.3)(typescript@5.4.5)(webpack@5.91.0)
+      '@ngtools/webpack': 18.0.5(@angular/compiler-cli@18.0.3)(typescript@5.4.5)(webpack@5.91.0)
       '@vitejs/plugin-basic-ssl': 1.1.0(vite@5.2.11)
       ansi-colors: 4.1.3
       autoprefixer: 10.4.19(postcss@8.4.38)
       babel-loader: 9.1.3(@babel/core@7.24.5)(webpack@5.91.0)
-      babel-plugin-istanbul: 6.1.1
       browserslist: 4.23.1
       copy-webpack-plugin: 11.0.0(webpack@5.91.0)
       critters: 0.0.22
@@ -1820,6 +1829,7 @@ packages:
       http-proxy-middleware: 3.0.0
       https-proxy-agent: 7.0.4
       inquirer: 9.2.22
+      istanbul-lib-instrument: 6.0.2
       jest: 29.7.0(@types/node@20.14.6)(ts-node@10.9.2)
       jest-environment-jsdom: 29.7.0
       jsonc-parser: 3.2.1
@@ -1879,14 +1889,14 @@ packages:
       - utf-8-validate
       - webpack-cli
 
-  /@angular-devkit/build-webpack@0.1800.4(webpack-dev-server@5.0.4)(webpack@5.91.0):
-    resolution: {integrity: sha512-EtWyWH3Hb7Rh8u0Jb4cWJKRxlqiUo4qhHKjU+62E8XplWlajbuld3ltL50a3t8lkZQYYgl7nPt53E5kM/zFVrw==}
+  /@angular-devkit/build-webpack@0.1800.5(webpack-dev-server@5.0.4)(webpack@5.91.0):
+    resolution: {integrity: sha512-/eiIwlQJBZlCWLsfaoSOsSGFY24cLKCCY4fs/fvcBXxG5/g1FFx24Zt73j0qRoNeK3soUg9+lmCAiRvO6cGpJg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       webpack: ^5.30.0
       webpack-dev-server: ^5.0.2
     dependencies:
-      '@angular-devkit/architect': 0.1800.4
+      '@angular-devkit/architect': 0.1800.5
       rxjs: 7.8.1
       webpack: 5.91.0(@swc/core@1.6.3)(esbuild@0.21.3)(uglify-js@3.18.0)(webpack-cli@5.1.4)
       webpack-dev-server: 5.0.4(webpack-cli@5.1.4)(webpack@5.91.0)
@@ -1941,6 +1951,23 @@ packages:
       picomatch: 4.0.2
       rxjs: 7.8.1
       source-map: 0.7.4
+    dev: true
+
+  /@angular-devkit/core@18.0.5:
+    resolution: {integrity: sha512-sGtrS0SqkcBvyuv0QkIfyadwPgDhMroz1r51lMh1hwzJaJ0LNuVMLviEeYIybeBnvAdp9YvYC8I1WgB/FUEFBw==}
+    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
+    peerDependencies:
+      chokidar: ^3.5.2
+    peerDependenciesMeta:
+      chokidar:
+        optional: true
+    dependencies:
+      ajv: 8.13.0
+      ajv-formats: 3.0.1(ajv@8.13.0)
+      jsonc-parser: 3.2.1
+      picomatch: 4.0.2
+      rxjs: 7.8.1
+      source-map: 0.7.4
 
   /@angular-devkit/schematics@16.0.1:
     resolution: {integrity: sha512-A9D0LTYmiqiBa90GKcSuWb7hUouGIbm/AHbJbjL85WLLRbQA2PwKl7P5Mpd6nS/ZC0kfG4VQY3VOaDvb3qpI9g==}
@@ -1968,11 +1995,11 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/schematics@18.0.4:
-    resolution: {integrity: sha512-hCHmuu/Z1teOQPx1AMJa/gcK6depk+XgU5dIpEvflC+ApW3hglNe2QKaqajDZ+34s+PKAVWa86M8IOV7o/mHuA==}
+  /@angular-devkit/schematics@18.0.5:
+    resolution: {integrity: sha512-hZwAq3hwuJzCuh7uqO/7T9IMERhYVxz+ganJlEykpyr58o0IjUM1Q4ZSH5UOYlGRPdBCZJbfiafZ0Sg5w5xBww==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 18.0.4
+      '@angular-devkit/core': 18.0.5
       jsonc-parser: 3.2.1
       magic-string: 0.30.10
       ora: 5.4.1
@@ -2048,8 +2075,8 @@ packages:
       '@angular/core': 18.0.3(rxjs@7.8.1)(zone.js@0.14.7)
       tslib: 2.6.3
 
-  /@angular/build@18.0.4(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@types/node@20.14.6)(less@4.2.0)(lightningcss@1.25.1)(postcss@8.4.38)(stylus@0.59.0)(tailwindcss@3.4.4)(terser@5.31.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-70HQQnbCOXFT5F3ROyWNNfS9A63Fzts5ANJKJY1MJLrn+dgNEG7jdIWjTtvohL3RZz97rlzSq3qRZnfxqf1lsQ==}
+  /@angular/build@18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@types/node@20.14.6)(less@4.2.0)(lightningcss@1.25.1)(postcss@8.4.38)(stylus@0.59.0)(tailwindcss@3.4.4)(terser@5.31.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-6C+azPDYqPWX9/+53OTyvzmAKxrGwgQcDnueC/Sc6NZJOAs2VsOIn5ULPtcRDlrf/Rbo0dGM4OvKCM2q1BRuBg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^18.0.0
@@ -2075,7 +2102,7 @@ packages:
         optional: true
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@angular-devkit/architect': 0.1800.4
+      '@angular-devkit/architect': 0.1800.5
       '@angular/compiler-cli': 18.0.3(@angular/compiler@18.0.3)(typescript@5.4.5)
       '@angular/localize': 18.0.3(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)
       '@babel/core': 7.24.5
@@ -2114,15 +2141,15 @@ packages:
       - supports-color
       - terser
 
-  /@angular/cli@18.0.4:
-    resolution: {integrity: sha512-i7DLVIc4HN0CFZZKbEeVeQSADRG1Dt2CwXh/wTUzglRLu/tE7Q+WMrqJ2+lGTT2edZp2KKysM4Gxp+ATAzP8AQ==}
+  /@angular/cli@18.0.5:
+    resolution: {integrity: sha512-w3NOdj6T7QhBmFleavc+AEhcAMyPkt7RsyWW2saufD6x55gzynGQZb9UBZwKDUAR6UtqchBX/HEBWCLNnjbiHg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     hasBin: true
     dependencies:
-      '@angular-devkit/architect': 0.1800.4
-      '@angular-devkit/core': 18.0.4
-      '@angular-devkit/schematics': 18.0.4
-      '@schematics/angular': 18.0.4
+      '@angular-devkit/architect': 0.1800.5
+      '@angular-devkit/core': 18.0.5
+      '@angular-devkit/schematics': 18.0.5
+      '@schematics/angular': 18.0.5
       '@yarnpkg/lockfile': 1.1.0
       ansi-colors: 4.1.3
       ini: 4.1.2
@@ -10887,8 +10914,8 @@ packages:
       tslib: 2.6.3
     dev: false
 
-  /@ngtools/webpack@18.0.4(@angular/compiler-cli@18.0.3)(typescript@5.4.5)(webpack@5.91.0):
-    resolution: {integrity: sha512-eWQkAuHEnLme01Ey4Z0FoG6upJHYhnJfsCTBnyEB2LTfdyBUk+PC0gwPXInK8oltWjFfiMnCwxrUQvQsvPW7Hg==}
+  /@ngtools/webpack@18.0.5(@angular/compiler-cli@18.0.3)(typescript@5.4.5)(webpack@5.91.0):
+    resolution: {integrity: sha512-Dx386WZZn0RwUaBHQYhDW8oi254SxEu8Ty5LHnStqBP6xXdcnsdGel+h9qvJ67He9iu8Rj0PB64EFE4PiklMdQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^18.0.0
@@ -11181,10 +11208,10 @@ packages:
       - supports-color
     dev: true
 
-  /@nrwl/angular@19.3.0(@angular-devkit/build-angular@18.0.4)(@angular-devkit/core@18.0.4)(@angular-devkit/schematics@18.0.4)(@schematics/angular@18.0.4)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4):
+  /@nrwl/angular@19.3.0(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular-devkit/schematics@18.0.5)(@schematics/angular@18.0.5)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4):
     resolution: {integrity: sha512-bZ6d+x4mvt5H5S/kVVQjJGv+G/4nFsrxp+5T3o4JZInBZICXNnv12qnAsLxtP9QigdqLskZshqYNdlkdKNq6Eg==}
     dependencies:
-      '@nx/angular': 19.3.0(@angular-devkit/build-angular@18.0.4)(@angular-devkit/core@18.0.4)(@angular-devkit/schematics@18.0.4)(@schematics/angular@18.0.4)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4)
+      '@nx/angular': 19.3.0(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular-devkit/schematics@18.0.5)(@schematics/angular@18.0.5)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4)
       tslib: 2.6.3
     transitivePeerDependencies:
       - '@angular-devkit/build-angular'
@@ -11815,7 +11842,7 @@ packages:
       - nx
     dev: true
 
-  /@nx/angular@19.3.0(@angular-devkit/build-angular@18.0.4)(@angular-devkit/core@18.0.4)(@angular-devkit/schematics@18.0.4)(@schematics/angular@18.0.4)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4):
+  /@nx/angular@19.3.0(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular-devkit/schematics@18.0.5)(@schematics/angular@18.0.5)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4):
     resolution: {integrity: sha512-OA5FSALbIjn/OnXQXT5bLopUdJ92nUWv8lykEDSS92Z3L/gpiMow0sWn+Nz00Wdw/WGuPXG4TtQo7pvP/9/YBA==}
     peerDependencies:
       '@angular-devkit/build-angular': '>= 16.0.0 < 19.0.0'
@@ -11828,10 +11855,10 @@ packages:
       esbuild:
         optional: true
     dependencies:
-      '@angular-devkit/build-angular': 18.0.4(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
-      '@angular-devkit/core': 18.0.4
-      '@angular-devkit/schematics': 18.0.4
-      '@nrwl/angular': 19.3.0(@angular-devkit/build-angular@18.0.4)(@angular-devkit/core@18.0.4)(@angular-devkit/schematics@18.0.4)(@schematics/angular@18.0.4)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4)
+      '@angular-devkit/build-angular': 18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
+      '@angular-devkit/core': 18.0.5
+      '@angular-devkit/schematics': 18.0.5
+      '@nrwl/angular': 19.3.0(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular-devkit/schematics@18.0.5)(@schematics/angular@18.0.5)(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(eslint@9.5.0)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4)
       '@nx/devkit': 19.3.0(nx@19.3.0)
       '@nx/eslint': 19.3.0(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(eslint@9.5.0)(nx@19.3.0)(verdaccio@5.31.1)
       '@nx/js': 19.3.0(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(nx@19.3.0)(typescript@5.4.5)(verdaccio@5.31.1)
@@ -11839,7 +11866,7 @@ packages:
       '@nx/webpack': 19.3.0(@swc-node/register@1.9.2)(@swc/core@1.6.3)(@types/node@20.14.6)(esbuild@0.21.5)(html-webpack-plugin@5.6.0)(lightningcss@1.25.1)(nx@19.3.0)(typescript@5.4.5)(uglify-js@3.18.0)(verdaccio@5.31.1)(webpack-cli@5.1.4)
       '@nx/workspace': 19.3.0(@swc-node/register@1.9.2)(@swc/core@1.6.3)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.4.5)
-      '@schematics/angular': 18.0.4
+      '@schematics/angular': 18.0.5
       '@typescript-eslint/type-utils': 7.13.0(eslint@9.5.0)(typescript@5.4.5)
       chalk: 4.1.2
       esbuild: 0.21.5
@@ -14078,12 +14105,12 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@schematics/angular@18.0.4:
-    resolution: {integrity: sha512-fN4whuym9ZmcQFdTfwLZr4j+NcZ4LzbdLk8XYrYdxt1z8c9ujs5LqJYn0LYc3UWiYl7z2RVc9NOxzNrkiXdwlw==}
+  /@schematics/angular@18.0.5:
+    resolution: {integrity: sha512-dV50GIEGl6S5wE6xtAhmHWdLhsOlnNUpAx/v3BPR2AOr90zJvIM03TqAQTzAlnPatxK2WLelRgqVMbPfAVvLAg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 18.0.4
-      '@angular-devkit/schematics': 18.0.4
+      '@angular-devkit/core': 18.0.5
+      '@angular-devkit/schematics': 18.0.5
       jsonc-parser: 3.2.1
     transitivePeerDependencies:
       - chokidar
@@ -15652,7 +15679,7 @@ packages:
       memoizerific: 1.11.3
     dev: true
 
-  /@storybook/angular@8.1.10(@angular-devkit/architect@0.1800.4)(@angular-devkit/build-angular@18.0.4)(@angular-devkit/core@18.0.4)(@angular/cli@18.0.4)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7):
+  /@storybook/angular@8.1.10(@angular-devkit/architect@0.1800.4)(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular/cli@18.0.5)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7):
     resolution: {integrity: sha512-SwUm8pBoIOj1hVPrdFUTTSqoQbW9T0rT99qLYVTyX63K/kwZ0tXxQ+/z7UhMxgZo0hquhDpI7q+rsgypw/Zi8w==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -15675,9 +15702,9 @@ packages:
         optional: true
     dependencies:
       '@angular-devkit/architect': 0.1800.4
-      '@angular-devkit/build-angular': 18.0.4(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
-      '@angular-devkit/core': 18.0.4
-      '@angular/cli': 18.0.4
+      '@angular-devkit/build-angular': 18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
+      '@angular-devkit/core': 18.0.5
+      '@angular/cli': 18.0.5
       '@angular/common': 18.0.3(@angular/core@18.0.3)(rxjs@7.8.1)
       '@angular/compiler': 18.0.3(@angular/core@18.0.3)
       '@angular/compiler-cli': 18.0.3(@angular/compiler@18.0.3)(typescript@5.4.5)
@@ -19583,6 +19610,7 @@ packages:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       acorn: 8.11.3
+    dev: true
 
   /acorn-jsx@5.3.2(acorn@8.12.0):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -19590,7 +19618,6 @@ packages:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       acorn: 8.12.0
-    dev: true
 
   /acorn-loose@8.4.0:
     resolution: {integrity: sha512-M0EUka6rb+QC4l9Z3T0nJEzNOO7JcoJlYMrBlyBCiFSXRyxjLKayd4TbQs2FDRWQU1h9FR7QVNHt+PEaoNL5rQ==}
@@ -21845,7 +21872,7 @@ packages:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
       '@types/estree': 1.0.5
-      acorn: 8.11.3
+      acorn: 8.12.0
       estree-walker: 3.0.3
       periscopic: 3.1.0
 
@@ -25860,8 +25887,8 @@ packages:
     resolution: {integrity: sha512-MWkrWZbJsL2UwnjxTX3gG8FneachS/Mwg7tdGXce011sJd5b0JG54vat5KHnfSBODZ3Wvzd2WnjxyzsRoVv+ww==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.12.0
+      acorn-jsx: 5.3.2(acorn@8.12.0)
       eslint-visitor-keys: 4.0.0
 
   /espree@9.2.0:
@@ -25877,8 +25904,8 @@ packages:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.12.0
+      acorn-jsx: 5.3.2(acorn@8.12.0)
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -29959,7 +29986,7 @@ packages:
     dependencies:
       jest-resolve: 29.7.0
 
-  /jest-preset-angular@14.1.1(@angular-devkit/build-angular@18.0.4)(@angular/compiler-cli@18.0.3)(@angular/core@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@babel/core@7.24.7)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.4.5):
+  /jest-preset-angular@14.1.1(@angular-devkit/build-angular@18.0.5)(@angular/compiler-cli@18.0.3)(@angular/core@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@babel/core@7.24.7)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.4.5):
     resolution: {integrity: sha512-mWW2WlndHetTp4PQov05v7JE6HZQB5uTzGd+oW2RPH1OOTCLUKI8mSIU4DXCBJ4LDg5gIMMfqHsxT/Qmpu2dQQ==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
@@ -29970,7 +29997,7 @@ packages:
       jest: ^29.0.0
       typescript: '>=4.8'
     dependencies:
-      '@angular-devkit/build-angular': 18.0.4(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
+      '@angular-devkit/build-angular': 18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
       '@angular/compiler-cli': 18.0.3(@angular/compiler@18.0.3)(typescript@5.4.5)
       '@angular/core': 18.0.3(rxjs@7.8.1)(zone.js@0.14.7)
       '@angular/platform-browser-dynamic': 18.0.3(@angular/common@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/platform-browser@18.0.3)
@@ -30325,7 +30352,7 @@ packages:
         optional: true
     dependencies:
       abab: 2.0.6
-      acorn: 8.11.3
+      acorn: 8.12.0
       acorn-globals: 7.0.1
       cssom: 0.5.0
       cssstyle: 2.3.0
