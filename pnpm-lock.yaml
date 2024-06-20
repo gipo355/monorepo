@@ -806,7 +806,7 @@ importers:
         version: 8.1.10(react@18.3.1)
       '@storybook/angular':
         specifier: 8.1.10
-        version: 8.1.10(@angular-devkit/architect@0.1800.4)(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular/cli@18.0.5)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7)
+        version: 8.1.10(@angular-devkit/architect@0.1800.5)(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular/cli@18.0.5)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7)
       '@storybook/blocks':
         specifier: 8.1.10
         version: 8.1.10(@types/react-dom@18.3.0)(@types/react@18.3.3)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)
@@ -1468,11 +1468,11 @@ importers:
         specifier: 0.14.0
         version: 0.14.0
       prettier-plugin-svelte:
-        specifier: 3.2.4
-        version: 3.2.4(prettier@3.3.2)(svelte@4.2.18)
+        specifier: 3.2.5
+        version: 3.2.5(prettier@3.3.2)(svelte@4.2.18)
       prettier-plugin-tailwindcss:
         specifier: 0.6.5
-        version: 0.6.5(@prettier/plugin-pug@3.0.0)(prettier-plugin-astro@0.14.0)(prettier-plugin-svelte@3.2.4)(prettier@3.3.2)
+        version: 0.6.5(@prettier/plugin-pug@3.0.0)(prettier-plugin-astro@0.14.0)(prettier-plugin-svelte@3.2.5)(prettier@3.3.2)
       pug-loader:
         specifier: 2.4.0
         version: 2.4.0(pug@3.0.3)
@@ -1738,16 +1738,6 @@ packages:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  /@angular-devkit/architect@0.1800.4:
-    resolution: {integrity: sha512-82TKhYnSO8aGIBo5TxPtyUQnZFcbV+qB2bIIYOAKsJgxAVxLeFD6QA6gTmHOZPXw5pBEPUO/+PUwq+Uk5xesgw==}
-    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    dependencies:
-      '@angular-devkit/core': 18.0.4
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - chokidar
-    dev: true
-
   /@angular-devkit/architect@0.1800.5:
     resolution: {integrity: sha512-KliFJTqwAIyRvW10JnJLlpXK86yx683unTgwgvkg9V4gUc/7cNCmWJiOCmYh1+gATpFq+3d3o36EdTzb4QS03g==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
@@ -1932,23 +1922,6 @@ packages:
       ajv-formats: 2.1.1(ajv@8.12.0)
       jsonc-parser: 3.2.0
       picomatch: 3.0.1
-      rxjs: 7.8.1
-      source-map: 0.7.4
-    dev: true
-
-  /@angular-devkit/core@18.0.4:
-    resolution: {integrity: sha512-8vYvJ5FF2NjFUia00hv8KWakOjOZ+09PbnNqd+lntJBekIg1lHDOF/vNMlVHtU5LiE1aNi9P/69/VXTckPfU9g==}
-    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
-    peerDependencies:
-      chokidar: ^3.5.2
-    peerDependenciesMeta:
-      chokidar:
-        optional: true
-    dependencies:
-      ajv: 8.13.0
-      ajv-formats: 3.0.1(ajv@8.13.0)
-      jsonc-parser: 3.2.1
-      picomatch: 4.0.2
       rxjs: 7.8.1
       source-map: 0.7.4
     dev: true
@@ -15679,7 +15652,7 @@ packages:
       memoizerific: 1.11.3
     dev: true
 
-  /@storybook/angular@8.1.10(@angular-devkit/architect@0.1800.4)(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular/cli@18.0.5)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7):
+  /@storybook/angular@8.1.10(@angular-devkit/architect@0.1800.5)(@angular-devkit/build-angular@18.0.5)(@angular-devkit/core@18.0.5)(@angular/cli@18.0.5)(@angular/common@18.0.3)(@angular/compiler-cli@18.0.3)(@angular/compiler@18.0.3)(@angular/core@18.0.3)(@angular/forms@18.0.3)(@angular/platform-browser-dynamic@18.0.3)(@angular/platform-browser@18.0.3)(@swc/core@1.6.3)(esbuild@0.21.5)(prettier@3.3.2)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)(zone.js@0.14.7):
     resolution: {integrity: sha512-SwUm8pBoIOj1hVPrdFUTTSqoQbW9T0rT99qLYVTyX63K/kwZ0tXxQ+/z7UhMxgZo0hquhDpI7q+rsgypw/Zi8w==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -15701,7 +15674,7 @@ packages:
       '@angular/cli':
         optional: true
     dependencies:
-      '@angular-devkit/architect': 0.1800.4
+      '@angular-devkit/architect': 0.1800.5
       '@angular-devkit/build-angular': 18.0.5(@angular/compiler-cli@18.0.3)(@angular/localize@18.0.3)(@swc/core@1.6.3)(@types/node@20.14.6)(html-webpack-plugin@5.6.0)(jest-environment-jsdom@29.7.0)(jest@29.7.0)(karma@6.4.3)(lightningcss@1.25.1)(stylus@0.59.0)(tailwindcss@3.4.4)(typescript@5.4.5)(uglify-js@3.18.0)(webpack-cli@5.1.4)
       '@angular-devkit/core': 18.0.5
       '@angular/cli': 18.0.5
@@ -36680,8 +36653,8 @@ packages:
       sass-formatter: 0.7.9
     dev: true
 
-  /prettier-plugin-svelte@3.2.4(prettier@3.3.2)(svelte@4.2.18):
-    resolution: {integrity: sha512-tZv+ADfeOWFNQkXkRh6zUXE16w3Vla8x2Ug0B/EnSmjR4EnwdwZbGgL/liSwR1kcEALU5mAAyua98HBxheCxgg==}
+  /prettier-plugin-svelte@3.2.5(prettier@3.3.2)(svelte@4.2.18):
+    resolution: {integrity: sha512-vP/M/Goc8z4iVIvrwXwbrYVjJgA0Hf8PO1G4LBh/ocSt6vUP6sLvyu9F3ABEGr+dbKyxZjEKLkeFsWy/yYl0HQ==}
     peerDependencies:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
@@ -36690,7 +36663,7 @@ packages:
       svelte: 4.2.18
     dev: true
 
-  /prettier-plugin-tailwindcss@0.6.5(@prettier/plugin-pug@3.0.0)(prettier-plugin-astro@0.14.0)(prettier-plugin-svelte@3.2.4)(prettier@3.3.2):
+  /prettier-plugin-tailwindcss@0.6.5(@prettier/plugin-pug@3.0.0)(prettier-plugin-astro@0.14.0)(prettier-plugin-svelte@3.2.5)(prettier@3.3.2):
     resolution: {integrity: sha512-axfeOArc/RiGHjOIy9HytehlC0ZLeMaqY09mm8YCkMzznKiDkwFzOpBvtuhuv3xG5qB73+Mj7OCe2j/L1ryfuQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -36745,7 +36718,7 @@ packages:
       '@prettier/plugin-pug': 3.0.0(prettier@3.3.2)
       prettier: 3.3.2
       prettier-plugin-astro: 0.14.0
-      prettier-plugin-svelte: 3.2.4(prettier@3.3.2)(svelte@4.2.18)
+      prettier-plugin-svelte: 3.2.5(prettier@3.3.2)(svelte@4.2.18)
     dev: true
 
   /prettier@2.8.8:
