@@ -7,8 +7,7 @@ const args = process.argv.slice(2);
  * map to commands
  */
 const cmds = {
-  folders:
-    `find . \
+  folders: `find . \
 -type d \
 ( \
 -name .angular \
@@ -24,8 +23,7 @@ const cmds = {
 ) \
 -exec rm -rf {} +`,
 
-  cache:
-    `find . \
+  cache: `find . \
   -type d \
 ( \
 -name .eslintcache \

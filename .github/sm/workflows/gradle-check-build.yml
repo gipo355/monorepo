@@ -4,17 +4,17 @@
 name: Gradle Check and Build Workflow
 on:
   push:
-    branches: ["dev"]
+    branches: ['dev']
   pull_request:
-    branches: ["dev"]
+    branches: ['dev']
   # allow manual execution of the workflow while testing
   workflow_dispatch:
     inputs:
       logLevel:
-        description: "Log level"
-        default: "warning"
+        description: 'Log level'
+        default: 'warning'
       tags:
-        description: "Test scenario tags"
+        description: 'Test scenario tags'
 jobs:
   build-linux:
     name: Lint and Build on Linux Job

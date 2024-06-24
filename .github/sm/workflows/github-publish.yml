@@ -52,8 +52,8 @@ jobs:
       - name: Set up JDK Step
         uses: actions/setup-java@99b8673ff64fbf99d8d325f52d9a5bdedb8483e9 # v4
         with:
-          java-version: "17.0.2"
-          distribution: "temurin"
+          java-version: '17.0.2'
+          distribution: 'temurin'
       - name: Setup Gradle Step
         uses: gradle/actions/setup-gradle@db19848a5fa7950289d3668fb053140cf3028d43 # v3
         with:

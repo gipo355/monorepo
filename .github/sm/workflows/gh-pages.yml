@@ -4,15 +4,15 @@
 name: GH Pages Workflow
 on:
   push:
-    branches: ["dev"]
+    branches: ['dev']
   # allow manual execution of the workflow while testing
   workflow_dispatch:
     inputs:
       logLevel:
-        description: "Log level"
-        default: "warning"
+        description: 'Log level'
+        default: 'warning'
       tags:
-        description: "Test scenario tags"
+        description: 'Test scenario tags'
 jobs:
   pitest-linux:
     permissions:
