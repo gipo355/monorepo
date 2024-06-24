@@ -3,7 +3,7 @@
 # Quotation marks are required for the leading asterisk
 root:
   - changed-files:
-      - any-glob-to-any-file: "*"
+      - any-glob-to-any-file: '*'
 # Add 'AnyChange' label to any changes within the entire repository
 # AnyChange:
 #   - changed-files:
@@ -42,19 +42,19 @@ Actions:
 source:
   - all:
       - changed-files:
-          - any-glob-to-any-file: "src/main/**/*"
-          - all-globs-to-all-files: "!src/docs/*"
+          - any-glob-to-any-file: 'src/main/**/*'
+          - all-globs-to-all-files: '!src/docs/*'
 tests:
   - all:
       - changed-files:
-          - any-glob-to-any-file: "src/test/**/*"
-          - all-globs-to-all-files: "!src/docs/*"
+          - any-glob-to-any-file: 'src/test/**/*'
+          - all-globs-to-all-files: '!src/docs/*'
 # Add 'feature' label to any PR where the head branch name starts with `feature` or has a `feature` section in the name
 feature:
-  - head-branch: ["^feature", "feature"]
+  - head-branch: ['^feature', 'feature']
 # add 'issue' label when a branch starts with number-
 issue:
-  - head-branch: ["^[0-9]", "issue"]
+  - head-branch: ['^[0-9]', 'issue']
 # Add 'release' label to any PR that is opened against the `main` branch
 release:
-  - base-branch: "main"
+  - base-branch: 'main'

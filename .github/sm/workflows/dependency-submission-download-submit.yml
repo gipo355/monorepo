@@ -7,15 +7,15 @@
 name: Download and submit dependency graph on PR workflow
 on:
   workflow_run:
-    workflows: ["Dependency Submission on PR Workflow"]
+    workflows: ['Dependency Submission on PR Workflow']
     types: [completed]
   workflow_dispatch:
     inputs:
       logLevel:
-        description: "Log level"
-        default: "warning"
+        description: 'Log level'
+        default: 'warning'
       tags:
-        description: "Test scenario tags"
+        description: 'Test scenario tags'
 permissions:
   contents: write
 jobs:

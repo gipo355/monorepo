@@ -2,14 +2,14 @@
 name: Dependency Review Vulnerability Check On Push Workflow
 on:
   push:
-    branches: ["dev"]
+    branches: ['dev']
   workflow_dispatch:
     inputs:
       logLevel:
-        description: "Log level"
-        default: "warning"
+        description: 'Log level'
+        default: 'warning'
       tags:
-        description: "Test scenario tags"
+        description: 'Test scenario tags'
 permissions:
   contents: read
 jobs:
