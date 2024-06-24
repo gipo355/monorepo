@@ -1732,15 +1732,6 @@ importers:
         specifier: ^18.0.0
         version: 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
 
-  packages/testlibng-nosub:
-    dependencies:
-      '@angular/common':
-        specifier: ^18.0.0
-        version: 18.0.4(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
-      '@angular/core':
-        specifier: ^18.0.0
-        version: 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
-
 packages:
 
   '@acuminous/bitsyntax@0.1.2':
