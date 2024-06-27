@@ -113,3 +113,4 @@ constructor(
 - allow choosing levels
 - be clear about when and what is logging to stdout
 - allow choosing file or adding remote transport
+- improve documentation
