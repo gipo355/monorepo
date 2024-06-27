@@ -4,13 +4,11 @@ import pino from 'pino';
 import type { HttpLogger } from 'pino-http';
 import pinoHttp from 'pino-http';
 
-import {
-  LOGGER_MODULE_OPTIONS_TOKEN,
-  PinoLoggerModuleOptions,
-} from './nest-pino-logger.module-definition';
+import { LOGGER_MODULE_OPTIONS_TOKEN } from './nest-pino-logger.module-definition';
+import { PinoLoggerModuleOptions } from './nest-pino-logger.schema';
 
 @Injectable()
-export class NestPinoLoggerService implements LoggerService {
+export class PinoLoggerService implements LoggerService {
   constructor(
     @Inject(LOGGER_MODULE_OPTIONS_TOKEN)
     private readonly opts: PinoLoggerModuleOptions

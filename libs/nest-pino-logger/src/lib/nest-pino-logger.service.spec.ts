@@ -2,15 +2,15 @@ import type { TestingModule } from '@nestjs/testing';
 import { Test } from '@nestjs/testing';
 
 import { LOGGER_MODULE_OPTIONS_TOKEN } from './nest-pino-logger.module-definition';
-import { NestPinoLoggerService } from './nest-pino-logger.service';
+import { PinoLoggerService } from './nest-pino-logger.service';
 
 describe('NestPinoLoggerService', () => {
-  let service: NestPinoLoggerService;
+  let service: PinoLoggerService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
-        NestPinoLoggerService,
+        PinoLoggerService,
         {
           provide: LOGGER_MODULE_OPTIONS_TOKEN,
           useValue: {
@@ -22,7 +22,7 @@ describe('NestPinoLoggerService', () => {
       ],
     }).compile();
 
-    service = module.get<NestPinoLoggerService>(NestPinoLoggerService);
+    service = module.get<PinoLoggerService>(PinoLoggerService);
   });
 
   it('should be defined', () => {

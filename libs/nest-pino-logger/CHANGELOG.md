@@ -1,5 +1,11 @@
 # @gipo355/nest-pino-logger
 
+## 0.0.3
+
+### Patch Changes
+
+- 58af001: fix exports to provide the service, rename service and module
+
 ## 0.0.2
 
 ### Patch Changes
