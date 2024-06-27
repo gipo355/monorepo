@@ -10,5 +10,14 @@
   },
   "type": "commonjs",
   "main": "./src/index.js",
-  "typings": "./src/index.d.ts"
+  "typings": "./src/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/gipo355/monorepo"
+  },
+  "homepage": "https://github.com/gipo355/monorepo/packages/nest-pino-logger"
 }
