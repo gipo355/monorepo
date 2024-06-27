@@ -10,7 +10,6 @@ requires dockerfile
 
 _example docker-compose.yml_
 
-````dockerfile
 ```dockerfile
 version: '3.9'
 services:
@@ -54,7 +53,7 @@ services:
     image: grafana/grafana:latest
     ports:
       - '127.0.0.1:3200:3000'
-````
+```
 
 ## Installation
 

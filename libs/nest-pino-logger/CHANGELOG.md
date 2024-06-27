@@ -1,5 +1,11 @@
 # @gipo355/nest-pino-logger
 
+## 0.0.5
+
+### Patch Changes
+
+- fix typo in readme
+
 ## 0.0.4
 
 ### Patch Changes
