@@ -1,5 +1,11 @@
 # @gipo355/nest-pino-logger
 
+## 0.0.4
+
+### Patch Changes
+
+- add description and keywords
+
 ## 0.0.3
 
 ### Patch Changes

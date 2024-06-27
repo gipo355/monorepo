@@ -1,6 +1,12 @@
 {
   "name": "@gipo355/nest-pino-logger",
-  "version": "0.0.3",
+  "keywords": [
+    "nestjs",
+    "pino",
+    "logger"
+  ],
+  "description": "NestJS Pino Logger Module with HTTP logging and loki-grafana",
+  "version": "0.0.4",
   "dependencies": {
     "tslib": "2.6.3",
     "pino-loki": "2.3.0",
