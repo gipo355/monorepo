@@ -22,6 +22,7 @@
       "@gipo355/error-page": ["libs/error-page/src/index.ts"],
       "@gipo355/example-node-lib": ["packages/example-node-lib/src/index.ts"],
       "@gipo355/nest-auth": ["libs/nest-auth/src/index.ts"],
+      "@gipo355/nest-pino-logger": ["libs/nest-pino-logger/src/index.ts"],
       "@gipo355/nest-todos": ["libs/nest-todos/src/index.ts"],
       "@gipo355/nest-users": ["libs/nest-users/src/index.ts"],
       "@gipo355/nest-utils": ["packages/nest-utils/src/index.ts"],

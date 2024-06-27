@@ -10,6 +10,11 @@ tasks:
     cmds:
       - nx g @nx/js:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable
         --directory=libs/{{.CLI_ARGS}}
+  gen-nest-pub-package:
+    desc: Generate a publishable package
+    cmds:
+      - nx g @nx/nest:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable
+        --directory=libs/{{.CLI_ARGS}}
   gen-pub-package:
     desc: Generate a publishable package
     cmds:
