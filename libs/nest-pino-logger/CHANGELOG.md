@@ -1,5 +1,11 @@
 # @gipo355/nest-pino-logger
 
+## 0.0.7
+
+### Patch Changes
+
+- set pretty by default, add docs about dependencies
+
 ## 0.0.6
 
 ### Patch Changes

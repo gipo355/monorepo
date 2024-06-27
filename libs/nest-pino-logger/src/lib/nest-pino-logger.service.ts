@@ -22,7 +22,8 @@ export class PinoLoggerService implements LoggerService {
     // TODO: add pino-pretty and pino-loki to deps
     const streams: pino.StreamEntry[] = [];
 
-    if (opts.pino?.pretty) {
+    // by default, log to stdout with pretty in dev only unless explicitly disabled
+    if (opts.pino?.pretty !== false && !isProd) {
       streams.push({
         level: 'info',
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
@@ -35,6 +36,7 @@ export class PinoLoggerService implements LoggerService {
       });
     }
 
+    // must be explicitly enabled
     if (opts.pino?.loki) {
       streams.push({
         level: 'info',

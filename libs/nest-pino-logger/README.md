@@ -6,7 +6,9 @@ Ready made Pino logger for NestJS
 
 includes multi stream transports with pino-loki
 
-requires dockerfile
+## Loki
+
+uses `pino-loki` requires loki promtail and grafana
 
 _example docker-compose.yml_
 
@@ -54,6 +56,10 @@ services:
     ports:
       - '127.0.0.1:3200:3000'
 ```
+
+## Pretty
+
+uses `pino-pretty`
 
 ## Installation
 
