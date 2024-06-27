@@ -1732,6 +1732,15 @@ importers:
         specifier: ^18.0.0
         version: 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
 
+  packages/testlibng-nosub:
+    dependencies:
+      '@angular/common':
+        specifier: ^18.0.0
+        version: 18.0.4(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
+      '@angular/core':
+        specifier: ^18.0.0
+        version: 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
+
 packages:
 
   '@acuminous/bitsyntax@0.1.2':
@@ -16959,6 +16968,9 @@ packages:
 
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
+
+  pino-test@1.0.1:
+    resolution: {integrity: sha512-ISdyVW8D6xJez8tEC2D0JBXeaKVU40GjMjxd/YgKP/6Am1c+yHb7F4ysY6ZyKVblQSREetW0f1irKXeku6tJGw==}
 
   pino@7.11.0:
     resolution: {integrity: sha512-dMACeu63HtRLmCG8VKdy4cShCPKaYDR4youZqoSWLxl5Gu99HUw8bw75thbPv9Nip+H+QYX8o3ZJbTdVZZ2TVg==}
@@ -43674,6 +43686,10 @@ snapshots:
   pino-std-serializers@6.2.2: {}
 
   pino-std-serializers@7.0.0: {}
+
+  pino-test@1.0.1:
+    dependencies:
+      split2: 4.2.0
 
   pino@7.11.0:
     dependencies:
