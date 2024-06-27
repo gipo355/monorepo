@@ -26,5 +26,5 @@
     "url": "https://github.com/gipo355/monorepo",
     "directory": "libs/nest-pino-logger"
   },
-  "homepage": "https://github.com/gipo355/monorepo/libs/nest-pino-logger"
+  "homepage": "https://github.com/gipo355/monorepo/tree/main/libs/nest-pino-logger"
 }
