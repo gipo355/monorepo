@@ -1,5 +1,11 @@
 # @gipo355/nest-pino-logger
 
+## 0.0.6
+
+### Patch Changes
+
+- fix pretty inverse condition. add doc, todo, allow adding streams
+
 ## 0.0.5
 
 ### Patch Changes

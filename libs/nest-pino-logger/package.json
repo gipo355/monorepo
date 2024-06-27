@@ -6,7 +6,7 @@
     "logger"
   ],
   "description": "NestJS Pino Logger Module with HTTP logging and loki-grafana",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "tslib": "2.6.3",
     "pino-loki": "2.3.0",
@@ -23,7 +23,8 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/gipo355/monorepo"
+    "url": "https://github.com/gipo355/monorepo",
+    "directory": "libs/nest-pino-logger"
   },
-  "homepage": "https://github.com/gipo355/monorepo/packages/nest-pino-logger"
+  "homepage": "https://github.com/gipo355/monorepo/libs/nest-pino-logger"
 }

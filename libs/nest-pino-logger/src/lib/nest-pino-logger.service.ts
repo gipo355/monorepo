@@ -7,6 +7,10 @@ import pinoHttp from 'pino-http';
 import { LOGGER_MODULE_OPTIONS_TOKEN } from './nest-pino-logger.module-definition';
 import { PinoLoggerModuleOptions } from './nest-pino-logger.schema';
 
+/**
+ * A service that provides logging capabilities using Pino.
+ * Implements the LoggerService interface to be compatible with NestJS.
+ */
 @Injectable()
 export class PinoLoggerService implements LoggerService {
   constructor(
@@ -18,7 +22,7 @@ export class PinoLoggerService implements LoggerService {
     // TODO: add pino-pretty and pino-loki to deps
     const streams: pino.StreamEntry[] = [];
 
-    if (!opts.pino?.pretty) {
+    if (opts.pino?.pretty) {
       streams.push({
         level: 'info',
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
@@ -48,6 +52,10 @@ export class PinoLoggerService implements LoggerService {
           },
         }),
       });
+    }
+
+    if (opts.pino?.additionalStreams) {
+      streams.push(...opts.pino.additionalStreams);
     }
 
     const pinoPre = pino({ level: isProd ? 'warn' : 'info' });

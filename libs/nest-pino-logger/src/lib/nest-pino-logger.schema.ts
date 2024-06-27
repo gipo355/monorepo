@@ -1,10 +1,12 @@
 import type { LoggerOptions } from 'pino';
+import type pino from 'pino';
 import type { Options } from 'pino-http';
 
 /**
  * Pino logger options.
  */
 export interface PinoOptions {
+  additionalStreams?: pino.StreamEntry[];
   /**
    * Loki logging options.
    *
@@ -27,6 +29,16 @@ export interface PinoOptions {
     | false;
   /**
    * Override pino options directly
+   *
+   * *Implementation:*
+   * ```ts
+   * const pinoPre = pino({ level: isProd ? 'warn' : 'info' });
+   * const pinoOpts = {
+   * ...pinoPre,
+   * ...this.opts.pino?.overrideOpts,
+   * };
+   * this.logger = pino(pinoOpts, pino.multistream(streams));
+   * ```
    */
   overrideOpts?: LoggerOptions;
   /**

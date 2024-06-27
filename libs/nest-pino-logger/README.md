@@ -64,6 +64,12 @@ npm install --save @gipo355/nest-pino-logger
 ## Usage
 
 ```ts
+// main.ts
+app.useLogger(app.get(PinoLoggerService));
+```
+
+```ts
+// app.module
 import { PinoLoggerModule } from '@gipo355/pino-logger.module';
 
 @Module({
@@ -93,3 +99,17 @@ import { PinoLoggerModule } from '@gipo355/pino-logger.module';
     ],
 })
 ```
+
+```ts
+// app.service
+constructor(
+    private readonly appService: AppService,
+    private readonly logger: PinoLoggerService
+) {}
+```
+
+## TODO
+
+- allow choosing levels
+- be clear about when and what is logging to stdout
+- allow choosing file or adding remote transport
