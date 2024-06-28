@@ -71,12 +71,16 @@ npm install --save @gipo355/nest-pino-logger
 
 ```ts
 // main.ts
+const app = await NestFactory.create<NestExpressApplication>(AppModule, {
+  bufferLogs: true,
+});
+
 app.useLogger(app.get(PinoLoggerService));
 ```
 
 ```ts
 // app.module
-import { PinoLoggerModule } from '@gipo355/pino-logger.module';
+import { PinoLoggerModule } from '@gipo355/nest-pino-logger';
 
 @Module({
     imports: [

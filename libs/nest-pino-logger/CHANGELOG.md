@@ -1,5 +1,11 @@
 # @gipo355/nest-pino-logger
 
+## 0.0.8
+
+### Patch Changes
+
+- f249d83: fix readme with correct import
+
 ## 0.0.7
 
 ### Patch Changes
