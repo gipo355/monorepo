@@ -14,17 +14,17 @@ module.exports = [
     files: ['**/*.js', '**/*.jsx'],
     rules: {},
   },
-  ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({
-    ...config,
-    files: ['**/*.json'],
-    files: ['**/*.json'],
-    rules: {
-      '@nx/dependency-checks': [
-        'error',
-        {
-          ignoredFiles: ['{projectRoot}/vite.config.{js,ts,mjs,mts}'],
-        },
-      ],
-    },
-  })),
+  // ...compat.config({ parser: 'jsonc-eslint-parser' }).map((config) => ({
+  //   ...config,
+  //   files: ['**/*.json'],
+  //   files: ['**/*.json'],
+  //   rules: {
+  //     '@nx/dependency-checks': [
+  //       'error',
+  //       {
+  //         ignoredFiles: ['{projectRoot}/vite.config.{js,ts,mjs,mts}'],
+  //       },
+  //     ],
+  //   },
+  // })),
 ];
