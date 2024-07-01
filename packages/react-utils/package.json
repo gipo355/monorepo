@@ -1,0 +1,16 @@
+{
+  "name": "@gipo355/react-utils",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/gipo355/monorepo"
+  },
+  "homepage": "https://github.com/gipo355/monorepo/packages/nest-utils"
+}

@@ -26,6 +26,7 @@
       "@gipo355/nest-todos": ["libs/nest-todos/src/index.ts"],
       "@gipo355/nest-users": ["libs/nest-users/src/index.ts"],
       "@gipo355/nest-utils": ["packages/nest-utils/src/index.ts"],
+      "@gipo355/react-utils": ["packages/react-utils/src/index.ts"],
       "@gipo355/shared-types": ["libs/shared-types/src/index.ts"],
       "@gipo355/shared-utils": ["libs/shared-utils/src/index.ts"]
     }
