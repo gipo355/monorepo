@@ -25,3 +25,11 @@ tasks:
     cmds:
       - nx g @nx/js:lib --importPath=@gipo355/{{.CLI_ARGS}} --publishable
         --directory=packages/{{.CLI_ARGS}} --js=true
+  gen-react-pub-lib:
+    desc: Generate a publishable React library
+    cmds:
+      - nx generate @nx/react:library --name={{.CLI_ARGS}} --bundler=rollup
+        --directory=packages/{{.CLI_ARGS}} --importPath=@gipo355/{{.CLI_ARGS}}
+        --pascalCaseFiles=true --projectNameAndRootFormat=as-provided
+        --publishable=true --setParserOptionsProject=true --style=scss
+        --unitTestRunner=vitest --no-interactive
