@@ -20,3 +20,5 @@ TODO:
 - uselocalstorage from use popcorn v3
 
 - timer from quiz app
+
+- uniqueby in worldise
