@@ -38,7 +38,7 @@
     "@auth/core": "0.32.0",
     "@auth/sveltekit": "1.2.0",
     "@aws-sdk/client-s3": "3.598.0",
-    "@aws-sdk/client-ses": "3.598.0",
+    "@aws-sdk/client-ses": "3.621.0",
     "@aws-sdk/credential-provider-node": "3.598.0",
     "@beyonk/gdpr-cookie-consent-banner": "12.1.0",
     "@fastify/accepts": "4.3.0",
