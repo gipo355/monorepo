@@ -3,7 +3,7 @@ services:
   ########## postgres
   postgresdev:
     env_file: ./.env
-    image: postgres:latest@sha256:1bf73ccae25238fa555100080042f0b2f9be08eb757e200fe6afc1fc413a1b3c
+    image: postgres:latest@sha256:4ec37d2a07a0067f176fdcc9d4bb633a5724d2cc4f892c7a2046d054bb6939e5
     # restart: unless-stopped
     # user: postgres
     # network_mode: host
