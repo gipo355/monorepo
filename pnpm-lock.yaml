@@ -183,17 +183,17 @@ importers:
         specifier: 10.3.9
         version: 10.3.9(@nestjs/common@10.3.9(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.9)
       '@ngrx/effects':
-        specifier: 17.2.0
-        version: 17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)
+        specifier: 18.1.1
+        version: 18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)
       '@ngrx/entity':
-        specifier: 17.2.0
-        version: 17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)
+        specifier: 18.1.1
+        version: 18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)
       '@ngrx/signals':
-        specifier: 17.2.0
-        version: 17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
+        specifier: 18.1.1
+        version: 18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
       '@ngrx/store':
-        specifier: 17.2.0
-        version: 17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
+        specifier: 18.1.1
+        version: 18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
       '@node-rs/argon2':
         specifier: 1.8.3
         version: 1.8.3
@@ -5473,38 +5473,33 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@ngrx/effects@17.2.0':
-    resolution: {integrity: sha512-tXDJNsuBtbvI/7+vYnkDKKpUvLbopw1U5G6LoPnKNrbTPsPcUGmCqF5Su/ZoRN3BhXjt2j+eoeVdpBkxdxMRgg==}
+  '@ngrx/effects@18.1.1':
+    resolution: {integrity: sha512-XXob8kYEvYMaZwgHtrrTW0XZargbu5PloEpNHLnzB8jPk0yWEw6keryxaF09Ylws1779MWvMmF/YP2rPl04nHQ==}
     peerDependencies:
-      '@angular/core': ^17.0.0
-      '@ngrx/store': 17.2.0
+      '@angular/core': ^18.0.0
+      '@ngrx/store': 18.1.1
       rxjs: ^6.5.3 || ^7.5.0
 
-  '@ngrx/entity@17.2.0':
-    resolution: {integrity: sha512-epXgojGXCrVMNrFdv60704iRUU+pYkE1qHBppP/wqKbZZIZHaagsg2jy8/ptDP7U3udvVq0z9suc1s+zpmL2EA==}
+  '@ngrx/entity@18.1.1':
+    resolution: {integrity: sha512-oRt/wG+szR4lMvMut16uWfbMD2CnOMscnQIbU+lcOs5+UDOzr4aHGBVpErzcoVWSTp/sl7x02j+2dto5NQZWoA==}
     peerDependencies:
-      '@angular/core': ^17.0.0
-      '@ngrx/store': 17.2.0
+      '@angular/core': ^18.0.0
+      '@ngrx/store': 18.1.1
       rxjs: ^6.5.3 || ^7.5.0
 
-  '@ngrx/operators@17.0.0-beta.0':
-    resolution: {integrity: sha512-EbO8AONuQ6zo2v/mPyBOi4y0CTAp1x4Z+bx7ZF+Pd8BL5ma53BTCL1TmzaeK5zPUe0yApudLk9/ZbHXPnVox5A==}
+  '@ngrx/signals@18.1.1':
+    resolution: {integrity: sha512-7AaFp4VrzYhnDHlF15VZAMvp067zIC5arRRRMV+i+oi95sQVDXezpj74KTIguwRbZ3FU+GKGzFCNrwgYvginSg==}
     peerDependencies:
-      rxjs: ^6.5.3 || ^7.4.0
-
-  '@ngrx/signals@17.2.0':
-    resolution: {integrity: sha512-tkkxifeOVPOhpTqbHyK1WOx4qz49HLR/h0vhaa/MRGRIZoOR/6gR4KB3hbC8FD3FdnuNqOgOZ2lGsTfWPB/6BQ==}
-    peerDependencies:
-      '@angular/core': ^17.0.0
+      '@angular/core': ^18.0.0
       rxjs: ^6.5.3 || ^7.4.0
     peerDependenciesMeta:
       rxjs:
         optional: true
 
-  '@ngrx/store@17.2.0':
-    resolution: {integrity: sha512-7wKgZ59B/6yQSvvsU0DQXipDqpkAXv7LwcXLD5Ww7nvqN0fQoRPThMh4+Wv55DCJhE0bQc1NEMciLA47uRt7Wg==}
+  '@ngrx/store@18.1.1':
+    resolution: {integrity: sha512-K0v1akJ2sEnIeb1AUA064+ksgRgbMgVG9HbSsLBxENbFjK2ZvKRxo1bpOw6WHW9+hyDTlhZGl7+gUtjmo3497g==}
     peerDependencies:
-      '@angular/core': ^17.0.0
+      '@angular/core': ^18.0.0
       rxjs: ^6.5.3 || ^7.5.0
 
   '@ngtools/webpack@18.0.5':
@@ -27192,7 +27187,7 @@ snapshots:
   '@eslint/eslintrc@1.4.1':
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       espree: 9.6.1
       globals: 13.24.0
       ignore: 5.3.1
@@ -27672,7 +27667,7 @@ snapshots:
   '@humanwhocodes/config-array@0.9.5':
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -28324,34 +28319,28 @@ snapshots:
   '@next/swc-win32-x64-msvc@14.2.10':
     optional: true
 
-  '@ngrx/effects@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)':
+  '@ngrx/effects@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)':
     dependencies:
       '@angular/core': 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
-      '@ngrx/operators': 17.0.0-beta.0(rxjs@7.8.1)
-      '@ngrx/store': 17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
+      '@ngrx/store': 18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
       rxjs: 7.8.1
       tslib: 2.6.3
 
-  '@ngrx/entity@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)':
+  '@ngrx/entity@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(@ngrx/store@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1))(rxjs@7.8.1)':
     dependencies:
       '@angular/core': 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
-      '@ngrx/store': 17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
+      '@ngrx/store': 18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)
       rxjs: 7.8.1
       tslib: 2.6.3
 
-  '@ngrx/operators@17.0.0-beta.0(rxjs@7.8.1)':
-    dependencies:
-      rxjs: 7.8.1
-      tslib: 2.6.3
-
-  '@ngrx/signals@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)':
+  '@ngrx/signals@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)':
     dependencies:
       '@angular/core': 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
       tslib: 2.6.3
     optionalDependencies:
       rxjs: 7.8.1
 
-  '@ngrx/store@17.2.0(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)':
+  '@ngrx/store@18.1.1(@angular/core@18.0.4(rxjs@7.8.1)(zone.js@0.14.7))(rxjs@7.8.1)':
     dependencies:
       '@angular/core': 18.0.4(rxjs@7.8.1)(zone.js@0.14.7)
       rxjs: 7.8.1
@@ -30053,7 +30042,7 @@ snapshots:
 
   '@pm2/pm2-version-check@1.0.4':
     dependencies:
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -30287,7 +30276,7 @@ snapshots:
   '@rollup/plugin-babel@5.3.1(@babel/core@7.24.7)(@types/babel__core@7.20.5)(rollup@2.79.1)':
     dependencies:
       '@babel/core': 7.24.7
-      '@babel/helper-module-imports': 7.24.7
+      '@babel/helper-module-imports': 7.25.7
       '@rollup/pluginutils': 3.1.0(rollup@2.79.1)
       rollup: 2.79.1
     optionalDependencies:
@@ -34210,7 +34199,7 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -39386,7 +39375,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.5
       data-uri-to-buffer: 6.0.2
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       fs-extra: 11.2.0
     transitivePeerDependencies:
       - supports-color
@@ -43064,7 +43053,7 @@ snapshots:
   mqtt-packet@6.10.0:
     dependencies:
       bl: 4.1.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       process-nextick-args: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -43073,7 +43062,7 @@ snapshots:
     dependencies:
       commist: 1.1.0
       concat-stream: 2.0.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       duplexify: 4.1.3
       help-me: 3.0.0
       inherits: 2.0.4
@@ -43094,7 +43083,7 @@ snapshots:
     dependencies:
       commist: 1.1.0
       concat-stream: 2.0.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       duplexify: 4.1.3
       help-me: 3.0.0
       inherits: 2.0.4
@@ -43543,7 +43532,7 @@ snapshots:
 
   number-allocator@1.0.14:
     dependencies:
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       js-sdsl: 4.3.0
     transitivePeerDependencies:
       - supports-color
@@ -44034,7 +44023,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.1
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       get-uri: 6.0.3
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
@@ -45709,7 +45698,7 @@ snapshots:
   proxy-agent@6.3.1:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
       lru-cache: 7.18.3
@@ -47136,7 +47125,7 @@ snapshots:
   socks-proxy-agent@8.0.3:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
@@ -48854,7 +48843,7 @@ snapshots:
   tuf-js@2.2.1:
     dependencies:
       '@tufjs/models': 2.0.1
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.7
       make-fetch-happen: 13.0.1
     transitivePeerDependencies:
       - supports-color
