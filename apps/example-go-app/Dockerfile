@@ -2,7 +2,7 @@
 # Tip: Modify "docker-build" options in project.json to change docker build args.
 #
 # Run the container with `docker run -p 3000:3000 -t example-express-app`.
-FROM docker.io/golang:alpine@sha256:9bdd5692d39acc3f8d0ea6f81327f87ac6b473dd29a2b6006df362bff48dd1f8 as builder
+FROM docker.io/golang:alpine@sha256:6c5c9590f169f77c8046e45c611d3b28fe477789acd8d3762d23d4744de69812 as builder
 
 LABEL org.opencontainers.image.source=https://github.com/gipo355/example-go-app
 
