@@ -411,8 +411,8 @@ importers:
         specifier: 3.4.0
         version: 3.4.0
       mongoose:
-        specifier: 8.8.3
-        version: 8.8.3(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3)
+        specifier: 8.9.5
+        version: 8.9.5(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3)
       morgan:
         specifier: 1.10.0
         version: 1.10.0
@@ -5261,6 +5261,9 @@ packages:
   '@mongodb-js/saslprep@1.1.7':
     resolution: {integrity: sha512-dCHW/oEX0KJ4NjDULBo3JiOaK5+6axtpBbS+ao2ZInoAL9/YRQLhXzSNAFz7hP4nzLkIqsfYAK/PDE3+XHny0Q==}
 
+  '@mongodb-js/saslprep@1.1.9':
+    resolution: {integrity: sha512-tVkljjeEaAhCqTzajSdgbQ6gE6f3oneVwa3iXR6csiEwXXOFsiC6Uh9iAjAhXPtqa/XMDHWjjeNH/77m/Yq2dw==}
+
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3':
     resolution: {integrity: sha512-QZHtlVgbAdy2zAqNA9Gu1UpIuI8Xvsd1v8ic6B2pZmeFnFcMWiPLfWXh7TVw4eGEZ/C9TH281KwhVoeQUKbyjw==}
     cpu: [arm64]
@@ -9914,6 +9917,10 @@ packages:
 
   bser@2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
+
+  bson@6.10.1:
+    resolution: {integrity: sha512-P92xmHDQjSKPLHqFxefqMxASNq/aWJMEZugpCjf+AF/pgcUpMMQCg7t7+ewko0/u8AapvF3luf/FoehddEK+sA==}
+    engines: {node: '>=16.20.1'}
 
   bson@6.7.0:
     resolution: {integrity: sha512-w2IquM5mYzYZv6rs3uN2DZTOBe2a0zXLj53TGDqwF4l6Sz/XsISrisXOJihArF9+BZ6Cq/GjVht7Sjfmri7ytQ==}
@@ -16082,12 +16089,12 @@ packages:
   mongodb-connection-string-url@3.0.1:
     resolution: {integrity: sha512-XqMGwRX0Lgn05TDB4PyG2h2kKO/FfWJyCzYQbIhXUxz7ETt0I/FqHjUeqj37irJ+Dl1ZtU82uYyj14u2XsZKfg==}
 
-  mongodb@6.10.0:
-    resolution: {integrity: sha512-gP9vduuYWb9ZkDM546M+MP2qKVk5ZG2wPF63OvSRuUbqCR+11ZCAE1mOfllhlAG0wcoJY5yDL/rV3OmYEwXIzg==}
+  mongodb@6.12.0:
+    resolution: {integrity: sha512-RM7AHlvYfS7jv7+BXund/kR64DryVI+cHbVAy9P61fnb1RcWZqOW1/Wj2YhqMCx+MuYhqTRGv7AwHBzmsCKBfA==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.188.0
-      '@mongodb-js/zstd': ^1.1.0
+      '@mongodb-js/zstd': ^1.1.0 || ^2.0.0
       gcp-metadata: ^5.2.0
       kerberos: ^2.0.1
       mongodb-client-encryption: '>=6.0.0 <7'
@@ -16136,8 +16143,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@8.8.3:
-    resolution: {integrity: sha512-/I4n/DcXqXyIiLRfAmUIiTjj3vXfeISke8dt4U4Y8Wfm074Wa6sXnQrXN49NFOFf2mM1kUdOXryoBvkuCnr+Qw==}
+  mongoose@8.9.5:
+    resolution: {integrity: sha512-SPhOrgBm0nKV3b+IIHGqpUTOmgVL5Z3OO9AwkFEmvOZznXTvplbomstCnPOGAyungtRXE5pJTgKpKcZTdjeESg==}
     engines: {node: '>=16.20.1'}
 
   morgan@1.10.0:
@@ -21498,6 +21505,7 @@ packages:
   verdaccio@5.31.1:
     resolution: {integrity: sha512-EbHcCjkadt+qnbchx+06FcgKkpU2wonqkymB1BEt+0p4fNOxeXR8IDCQbwlLpzurc4n9yt9197JCVTJFWa1ESw==}
     engines: {node: '>=14'}
+    deprecated: this version is deprecated, please migrate to 6.x versions
     hasBin: true
 
   verror@1.10.0:
@@ -28150,6 +28158,10 @@ snapshots:
       os-filter-obj: 2.0.0
 
   '@mongodb-js/saslprep@1.1.7':
+    dependencies:
+      sparse-bitfield: 3.0.3
+
+  '@mongodb-js/saslprep@1.1.9':
     dependencies:
       sparse-bitfield: 3.0.3
 
@@ -35241,6 +35253,8 @@ snapshots:
   bser@2.1.1:
     dependencies:
       node-int64: 0.4.0
+
+  bson@6.10.1: {}
 
   bson@6.7.0: {}
 
@@ -42993,10 +43007,10 @@ snapshots:
       '@types/whatwg-url': 11.0.5
       whatwg-url: 13.0.0
 
-  mongodb@6.10.0(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3):
+  mongodb@6.12.0(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3):
     dependencies:
-      '@mongodb-js/saslprep': 1.1.7
-      bson: 6.7.0
+      '@mongodb-js/saslprep': 1.1.9
+      bson: 6.10.1
       mongodb-connection-string-url: 3.0.1
     optionalDependencies:
       '@aws-sdk/credential-providers': 3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3)
@@ -43011,11 +43025,11 @@ snapshots:
       '@aws-sdk/credential-providers': 3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3)
       socks: 2.8.3
 
-  mongoose@8.8.3(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3):
+  mongoose@8.9.5(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3):
     dependencies:
-      bson: 6.7.0
+      bson: 6.10.1
       kareem: 2.6.3
-      mongodb: 6.10.0(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3)
+      mongodb: 6.12.0(@aws-sdk/credential-providers@3.600.0(@aws-sdk/client-sso-oidc@3.600.0(aws-crt@1.21.3))(aws-crt@1.21.3))(socks@2.8.3)
       mpath: 0.9.0
       mquery: 5.0.0
       ms: 2.1.3
